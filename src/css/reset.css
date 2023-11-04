@@ -13,11 +13,11 @@ a {
     --color-orange: #FF7D4C;
     --color-light-pink: #FFDDD2;
     --color-light-blue: #83C5BE;
-    --color-background-gray: #EBEBEB;
+    --color-light-gray: #D9D9D9;    
     --color-pink: #FFC5C5;
-    --color-background-faded-pink: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, #FFC5C5 60.52%);
     --color-dark-blue: #006D77;
-    --color-light-gray: #D9D9D9;
+    --color-background-gray: #EBEBEB;
+    --color-background-faded-pink: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, #FFC5C5 60.52%);
     --color-black: #000;
-    ---color-white: #fff;
+    ---color-white: #fff;  
 }
