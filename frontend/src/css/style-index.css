@@ -46,6 +46,11 @@ body {
     background: var(--color-pink);
     padding: 3vw 25vw;
     border-radius: 10px;
+    transition: 0.4s;
+}
+#title-bnt h1 a:hover {
+    background: var(--color-orange);
+    color: var(--color-light-pink);
 }
 /* Obs.: Acrescentar hover */
 /* Fim Botão */
