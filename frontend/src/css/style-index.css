@@ -24,8 +24,8 @@ body {
     display: grid;
     position: relative;
     place-content: center;
-    gap: 10vh;
-    top: 60vh;
+    gap: 5vh;
+    top: 62vh;
 }
 #title-bnt-h1-title h1 {
     font-size: 2.5rem;
