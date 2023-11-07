@@ -10,31 +10,30 @@ body {
     position: absolute;
 }
 #presentation-img-stethoscope {
-    height: 100vw;
-    height: 70vh;
+    height: 60vh;
+    width: 100%;
 }
 #presentation-img-nurse {
+    height: 70vh;
     right: 20px;
-    height: 80vh;
 }
 /* Fim imagens */
 
 /* Título */
-#presentation-text-title {
-    display: flex;
-    position: absolute;
-    padding-left: 1.5rem;
-    bottom: 20vh;
-    height: 15vh;
-    width: 100%;
+#title-bnt {
+    display: grid;
+    position: relative;
+    place-content: center;
+    gap: 10vh;
+    top: 60vh;
 }
-#presentation-text-title h1 {
-    font-size: 40px;
+#title-bnt-h1-title h1 {
+    font-size: 2.5rem;
     letter-spacing: 3px;
     font-family: 'Fascinate';
     color: var(--color-dark-blue);
 }
-#presentation-text-title h1 span {
+#title-bnt-h1-title h1 span {
     font-family: 'Fascinate';
     color: transparent;
     -webkit-text-stroke: 2px var(--color-dark-blue);
@@ -42,18 +41,11 @@ body {
 /* Fim título */
 
 /* Botão Iniciar */ 
-#bnt {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 85vh;
-}
-#bnt h1 a {
+#title-bnt h1 a {
     color: var(--color-orange);
     background: var(--color-pink);
     padding: 3vw 25vw;
     border-radius: 10px;
 }
-
 /* Obs.: Acrescentar hover */
 /* Fim Botão */
