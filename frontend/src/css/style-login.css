@@ -54,18 +54,18 @@ main h1 {
     flex-shrink: 0;
 }
 
-#main-div-formCad {
+#main-form-login {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     margin-bottom: 2rem;
 }
 
-#main-div-formCad div {
+#main-form-login div {
     position: relative;
 }
 
-#main-div-formCad label {
+#main-form-login label {
     color: var(--color-dark-gray);
     font-size: 12px;
     font-style: normal;
@@ -75,7 +75,7 @@ main h1 {
     font-family: 'Inter';
 }
 
-#main-div-formCad input {
+#main-form-login input {
     width: 315px;
     height: 47px;
     border-radius: 7px;
