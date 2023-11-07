@@ -4,8 +4,9 @@ body {
 }
 
 #body-div-return {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
     background-color: var(--color-light-blue);
     border-radius: 100%;
     display: flex;
@@ -16,7 +17,8 @@ body {
 }
 
 #return-img-arrow {
-    width: 35px;
+    width: 26px;
+    height: 26px;
 }
 
 main {
@@ -64,9 +66,13 @@ main h1 {
 }
 
 #main-div-formCad label {
-    padding-left: 15px;
-    font-weight: 600;
-    color: var(--color-gray);
+    color: var(--color-dark-gray);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    width: 65px;
+    height: 16px;
+    font-family: 'Inter';
 }
 
 #main-div-formCad input {
