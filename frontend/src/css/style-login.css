@@ -1,0 +1,37 @@
+body {
+    background-color: var(--color-background-gray);
+    padding: 15px;
+}
+
+#body-div-return {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-light-blue);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: fixed;
+}
+
+#return-img-arrow {
+    width: 35px;
+}
+main {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 15px;
+}
+
+main img {
+    width: 80%;
+}
+
+main h1 {
+    color: var(--color-light-blue);
+}
