@@ -26,7 +26,7 @@ main {
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: column;
-    padding: 15px;
+    padding: 0 15px;
 }
 
 main img {
@@ -37,7 +37,7 @@ main img {
 main h1 {
     color: var(--color-light-blue);
     letter-spacing: 10px;
-    color: #83C5BE;
+    color: #83c5be;
     text-align: center;
     font-family: Inter;
     font-size: 36px;
@@ -52,12 +52,39 @@ main h1 {
     flex-shrink: 0;
 }
 
+#main-div-formCad {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#main-div-formCad div {
+    position: relative;
+}
+
+#main-div-formCad label {
+    padding-left: 15px;
+    font-weight: 600;
+    color: var(--color-gray);
+}
+
 #main-div-formCad input {
     width: 315px;
     height: 47px;
     border-radius: 7px;
+    padding-left: 35px;
     background: var(--color-light-gray);
     border: none;
+}
+
+#div-img-lock,
+#div-img-user {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 5px;
+    top: 43%;
 }
 
 #main-btn-enter {
