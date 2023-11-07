@@ -87,13 +87,14 @@ main h1 {
 #div-img-lock,
 #div-img-user {
     position: absolute;
-    width: 25px;
-    height: 25px;
+    width: 19px;
+    height: 22px;
     left: 5px;
     top: 43%;
 }
 
-#div-input-password::placeholder, #div-input-email::placeholder {
+#div-input-password::placeholder,
+#div-input-email::placeholder {
     color: var(--color-dark-gray);
     font-family: Inter;
     font-size: 11px;
