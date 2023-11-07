@@ -93,6 +93,15 @@ main h1 {
     top: 43%;
 }
 
+#div-input-password::placeholder, #div-input-email::placeholder {
+    color: var(--color-dark-gray);
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 #main-btn-enter {
     width: 327px;
     height: 68px;
