@@ -118,3 +118,13 @@ main h1 {
     letter-spacing: 3px;
     border: none;
 }
+
+#main-small-registerAnchor{
+    color: var(--color-gray);
+    font-weight: 700;
+    padding: 1rem;
+}
+
+#main-small-registerAnchor a {
+    color: var(--color-orange);
+}
