@@ -24,6 +24,6 @@ a {
     );
     --color-black: #000;
     ---color-white: #fff;
-
     --color-gray: #4e4e4e;
+    --color-dark-gray: #434343; 
 }

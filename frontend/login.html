@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#000000">
+        <meta name="theme-color" content="#ffddd2" />
         <title>Login</title>
         <!-- Reset e folha de estilo: -->
         <link rel="stylesheet" href="./src/css/reset.css" />
@@ -14,18 +14,20 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@400;700;900&display=swap"
             rel="stylesheet"
         />
     </head>
 
     <body>
         <div id="body-div-return">
-            <img
-                id="return-img-arrow"
-                alt="Retornar"
-                src="./src/img/arrow-to-left.png"
-            />
+            <a href="../index.html">
+                <img
+                    id="return-img-arrow"
+                    alt="Retornar"
+                    src="./src/img/arrow-to-left.svg"
+                />
+            </a>
         </div>
 
         <main>
@@ -34,10 +36,14 @@
                 alt="Enfermeira"
             />
             <h1>LOGIN</h1>
-            <div id="main-div-formCad">
+            <form id="main-form-login" action="">
                 <div>
                     <label for="inputEmail">E-mail</label>
-                    <img id="div-img-user" src="./src/img/user.svg" alt="" />
+                    <img
+                        id="div-img-user"
+                        src="./src/img/user-solid.svg"
+                        alt=""
+                    />
                     <input
                         id="div-input-email"
                         type="text"
@@ -47,16 +53,24 @@
                 </div>
                 <div>
                     <label for="inputPassword">Senha</label>
-                    <img id="div-img-lock" src="./src/img/lock.svg" alt="" />
+                    <img
+                        id="div-img-lock"
+                        src="./src/img/lock-solid.svg"
+                        alt=""
+                    />
                     <input
                         id="div-input-password"
-                        type="text"
+                        type="password"
                         name="inputPassword"
                         placeholder="Senha de acesso"
                     />
                 </div>
-            </div>
-            <button id="main-btn-enter">Entrar</button>
+            </form>
+            <button type="submit" id="main-btn-enter">Entrar</button>
+            <small id="main-small-registerAnchor"
+                >Não tem conta ainda?
+                <a href="./register.html">Cadastre-se!</a></small
+            >
         </main>
     </body>
 </html>
