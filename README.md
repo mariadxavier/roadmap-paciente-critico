@@ -15,3 +15,6 @@ Precisa criar um arquivo .env e criar as seguintes variáveis de ambiente:
  DBCONNECT (referente ao banco de dados utilizado para rodar o backend)
 
  Depois é so rodar "npm i" na pasta backend que irá instalar as depêndencias.
+
+# 
+[Link para o GitHub pages](https://mariadxavier.github.io/roadmap-paciente-critico/index.html)
