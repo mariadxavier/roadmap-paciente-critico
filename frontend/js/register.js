@@ -92,21 +92,28 @@ btnRegister.addEventListener("click", async () => {
 
     const result = await userCriado.json();
 
-    const userCriadoId = result.novoUser._id;
+    if (result.hasOwnProperty("novoUser")) {
+        const userCriadoId = result.novoUser._id;
+        const progressoNovoCriado = await fetch(
+            "https://api-roadmap-proz.onrender.com/progressos",
+            {
+                method: "POST",
+                body: JSON.stringify({
+                    user: userCriadoId,
+                    progresso: progressoZerado,
+                }),
+                headers: { "Content-Type": "application/json" },
+            }
+        );
 
-    const progressoNovoCriado = await fetch(
-        "https://api-roadmap-proz.onrender.com/progressos",
-        {
-            method: "POST",
-            body: JSON.stringify({
-                user: userCriadoId,
-                progresso: progressoZerado,
-            }),
-            headers: { "Content-Type": "application/json" },
-        }
-    );
+        const progressoCriado = await progressoNovoCriado.json();
 
-    const progressoCriado = await progressoNovoCriado.json();
-
-    console.log(progressoCriado);
+        alert(`${result.message} e ${progressoCriado.message}`);
+        window.location.href = "./login.html";
+    } else {
+        alert(result.message);
+        inputApelido.value = "";
+        inputEmail.value = "";
+        inputSenha.value = "";
+    }
 });
