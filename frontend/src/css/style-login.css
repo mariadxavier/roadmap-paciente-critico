@@ -86,9 +86,9 @@ main h1 {
 #div-img-lock,
 #div-img-user {
     position: absolute;
-    height: 22px;
+    height: 18px;
     left: 11px;
-    top: 46%;
+    top: 50%;
 }
 
 #div-input-password::placeholder,
