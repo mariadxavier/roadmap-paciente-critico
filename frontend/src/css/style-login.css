@@ -32,7 +32,7 @@ main {
 }
 
 main img {
-    height: 45vh;
+    height: 43vh;
 }
 
 main h1 {
@@ -41,7 +41,7 @@ main h1 {
     color: #83c5be;
     text-align: center;
     font-family: Inter;
-    font-size: 2.25rem;
+    font-size: 2.15rem;
     font-style: normal;
     font-weight: 900;
     line-height: 1.875rem;
@@ -49,14 +49,14 @@ main h1 {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 #main-form-login {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.1rem;
 }
 
 #main-form-login div {
@@ -119,12 +119,12 @@ main h1 {
     border: none;
 }
 
-#main-small-registerAnchor{
+#main-a-registerAnchor {
     color: var(--color-gray);
     font-weight: 700;
     padding: 1rem;
 }
 
-#main-small-registerAnchor a {
+#main-a-registerAnchor span {
     color: var(--color-orange);
 }
