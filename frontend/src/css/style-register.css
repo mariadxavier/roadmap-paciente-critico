@@ -31,7 +31,7 @@ main {
     padding: 0 15px;
 }
 
-main img {
+main img.main-img-primary {
     height: 49vh;
     width: 40vh;
     padding: 0px 0px 10px 15px;
@@ -57,7 +57,7 @@ main h1 {
 #form-register {
     display: flex;
     flex-direction: column;
-    gap: 1.0rem;
+    gap: 1rem;
     margin-bottom: 2.5rem;
 }
 
@@ -73,7 +73,7 @@ main h1 {
     width: 4.06rem;
     height: 0.625rem;
     margin: 0 0 0 10px;
-    font-family: 'Inter';
+    font-family: "Inter";
 }
 
 #form-register input {
@@ -89,8 +89,9 @@ main h1 {
 #div-img-user {
     position: absolute;
     height: 22px;
-    right: 50%;
-    top: 55%;
+    margin-left: 10px;
+    left: 0;
+    top: 47%;
 }
 
 #div-apelido::placeholder,
@@ -105,7 +106,8 @@ main h1 {
 }
 
 #main-btn-register {
-    padding: 2vh 5vw ;
+    padding: 2vh 5vw;
+    width: 90%;
     border-radius: 10px;
     background: var(--color-light-pink);
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -120,5 +122,4 @@ main h1 {
     line-height: 30px;
     letter-spacing: 3px;
     border: none;
-    
 }
