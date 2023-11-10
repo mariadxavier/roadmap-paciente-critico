@@ -1,94 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Cadastro</title>
+    <title>Cadastro</title>
 
-        <!-- Reset e folha de estilo: -->
-        <link rel="stylesheet" href="./src/css/reset.css" />
-        <link rel="stylesheet" href="./src/css/style-register.css" />
-        <link rel="stylesheet" href="./src/css/loading.css" />
-        <link rel="stylesheet" href="./src/css/sucesso.css" />
-        <!-- JS -->
-        <script src="./js/register.js" defer></script>
-        <!-- Fontes: -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@400;700;900&display=swap"
-            rel="stylesheet"
+    <!-- Reset e folha de estilo: -->
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style-register.css" />
+    <link rel="stylesheet" href="./src/css/loading.css" />
+    <link rel="stylesheet" href="./src/css/sucesso.css" />
+    <!-- JS -->
+    <script src="./js/register.js" defer></script>
+    <script src="./js/validation-register.js" defer></script>
+    <!-- Fontes: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="body-div-return">
+      <a href="../index.html">
+        <img
+          id="return-img-arrow"
+          alt="Retornar"
+          src="./src/img/arrow-to-left.svg"
         />
-    </head>
+      </a>
+    </div>
 
-    <body>
-        <div id="body-div-return">
-            <a href="../index.html">
-                <img
-                    id="return-img-arrow"
-                    alt="Retornar"
-                    src="./src/img/arrow-to-left.svg"
-                />
-            </a>
+    <main>
+      <img
+        class="main-img-primary"
+        src="./src/img/3d-medical-history.png"
+        alt="Médico"
+      />
+      <h1>Cadastro</h1>
+
+      <form id="form-register" action="">
+        <div>
+          <label for="inputApelido">Apelido</label>
+          <div id="teste-input">
+            <img id="div-img-user" src="./src/img/user-solid.svg" alt="" />
+            <input
+              class="required"
+              type="text"
+              id="div-apelido"
+              name="inputApelido"
+              placeholder="Digite seu apelido"
+            />
+          </div>
+
+          <span class="span-required"
+            >O apelido deve ter entre 3 e 15 caracteres</span
+          >
         </div>
 
-        <main>
-            <img
-                class="main-img-primary"
-                src="./src/img/3d-medical-history.png"
-                alt="Médico"
-            />
-            <h1>Cadastro</h1>
+        <div>
+          <label for="inputEmail">E-mail</label>
+          <img id="div-img-user" src="./src/img/user-solid.svg" alt="" />
+          <input
+            class="required"
+            type="text"
+            id="div-email"
+            name="inputEmail"
+            placeholder="Digite seu e-mail"
+          />
+          <span class="span-required">Insira um email válido</span>
+        </div>
 
-            <form id="form-register" action="">
-                <div>
-                    <label for="inputApelido">Apelido</label>
-                    <img
-                        id="div-img-user"
-                        src="./src/img/user-solid.svg"
-                        alt=""
-                    />
-                    <input
-                        type="text"
-                        id="div-apelido"
-                        name="inputApelido"
-                        placeholder="Digite seu apelido"
-                    />
-                </div>
-
-                <div>
-                    <label for="inputEmail">E-mail</label>
-                    <img
-                        id="div-img-user"
-                        src="./src/img/user-solid.svg"
-                        alt=""
-                    />
-                    <input
-                        type="text"
-                        id="div-email"
-                        name="inputEmail"
-                        placeholder="Digite seu e-mail"
-                    />
-                </div>
-
-                <div>
-                    <label for="password">Senha</label>
-                    <img
-                        id="div-img-lock"
-                        src="./src/img/lock-solid.svg"
-                        alt=""
-                    />
-                    <input
-                        type="password"
-                        id="div-password"
-                        name="password"
-                        placeholder="Senha de acesso"
-                    />
-                </div>
-                <button type="submit" id="main-btn-register">Cadastrar</button>
-            </form>
-            
-        </main>
-    </body>
+        <div>
+          <label for="password">Senha</label>
+          <img id="div-img-lock" src="./src/img/lock-solid.svg" alt="" />
+          <input
+            class="required"
+            type="password"
+            id="div-password"
+            name="password"
+            placeholder="Senha de acesso"
+          />
+          <span class="span-required">Deve ter pelo menos 8 caracteres</span>
+        </div>
+        <button type="submit" id="main-btn-register">Cadastrar</button>
+      </form>
+    </main>
+  </body>
 </html>

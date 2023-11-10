@@ -60,9 +60,8 @@ main h1 {
     gap: 1rem;
 }
 
-#form-register div {
-    position: relative;
-}
+/* #form-register div {
+    position: relative; */
 
 #form-register label {
     color: var(--color-dark-gray);
@@ -90,7 +89,7 @@ main h1 {
     height: 22px;
     margin-left: 10px;
     left: 0;
-    top: 47%;
+    top: 28%;
 }
 
 #div-apelido::placeholder,
@@ -122,4 +121,17 @@ main h1 {
     letter-spacing: 3px;
     border: none;
     margin: 1rem 0;
+}
+
+.span-required {
+    color: rgb(230, 16, 16);
+    font-family: Inter;
+    font-size: 0.68rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#teste-input {
+    position: relative;
 }
