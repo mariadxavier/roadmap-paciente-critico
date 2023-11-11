@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@100;200;300;400;500;600&display=swap');
+
 body {
       height: 1500px;
 }
@@ -6,7 +8,7 @@ header {
       display: flex;
       position: fixed;
       justify-content: space-between;
-      margin: 3vh;
+      margin: 0.94rem 3vh;
       width: 90vw;
 }
 #header-div-profile {
@@ -14,6 +16,20 @@ header {
       align-items: center;
       gap: 4px;
 }
+#header-img-profile {
+      height: 3rem;
+      width: 2.8rem;
+
+      /* Apagar quando for adicionado a logo */
+      position: relative;
+      bottom: 3px;
+}
+#header-label-name {
+      color: #515151;
+      font-family: 'Inter';
+      font-weight: 700;
+}
+
 #header-div-container {
       display: flex;
       align-items: center;
@@ -23,11 +39,12 @@ header {
 
 #header-img-notification {
       padding: 10px;
-      
 }
 #header-div-background-notification {
       padding: 0 4px;
-      background: rgb(255, 90, 90);
+      /* Transferir cor para o reset */
+      background: rgba(255,196,196,0.5);
+      opacity: 0.7;
       border-radius: 100%;
 }
 
@@ -35,13 +52,15 @@ header {
       display: flex;
       flex-direction: column;
       gap: 5px;
-      background: rgb(255, 99, 99);
-      padding: 15px 13px;
+      /* Transferir cor para o reset */
+      background: rgba(255,196,196,0.3);
+      padding: 16px 13px;
       width: fit-content;
       border-radius: 100%;
 }
 .header-div-bar {
-      background: rgb(236, 124, 124);
-      height: 3px;
-      width: 25px;
+      background: #ffafaf9d;
+      width: 1.6875rem;
+      height: 0.1875rem;
+      border-radius: 10px;
 }
