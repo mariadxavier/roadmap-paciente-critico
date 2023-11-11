@@ -71,7 +71,7 @@ main h1 {
     width: 4.06rem;
     height: 0.625rem;
     margin: 0 0 0 10px;
-    font-family: 'Inter';
+    font-family: "Inter";
 }
 
 #main-form-login input {
@@ -107,6 +107,7 @@ main h1 {
     background: var(--color-light-pink);
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     justify-content: center;
+    width: 85%;
     flex-shrink: 0;
     color: rgba(255, 125, 76, 0.91);
     text-align: center;
