@@ -8,8 +8,8 @@
 }
 
 .check-container {
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 0.8rem;
+    height: 0.8rem;
     display: flex;
     flex-flow: column;
     align-items: center;
