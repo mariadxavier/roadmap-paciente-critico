@@ -38,10 +38,10 @@
         <label for="inputApelido">Apelido</label>
         <div id="div-inputItemApelido">
           <img id="div-img-user" src="./src/img/user-solid.svg" alt="" />
-          <input class="required" type="text" id="div-apelido" name="inputApelido" placeholder="Digite seu apelido" />
+          <input class="required " type="text" id="div-apelido" name="inputApelido" placeholder="Digite seu apelido" oninput= nameValidate() />
         </div>
 
-        <span class="span-required">O apelido deve ter entre 3 e 15 caracteres</span>
+        <span class="span-required">O apelido deve ter entre 3 e 15 caracteres.</span>
       </div>
 
       <div>
@@ -49,9 +49,9 @@
         
         <div id="div-inputItemEmail">
           <img id="div-img-user" src="./src/img/user-solid.svg" alt="" />
-          <input class="required" type="text" id="div-email" name="inputEmail" placeholder="Digite seu e-mail" />
+          <input class="required" type="text" id="div-email" name="inputEmail" placeholder="Digite seu e-mail" oninput=emailValidate() />
         </div>
-        <span class="span-required">Insira um email válido</span>
+        <span class="span-required">Insira um e-mail válido.</span>
       </div>
 
       <div>
@@ -59,9 +59,9 @@
         
         <div id="div-inputItemSenha">
           <img id="div-img-lock" src="./src/img/lock-solid.svg" alt="" />
-          <input class="required" type="password" id="div-password" name="password" placeholder="Senha de acesso" />
+          <input class="required" type="password" id="div-password" name="password" placeholder="Senha de acesso" oninput=passwordValidate() />
         </div>
-        <span class="span-required">Deve ter pelo menos 8 caracteres</span>
+        <span class="span-required">Deve ter pelo menos 8 caracteres.</span>
       </div>
       <button type="submit" id="main-btn-register">Cadastrar</button>
     </form>
