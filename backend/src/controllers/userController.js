@@ -82,7 +82,10 @@ class UserController {
                 usuarioEncontrado.senha
             );
             if (senhaCorreta) {
-                res.status(200).json({ autorizado: senhaCorreta });
+                res.status(200).json({
+                    autorizado: senhaCorreta,
+                    usuarioEncontrado,
+                });
             } else {
                 res.status(500).json({
                     autorizado: senhaCorreta,
