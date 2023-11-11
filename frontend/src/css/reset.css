@@ -18,8 +18,8 @@ a {
     --color-dark-blue: #006d77;
     --color-background-gray: #ebebeb;
     --color-background-faded-pink: linear-gradient(
-        180deg,
-        rgba(217, 217, 217, 0) 0%,
+        250deg,
+        rgb(255, 255, 255) 0%,
         #ffc5c5 60.52%
     );
     --color-black: #000;

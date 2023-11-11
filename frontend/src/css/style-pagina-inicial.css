@@ -10,12 +10,14 @@ body {
 
 /* Header */
 /* Obs.: Foi observado que os botoões não estao no mesmo tamanho da img profile (talvez seja os px adicioandos para centralização */
-header {
+.headers {
       display: flex;
       position: fixed;
       justify-content: space-between;
-      margin: 0.94rem 3vh;
       width: 90vw;
+      height: 7.7vh;
+      margin: 0.94rem 3vh;
+      z-index: 1;
 }
 #header-div-profile {
       display: flex;
@@ -70,6 +72,26 @@ header {
       border-radius: 10px;
 }
 /* Fim header */
+
+
+/* Barra de Progresso */
+#progressBar {
+      align-items: center;
+      /* Por mais que essa cor esteja no reset, deverá ser analisado, porque elá será alterada pelo JS sempre que o progresso aumentar. */
+      background: linear-gradient(250deg, rgb(255, 255, 255) 70%, #ffc5c5 90.52%);
+      border-radius: 50px;
+      /* Passar para reset */
+      border: 3px solid #CACACA;
+}
+#progressBar-p-percent {
+      margin: 0 0 0 20px;
+      height: 1.3rem;
+      font-family: 'Inter';
+      font-weight: 700;
+      color: var(---color-white);
+}
+/* Fim Barra de Progresso */
+
 
 /* Apresentação */
 #section-presentation {
