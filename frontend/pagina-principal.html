@@ -1,71 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#ebebeb" />
-        <title>Pagina Inicial</title>
-        <!-- Reset e folha de estilo: -->
-        <link rel="stylesheet" href="./src/css/reset.css" />
-        <link rel="stylesheet" href="./src/css/style-pagina-inicial.css" />
-        <!-- JS  -->
-        <script src="./js/paginaPrincipal.js" defer></script>
-        <!-- Fontes: -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@400;700;900&display=swap"
-            rel="stylesheet"
-        />
-    </head>
 
-    <body>
-        <header>
-            <div id="header-div-profile">
-                <img
-                    src="./src/img/3d-casual-life-young-happy-man-points-with-finger-to-left-side.png"
-                    alt=""
-                    id="header-img-profile"
-                />
-                <label for="" id="header-label-name"
-                    >Olá, <span id="user-apelido">Nome</span></label
-                >
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ebebeb" />
+    <title>Pagina Inicial</title>
+    <!-- Reset e folha de estilo: -->
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style-pagina-inicial.css" />
+    <!-- JS  -->
+    <script src="./js/paginaPrincipal.js" defer></script>
+    <!-- Fontes: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@400;700;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div id="header-div-profile">
+            <img src="./src/img/3d-casual-life-young-happy-man-points-with-finger-to-left-side.png" alt=""
+                id="header-img-profile" />
+            <label for="" id="header-label-name">Olá, <span id="user-apelido">Nome</span></label>
+        </div>
+
+        <div id="header-div-container">
+            <div id="header-div-background-notification">
+                <img src="./src/img/bell-regular.png" alt="" id="header-img-notification" />
+            </div>
+            <div id="header-div-background-menu">
+                <div class="header-div-bar"></div>
+                <div class="header-div-bar"></div>
+                <div class="header-div-bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="section-presentation">
+        <h1 id="section-presentation-h1-title">Alguma coisa <span>em alguma coisa</span></h1>
+        <div id="section-presentation-div-container">
+
+            <div id="container-div-developer" class="presentation-container">
+                <p id="developer-p-text">Produzido por</p>
+                <div id="developer-div-container">
+                    <img src="./src/img/logo.png" alt="" id="developer-img-picture">
+                    <p id="developer-p-name">Dev SOS</p>
+                </div>
             </div>
 
-            <div id="header-div-container">
-                <div id="header-div-background-notification">
-                    <img
-                        src="./src/img/bell-regular.png"
-                        alt=""
-                        id="header-img-notification"
-                    />
-                </div>
-                <div id="header-div-background-menu">
-                    <div class="header-div-bar"></div>
-                    <div class="header-div-bar"></div>
-                    <div class="header-div-bar"></div>
-                </div>
+            <div id="container-div" class="presentation-container">
+                <!-- Não foi desenvolvido o que estará aqui até o momento -->
             </div>
-        </header>
 
-        <section id="section-presentation">
-            <h1 id="section-presentation-h1-title">Alguma coisa em alguma coisa</h1>
-            <div id="section-presentation-div-container">
-                
-                <div id="container-div-developer" class="presentation-container">
-                    <p id="developer-p-text">Produzido por</p>
-                    <div id="developer-div-container">
-                        <img src="" alt="" id="developer-img-picture">
-                        <p id="developer-p-name"></p>
-                    </div>
-                </div>
+        </div>
+    </section>
 
-                <div id="container-div" class="presentation-container">
-                    <!-- Não foi desenvolvido o que estará aqui até o momento -->
-                </div>
+</body>
 
-            </div>
-        </section>
-
-    </body>
 </html>
