@@ -110,6 +110,7 @@ body {
       font-family: 'Poppins';
       font-size: 2rem;
       font-weight: 800;
+      line-height: 4.5vh;
 }
 #section-presentation-div-container {
       display: flex;
