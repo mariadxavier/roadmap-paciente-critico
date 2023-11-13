@@ -1,6 +1,6 @@
 header {
     background-color: var(--color-background-pink);
-    height: 28rem;
+    height: 26rem;
     width: 100%;
     color: var(--color-white);
     display: flex;
@@ -11,13 +11,13 @@ header {
 }
 
 #header-img-theme {
-    width: 17.9rem;
-    margin-top: 10vh;
+    width: 17.8rem;
+    margin: 7vh;
 }
 
 #header-h1-title {
     position: absolute;
-    top: 22rem;
+    top: 21rem;
     color: #FFF;
     font-size: 2rem;
     font-style: normal;
@@ -55,7 +55,7 @@ main {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    margin: 2.5rem 1.2rem 1rem 1.2rem;
+    margin: 2rem 1.2rem 1rem 1.2rem;
 }
 
 .separator-h3-title {
@@ -75,12 +75,13 @@ main {
 }
 
 #main-video {
+    height: 14rem;
     width: 100%;
     margin-bottom: 1rem;
 }
 
 .main-ul-complement {
-    align-self: flex-start; 
-    padding: 0 2rem 1rem 2rem;   
+    align-self: flex-start;
+    padding: 0 2rem 1rem 2rem;
 
 }
