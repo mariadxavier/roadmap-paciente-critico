@@ -1,0 +1,32 @@
+header {
+    background-color: var(--color-background-pink);
+    height: 28rem;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    position: relative;
+    border-radius: 0 0 10% 10%;
+}
+
+#header-img-theme {
+    width: 287px;
+    margin-top: 10vh;
+}
+
+#header-h1-title {
+    position: absolute;
+    top: 22rem;
+    color: #FFF;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2rem;
+    letter-spacing: 3px;
+    display: flex;
+    width: 261px;
+    height: 39px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
