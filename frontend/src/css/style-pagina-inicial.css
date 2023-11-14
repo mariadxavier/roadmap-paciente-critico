@@ -13,10 +13,13 @@ body {
 .headers {
       display: flex;
       position: fixed;
+      align-items: center;
       justify-content: space-between;
-      width: 90vw;
-      height: 7.7vh;
-      margin: 0.94rem 3vh;
+      /* margin-top: 5px; */
+      padding: 0 15px;
+      height: 20vh;
+      left: 0;
+      right: 0;
       z-index: 1;
 }
 #header-div-profile {
@@ -154,3 +157,4 @@ body {
       font-weight: 400;
       height: 4.68vw;
 }
+/* Fim aparesentação */
