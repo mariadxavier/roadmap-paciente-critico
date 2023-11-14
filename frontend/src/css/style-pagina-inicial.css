@@ -13,10 +13,13 @@ body {
 .headers {
       display: flex;
       position: fixed;
+      align-items: center;
       justify-content: space-between;
-      width: 90vw;
-      height: 7.7vh;
-      margin: 0.94rem 3vh;
+      /* margin-top: 5px; */
+      padding: 0 15px;
+      height: 20vh;
+      left: 0;
+      right: 0;
       z-index: 1;
 }
 #header-div-profile {
@@ -94,14 +97,16 @@ body {
 
 
 /* Apresentação */
+/* Obs.: erro em relação ao header e unidades */
 #section-presentation {
       display: flex;
       flex-direction: column;
-      position: absolute;
+      /* position: absolute; */
       height: max-content;
-      top: 12vh;
+      /* top: 12vh; */
       /* width: 100%; */
       margin: 1.92vh;
+      margin-top: 5vh;
       gap: 5.5vh;
 }
 #section-presentation-h1-title {
@@ -153,4 +158,17 @@ body {
       font-size: 1rem;
       font-weight: 400;
       height: 4.68vw;
+}
+/* Fim aparesentação */
+
+/* Unidades */
+.units {
+      background: #FF7A7A;
+}
+.section-div-units-presentation {
+      display: flex;
+      justify-content: space-between;
+}
+.container-bnt-img-bottom {
+      height: 4vh;
 }
