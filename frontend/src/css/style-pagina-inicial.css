@@ -1,174 +1,162 @@
-@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@100;200;300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@100;200;300;400;500;600&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 body {
-      height: 1500px;
+    height: 1500px;
 }
 
 /* Header */
 /* Obs.: Foi observado que os botoões não estao no mesmo tamanho da img profile (talvez seja os px adicioandos para centralização */
-.headers {
-      display: flex;
-      position: fixed;
-      align-items: center;
-      justify-content: space-between;
-      /* margin-top: 5px; */
-      padding: 0 15px;
-      height: 20vh;
-      left: 0;
-      right: 0;
-      z-index: 1;
+#header {
+    height: 12vh;
+    padding: 0 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
-#header-div-profile {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-}
-#header-img-profile {
-      height: 3rem;
-      width: 2.8rem;
 
-      /* Apagar quando for adicionado a logo */
-      position: relative;
-      bottom: 3px;
+#header-div-background-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* Transferir cor para o reset */
+    background: rgba(255, 196, 196, 0.3);
+    padding: 16px 13px;
+    width: fit-content;
+    border-radius: 100%;
 }
-#header-label-name {
-      color: #515151;
-      font-family: 'Inter';
-      font-weight: 700;
+
+.header-div-bar {
+    background: #ffafaf9d;
+    width: 1.6875rem;
+    height: 0.1875rem;
+    border-radius: 10px;
+}
+
+#header-div-profile {
+    overflow: hidden;
+    position: relative;
+    padding: 0 5px;
+    transition: all 1000ms ease-in-out;
+    width: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    border-radius: 500px;
+}
+
+#header-div-profile:hover {
+    background-color: aqua;
 }
 
 #header-div-container {
-      display: flex;
-      align-items: center;
-      gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    transition: all 10s ease-in-out;
+}
 
+#header-div-progressBar {
+    position: absolute;
+    width: 0%;
+    transition: all 1s ease-in-out;
+    z-index: -1;
+    height: 100%;
+    left: 0;
 }
-#header-img-notification {
-      padding: 10px;
-}
-#header-div-background-notification {
-      padding: 0 4px;
-      /* Transferir cor para o reset */
-      background: rgba(255,196,196,0.5);
-      opacity: 0.7;
-      border-radius: 100%;
-}
-#header-div-background-menu {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-      /* Transferir cor para o reset */
-      background: rgba(255,196,196,0.3);
-      padding: 16px 13px;
-      width: fit-content;
-      border-radius: 100%;
-}
-/* Acrescentar animação X, de preferência em JS */
-.header-div-bar {
-      background: #ffafaf9d;
-      width: 1.6875rem;
-      height: 0.1875rem;
-      border-radius: 10px;
-}
-/* Fim header */
 
-
-/* Barra de Progresso */
-#progressBar {
-      align-items: center;
-      /* Por mais que essa cor esteja no reset, deverá ser analisado, porque elá será alterada pelo JS sempre que o progresso aumentar. */
-      background: linear-gradient(250deg, rgb(255, 255, 255) 70%, #ffc5c5 90.52%);
-      border-radius: 50px;
-      /* Passar para reset */
-      border: 3px solid #CACACA;
+#header-img-profile {
+    width: 40px;
 }
 #progressBar-p-percent {
-      margin: 0 0 0 20px;
-      height: 1.3rem;
-      font-family: 'Inter';
-      font-weight: 700;
-      color: var(---color-white);
+    margin: 0 0 0 20px;
+    height: 1.3rem;
+    font-family: "Inter";
+    font-weight: 700;
+    color: var(---color-white);
 }
 /* Fim Barra de Progresso */
-
 
 /* Apresentação */
 /* Obs.: erro em relação ao header e unidades */
 #section-presentation {
-      display: flex;
-      flex-direction: column;
-      /* position: absolute; */
-      height: max-content;
-      /* top: 12vh; */
-      /* width: 100%; */
-      margin: 1.92vh;
-      margin-top: 5vh;
-      gap: 5.5vh;
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    height: max-content;
+    /* top: 12vh; */
+    /* width: 100%; */
+    margin: 1.92vh;
+    margin-top: 5vh;
+    gap: 5.5vh;
 }
 #section-presentation-h1-title {
-      /* Passar essa cor também */
-      color: #FF7A7A;
-      font-family: 'Poppins';
-      font-size: 2rem;
-      font-weight: 800;
-      line-height: 4.5vh;
+    /* Passar essa cor também */
+    color: #ff7a7a;
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 4.5vh;
 }
 #section-presentation-div-container {
-      display: flex;
-      justify-content: space-between;
-      gap: 10px;
-      /* background: #ffb6b6; */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    /* background: #ffb6b6; */
 }
 .presentation-container {
-      /* Passar pra reset */
-      background: #d9d9d9;
-      width: 100%;
-      height: 17.6vh;
-      border-radius: 10px;
+    /* Passar pra reset */
+    background: #d9d9d9;
+    width: 100%;
+    height: 17.6vh;
+    border-radius: 10px;
 }
-
 
 #container-div-developer {
-      padding: 10px;
+    padding: 10px;
 }
 #developer-div-container {
-      display: flex;
-      align-items: center;
-      gap: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 #developer-p-text {
-      /*Passar para o reset */
-      color: rgba(67, 67, 67, 0.60);
-      font-family: Poppins;
-      font-size: 1rem;
-      font-weight: 700;
+    /*Passar para o reset */
+    color: rgba(67, 67, 67, 0.6);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
 }
 #developer-img-picture {
-      height: 10vh;
-      width: 26.9vw;
-      object-fit: cover;
+    height: 10vh;
+    width: 26.9vw;
+    object-fit: cover;
 }
 #developer-p-name {
-      font-family: 'Press Start 2P';
-      color: var(--color-light-blue);
-      font-size: 1rem;
-      font-weight: 400;
-      height: 4.68vw;
+    font-family: "Press Start 2P";
+    color: var(--color-light-blue);
+    font-size: 1rem;
+    font-weight: 400;
+    height: 4.68vw;
 }
 /* Fim aparesentação */
 
 /* Unidades */
 .units {
-      background: #FF7A7A;
+    background: #ff7a7a;
 }
 .section-div-units-presentation {
-      display: flex;
-      justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .container-bnt-img-bottom {
-      height: 4vh;
+    height: 4vh;
 }
