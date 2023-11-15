@@ -11,7 +11,7 @@ body {
 /* Header */
 /* Obs.: Foi observado que os botoões não estao no mesmo tamanho da img profile (talvez seja os px adicioandos para centralização */
 #header {
-    height: 12vh;
+    height: 5vh;
     padding: 0 15px;
     display: flex;
     align-items: flex-end;
@@ -151,12 +151,34 @@ body {
 
 /* Unidades */
 .units {
-    background: #ff7a7a;
+    /* height: 15vh; */
+    border-radius: 40px;
+    background: var(--color-pink);
 }
 .section-div-units-presentation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    /* height: 20vh; */
+    padding: 25px 35px 25px 25px;
+    /* right: 0;
+    left: 0; */
+    /* position: relative; */
+    /* margin: 25px 0 0 0; */
+}
+.title-units-h1-unit {
+    color: var(--color-white);
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+.title-units-p-unit-title {
+    color: var(--color-white);
+    font-family: 'Poppins';
+    font-weight: 800;
 }
 .container-bnt-img-bottom {
-    height: 4vh;
+    /* position: absolute; */
+    height: 4.5vh;
+    /* right: 35px; */
+    /* top: 40px; */
 }
