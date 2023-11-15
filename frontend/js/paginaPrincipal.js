@@ -50,6 +50,7 @@ window.addEventListener("scroll", () => {
             iconContainer.style.transform = "transform: translateX(0);";
         }, 500);
         divPrincipal.style.border = "none";
+        divPrincipal.style.justifyContent = "start";
         progressBar.style.width = "0px";
         imgDivPrincipal.style.order = "0"; //trocando a ordem da imagem com o label
         divPrincipal.style.width = "11rem"; //aumentando a div total para fazer o efeito
