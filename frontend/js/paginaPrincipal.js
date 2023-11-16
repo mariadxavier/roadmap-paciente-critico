@@ -59,3 +59,12 @@ window.addEventListener("scroll", () => {
         progressBarNaTela = false;
     }
 });
+
+// Evento abrir e fechar roadmap
+// const botaoUnidades = document.querySelectorAll("units-presentation-div-container-bnt");
+
+// botaoUnidades.forEach((botao) => {
+//     botao.addEventListener('click', () => {
+//         console.log("Ok")
+//     })
+// })

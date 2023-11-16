@@ -19,24 +19,30 @@ body {
     position: fixed;
     right: 0;
     left: 0;
+    top: 25px;
 }
 
 #header-div-background-menu {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 4.2px;
     /* Transferir cor para o reset */
     background: rgba(255, 196, 196, 0.3);
-    padding: 16px 13px;
+    padding: 13px 10px;
     width: fit-content;
     border-radius: 100%;
 }
 
 .header-div-bar {
     background: #ffafaf9d;
-    width: 1.6875rem;
-    height: 0.1875rem;
+    width: 1.5rem;
+    height: 0.17rem;
     border-radius: 10px;
+}
+#header-div-background-notification {
+    background: rgba(255, 196, 196, 0.3);
+    padding: 7px 11px;
+    border-radius: 100%;
 }
 
 #header-div-profile {
@@ -51,7 +57,12 @@ body {
     gap: 0.5rem;
     border-radius: 500px;
 }
-
+#header-label-name {
+    color: var(--color-dark-gray);
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1rem;
+}
 #header-div-profile:hover {
     background-color: aqua;
 }
@@ -74,7 +85,7 @@ body {
 }
 
 #header-img-profile {
-    width: 40px;
+    width: 4.5rem;
 }
 #progressBar-p-percent {
     margin: 0 0 0 20px;
@@ -95,7 +106,7 @@ body {
     /* top: 12vh; */
     /* width: 100%; */
     margin: 1.92vh;
-    margin-top: 5vh;
+    margin-top: 13vh;
     gap: 5.5vh;
 }
 #section-presentation-h1-title {
@@ -151,7 +162,7 @@ body {
 
 /* Unidades */
 .units {
-    /* height: 15vh; */
+    /* height: 300%; */
     border-radius: 40px;
     background: var(--color-pink);
 }
@@ -181,4 +192,66 @@ body {
     height: 4.5vh;
     /* right: 35px; */
     /* top: 40px; */
+}
+
+/* Levels */
+.units-div-roadmap {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding: 2vh 8vw;
+}
+.roadmap-div-levels {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 15vh;
+    background: blue;
+    border-radius: 10px;
+}
+.roadmap-div-imgs {
+    position: absolute;
+}
+.roadmap-h3-number {
+    width: 100%;
+    text-align: center;
+    color: var(--color-white);
+    font-family: 'Poppins';
+    font-size: 2.2rem;
+    padding: 5px;
+}
+#first-unit-div-level-1 {
+   align-self: flex-start;
+   background: #fbba52;
+}
+#roadmap-img-heart {
+    right: 50px;
+    height: 15vh;
+}
+#first-unit-div-level-2 {
+    align-self: flex-end;
+    margin: 10px 0 0 0;
+    background: #a2a2a2;
+}
+#roadmap-img-doctor {
+    bottom: -280px;
+    left: 30px;
+    height: 60vh;
+}
+#first-unit-div-level-3 {
+    align-self: flex-end;
+    margin: 30px 0 0 0;
+    background: #eb2a2ad3;
+}
+#first-unit-div-level-4 {
+    margin: 140px 0 0 0;
+    background: #529efb;
+}
+#first-unit-div-level-5 {
+    align-self: self-start;
+    margin: 30px 0 0 0;
+}
+#first-unit-div-level-6 {
+    margin: 30px 0 0 0;
 }
