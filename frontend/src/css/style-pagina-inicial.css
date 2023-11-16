@@ -24,12 +24,8 @@ body {
     position: fixed;
     right: 0;
     left: 0;
-<<<<<<< Updated upstream
-    top: 25px;
-    z-index: 999;
-=======
     top: 0;
->>>>>>> Stashed changes
+    z-index: 99;
 }
 
 #header-div-background-menu {

@@ -107,6 +107,7 @@ window.addEventListener("scroll", () => {
         labelDivPrincipal.innerHTML = `${percent}%`; //mudando pra %
         labelDivPrincipal.style.margin = "15px"
         progressBar.style.width = `${percent}%`;
+        divPrincipal.style.boxShadow = "0px 4px 10px 0px rgba(0, 0, 0, .5)";
         progressBar.style.background =
             "linear-gradient(270deg, rgb(255, 255, 255) -10%, #ffc5c5 60%)";
         progressBarNaTela = true;
