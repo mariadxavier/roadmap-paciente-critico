@@ -39,7 +39,6 @@ btnLogin.addEventListener("click", async () => {
 
     if (result.autorizado) {
         localStorage.setItem("logar", JSON.stringify(result.usuarioEncontrado));
-        alert("liberar login");
         btnLogin.innerHTML = sucesso;
         setTimeout(() => {
             window.location.href = "./pagina-principal.html";

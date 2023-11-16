@@ -78,13 +78,13 @@ main {
     height: 0.6rem;
 }
 
-#main-video {
+.main-video {
     height: 14rem;
     width: 100%;
     margin-bottom: 1rem;
 }
 
-.main-ul-complement {
+#main-ul-complement {
     align-self: flex-start;
     padding: 0 2rem 1rem 2rem;
 
