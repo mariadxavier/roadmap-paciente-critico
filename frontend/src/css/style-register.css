@@ -87,6 +87,20 @@ main h1 {
     top: 29%;
 }
 
+#div-img-eye, #div-img-eye-slash {
+    position: absolute;
+    height: 18px;
+    margin-left: 10px;
+    left: 85%;
+    top: 29%;
+    filter: contrast(0.2);
+} 
+
+#div-img-eye-slash{
+    display: none;
+
+}
+
 #div-apelido::placeholder,
 #div-password::placeholder,
 #div-email::placeholder {
