@@ -54,7 +54,7 @@ body {
 #header-div-profile {
     overflow: hidden;
     position: relative;
-    padding: 0 5px;
+    padding: 0 2px;
     transition: all 1000ms ease-in-out;
     width: 11rem;
     display: flex;
@@ -68,9 +68,7 @@ body {
     font-family: 'Inter';
     font-weight: 700;
     font-size: 1rem;
-}
-#header-div-profile:hover {
-    background-color: aqua;
+    z-index: 99;
 }
 
 #header-div-container {
@@ -85,13 +83,16 @@ body {
     position: absolute;
     width: 0%;
     transition: all 1s ease-in-out;
-    z-index: -1;
+    z-index: 0;
     height: 100%;
     left: 0;
 }
 
 #header-img-profile {
     width: 3rem;
+    border: 2px solid var(--color-pink);
+    border-radius: 500px;
+    z-index: 99;
 }
 #progressBar-p-percent {
     margin: 0 0 0 20px;
@@ -245,7 +246,7 @@ body {
 #roadmap-img-doctor {
     bottom: -280px;
     left: 30px;
-    height: 54vh;
+    height: 400px;
 }
 #first-unit-div-level-3 {
     align-self: flex-end;

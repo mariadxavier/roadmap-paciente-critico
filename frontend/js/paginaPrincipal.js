@@ -93,8 +93,7 @@ window.addEventListener("scroll", () => {
         }
     });
     //calculo que retorna a porcentagem
-    const percent = parseInt((percentTrue + 48 / progressPercent.length) * 100);
-
+    const percent = parseInt((percentTrue  / progressPercent.length) * 100);
     if (scrollY >= 200 && !progressBarNaTela) {
 
         console.log("oi");
@@ -102,11 +101,21 @@ window.addEventListener("scroll", () => {
         iconContainer.style.transform = "transform: translateX(7rem);";
         imgDivPrincipal.style.order = "2"; //trocando a ordem da imagem com o label
         divPrincipal.style.width = "100%"; //aumentando a div total para fazer o efeito
-        divPrincipal.style.border = "2px solid #CACACA";
+        divPrincipal.style.border = "1px solid #CACACA"; //bordar da barra de progresso
         divPrincipal.style.justifyContent = "space-between";
+        divPrincipal.style.background = "rgb(255, 255, 255)" //background quando a barra está vazia
+
         labelDivPrincipal.innerHTML = `${percent}%`; //mudando pra %
-        labelDivPrincipal.style.margin = "15px"
+        labelDivPrincipal.style.margin = "15px";
+
+            if (percent < 10) {
+                labelDivPrincipal.style.color = "#4e4e4e";
+            } else {
+                labelDivPrincipal.style.color = "white";
+            }
+        // labelDivPrincipal.style.color = "white"; //cor da porcentagem da barra de progresso
         progressBar.style.width = `${percent}%`;
+        progressBar.style.borderRadius = "50px"
         divPrincipal.style.boxShadow = "0px 4px 10px 0px rgba(0, 0, 0, .5)";
         progressBar.style.background =
             "linear-gradient(270deg, rgb(255, 255, 255) -10%, #ffc5c5 60%)";
@@ -119,10 +128,12 @@ window.addEventListener("scroll", () => {
         divPrincipal.style.boxShadow = "none";
         divPrincipal.style.border = "none";
         divPrincipal.style.justifyContent = "start";
+        divPrincipal.style.background = "none"
         progressBar.style.width = "0px";
         imgDivPrincipal.style.order = "0"; //trocando a ordem da imagem com o label
         divPrincipal.style.width = "11rem"; //aumentando a div total para fazer o efeito
         labelDivPrincipal.innerHTML = `Olá, ${usuarioLogado.apelido}`; //mudando pra conter o nome do usuario
+        labelDivPrincipal.style.color = "#4e4e4e";
         console.log("tchau");
         progressBarNaTela = false;
     }
@@ -136,3 +147,10 @@ window.addEventListener("scroll", () => {
 //         console.log("Ok")
 //     })
 // })
+
+
+// Abrir e fechar unidades
+// const botoes = document.querySelectorAll("container-bnt-img-bottom");
+// const unidades = document.querySelectorAll("units");
+// console.log(botoes)
+// botoes
