@@ -93,15 +93,17 @@ window.addEventListener("scroll", () => {
         }
     });
     //calculo que retorna a porcentagem
-    const percent = parseInt((percentTrue / progressPercent.length) * 100);
+    const percent = parseInt((percentTrue + 48 / progressPercent.length) * 100);
 
     if (scrollY >= 200 && !progressBarNaTela) {
+
         console.log("oi");
         iconContainer.style.display = "none"; //sumindo com o container de icones
         iconContainer.style.transform = "transform: translateX(7rem);";
         imgDivPrincipal.style.order = "2"; //trocando a ordem da imagem com o label
         divPrincipal.style.width = "100%"; //aumentando a div total para fazer o efeito
-        divPrincipal.style.border = "1px solid pink";
+        divPrincipal.style.border = "1px solid gray";
+        divPrincipal.style.boxShadow = "0px 4px 10px 0px rgba(0,0,0,.5)";
         divPrincipal.style.justifyContent = "space-between";
         labelDivPrincipal.innerHTML = `${percent}%`; //mudando pra %
         progressBar.style.width = `${percent}%`;
@@ -113,6 +115,7 @@ window.addEventListener("scroll", () => {
             iconContainer.style.display = "flex"; //aparecendo com o container de comentarios
             iconContainer.style.transform = "transform: translateX(0);";
         }, 500);
+        divPrincipal.style.boxShadow = "none";
         divPrincipal.style.border = "none";
         divPrincipal.style.justifyContent = "start";
         progressBar.style.width = "0px";

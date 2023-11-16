@@ -11,16 +11,25 @@ body {
 /* Header */
 /* Obs.: Foi observado que os botoões não estao no mesmo tamanho da img profile (talvez seja os px adicioandos para centralização */
 #header {
-    height: 5vh;
-    padding: 0 15px;
+    /* height: 5vh; */
+    /* padding: 0 15px; */
     display: flex;
     align-items: flex-end;
+    /* backdrop-filter: blur(3px); */
     justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 15px;
     position: fixed;
     right: 0;
     left: 0;
+<<<<<<< Updated upstream
     top: 25px;
     z-index: 999;
+=======
+    top: 0;
+>>>>>>> Stashed changes
 }
 
 #header-div-background-menu {
