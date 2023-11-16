@@ -1,82 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ebebeb" />
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ebebeb" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#ebebeb" />
-        <title>Login</title>
-        <!-- icone - navegador: -->
-        <link rel="icon" href="./src/img/logo.png">
-        <!-- Reset e folha de estilo: -->
-        <link rel="stylesheet" href="./src/css/reset.css" />
-        <link rel="stylesheet" href="./src/css/style-login.css" />
-        <link rel="stylesheet" href="./src/css/loading.css" />
-        <link rel="stylesheet" href="./src/css/sucesso.css" />
-        <!-- JS  -->
-        <script src="js/login.js" defer></script>
-        <!-- Fontes: -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@400;700;900&display=swap"
-            rel="stylesheet"
-        />
-    </head>
+    <title>Login</title>
+    <!-- icone - navegador: -->
+    <link rel="icon" href="./src/img/logo.png">
+    <!-- Reset e folha de estilo: -->
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style-login.css" />
+    <link rel="stylesheet" href="./src/css/loading.css" />
+    <link rel="stylesheet" href="./src/css/sucesso.css" />
+    <!-- JS  -->
+    <script src="js/login.js" defer></script>
+    <script src="./js/see-password.js" defer></script>
+    <!-- Fontes: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@400;700;900&display=swap"
+        rel="stylesheet" />
+</head>
 
-    <body>
-        <div id="body-div-return">
-            <a href="../index.html">
-                <img
-                    id="return-img-arrow"
-                    alt="Retornar"
-                    src="./src/img/arrow-to-left.svg"
-                />
-            </a>
-        </div>
+<body>
+    <div id="body-div-return">
+        <a href="../index.html">
+            <img id="return-img-arrow" alt="Retornar" src="./src/img/arrow-to-left.svg" />
+        </a>
+    </div>
 
-        <main>
-            <img
-                src="./src/img/3d-female-doctor-at-desk 1.png"
-                alt="Enfermeira"
-            />
-            <h1>LOGIN</h1>
-            <form id="main-form-login" action="">
-                <div>
-                    <label for="inputEmail">E-mail</label>
-                    <img
-                        id="div-img-user"
-                        src="./src/img/user-solid.svg"
-                        alt=""
-                    />
-                    <input
-                        id="div-input-email"
-                        type="text"
-                        name="inputEmail"
-                        placeholder="Digite seu e-mail"
-                    />
-                </div>
-                <div>
-                    <label for="inputPassword">Senha</label>
-                    <img
-                        id="div-img-lock"
-                        src="./src/img/lock-solid.svg"
-                        alt=""
-                    />
-                    <input
-                        id="div-input-password"
-                        type="password"
-                        name="inputPassword"
-                        placeholder="Senha de acesso"
-                    />
-                </div>
-            </form>
-            <button type="submit" id="main-btn-enter">Entrar</button>
-            <a href="./register.html" id="main-a-registerAnchor"
-                ><small
-                    >Não tem conta ainda? <span>Cadastre-se!</span></small
-                ></a
-            >
-        </main>
-    </body>
+    <main>
+        <img src="./src/img/3d-female-doctor-at-desk 1.png" alt="Enfermeira" />
+        <h1>LOGIN</h1>
+        <form id="main-form-login" action="">
+            <div>
+                <label for="inputEmail">E-mail</label>
+                <img id="div-img-user" src="./src/img/user-solid.svg" alt="" />
+                <input id="div-input-email" type="text" name="inputEmail" placeholder="Digite seu e-mail" />
+            </div>
+            <div>
+                <label for="inputPassword">Senha</label>
+                <img id="div-img-lock" src="./src/img/lock-solid.svg" alt="" />
+                <img src="./src/img/eye-solid.svg" id="div-img-eye" alt="ver senha">
+                <img src="./src/img/eye-slash-solid.svg" id="div-img-eye-slash" alt="esconder senha">
+                <input id="div-input-password" type="password" name="inputPassword"
+                    placeholder="Senha de acesso" />
+            </div>
+        </form>
+        <button type="submit" id="main-btn-enter">Entrar</button>
+        <a href="./register.html" id="main-a-registerAnchor"><small>Não tem conta ainda?
+                <span>Cadastre-se!</span></small></a>
+    </main>
+</body>
+
 </html>

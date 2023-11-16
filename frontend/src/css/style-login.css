@@ -91,6 +91,20 @@ main h1 {
     top: 50%;
 }
 
+#div-img-eye, #div-img-eye-slash {
+    position: absolute;
+    height: 18px;
+    margin-left: 10px;
+    left: 85%;
+    top: 50%;
+    filter: contrast(0.2);
+} 
+
+#div-img-eye-slash{
+    display: none;
+
+}
+
 #div-input-password::placeholder,
 #div-input-email::placeholder {
     color: var(--color-dark-gray);
