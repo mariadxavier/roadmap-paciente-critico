@@ -102,11 +102,12 @@ window.addEventListener("scroll", () => {
         iconContainer.style.transform = "transform: translateX(7rem);";
         imgDivPrincipal.style.order = "2"; //trocando a ordem da imagem com o label
         divPrincipal.style.width = "100%"; //aumentando a div total para fazer o efeito
-        divPrincipal.style.border = "1px solid gray";
-        divPrincipal.style.boxShadow = "0px 4px 10px 0px rgba(0,0,0,.5)";
+        divPrincipal.style.border = "2px solid #CACACA";
         divPrincipal.style.justifyContent = "space-between";
         labelDivPrincipal.innerHTML = `${percent}%`; //mudando pra %
+        labelDivPrincipal.style.margin = "15px"
         progressBar.style.width = `${percent}%`;
+        divPrincipal.style.boxShadow = "0px 4px 10px 0px rgba(0, 0, 0, .5)";
         progressBar.style.background =
             "linear-gradient(270deg, rgb(255, 255, 255) -10%, #ffc5c5 60%)";
         progressBarNaTela = true;
