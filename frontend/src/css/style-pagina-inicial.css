@@ -20,6 +20,7 @@ body {
     right: 0;
     left: 0;
     top: 25px;
+    z-index: 999;
 }
 
 #header-div-background-menu {
@@ -190,6 +191,7 @@ body {
 .container-bnt-img-bottom {
     /* position: absolute; */
     height: 4.5vh;
+    transform: rotate(90deg);
     /* right: 35px; */
     /* top: 40px; */
 }
@@ -209,6 +211,7 @@ body {
     width: 15vh;
     background: blue;
     border-radius: 10px;
+    z-index: 2;
 }
 .roadmap-div-imgs {
     position: absolute;
@@ -237,7 +240,7 @@ body {
 #roadmap-img-doctor {
     bottom: -280px;
     left: 30px;
-    height: 60vh;
+    height: 54vh;
 }
 #first-unit-div-level-3 {
     align-self: flex-end;
@@ -250,8 +253,10 @@ body {
 }
 #first-unit-div-level-5 {
     align-self: self-start;
-    margin: 30px 0 0 0;
+    margin: 45px 0 0 0;
+    background: rgb(105, 134, 53);
 }
 #first-unit-div-level-6 {
     margin: 30px 0 0 0;
+    background: #f5cd5f;
 }
