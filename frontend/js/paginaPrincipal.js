@@ -106,7 +106,7 @@ window.addEventListener("scroll", () => {
         divPrincipal.style.background = "rgb(255, 255, 255)"; //background quando a barra está vazia
 
         labelDivPrincipal.innerHTML = `${percent}%`; //mudando pra %
-        labelDivPrincipal.style.margin = "15px";
+        labelDivPrincipal.style.marginLeft = "15px";
 
         if (percent < 10) {
             labelDivPrincipal.style.color = "#4e4e4e";
@@ -155,26 +155,21 @@ const botoesUnidades = document.querySelectorAll(".container-bnt-img-bottom");
 const unidades = document.querySelectorAll(".units");
 const divRoadmap = document.querySelectorAll(".units-div-roadmap");
 
-for(let i = 0; i < divRoadmap.length; i++) {
-    console.log(i)
+for (let i = 0; i < divRoadmap.length; i++) {
+    console.log(i);
     divRoadmap[i].style.display = "flex";
 }
 
-botoesUnidades.forEach( (botao, index) => {
-    botao.addEventListener('click', () => {
-        
-        console.log(botao, index)
-        if(index === index) {
-            console.log("oi")
+botoesUnidades.forEach((botao, index) => {
+    botao.addEventListener("click", () => {
+        console.log(botao, index);
+        if (index === index) {
+            console.log("oi");
             if (divRoadmap[index].style.display === "flex") {
                 divRoadmap[index].style.display = "none";
-            } else if (divRoadmap[index].style.display === "none")  {
+            } else if (divRoadmap[index].style.display === "none") {
                 divRoadmap[index].style.display = "flex";
             }
-        } 
-
-
-
-    })
-})
-
+        }
+    });
+});
