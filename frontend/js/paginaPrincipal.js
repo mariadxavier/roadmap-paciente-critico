@@ -1,19 +1,15 @@
 // função que ao carregar a pagina traz o progresso do usuário logado do banco de dados e manda pro localStorage
-window.addEventListener("load", async () => {
-    const userProgress = await fetch(
-        `https://api-roadmap-proz.onrender.com/progressos/${usuarioLogado._id}`
-    );
+// window.addEventListener("load", async () => {
+//     const userProgress = await fetch(
+//         `https://api-roadmap-proz.onrender.com/progressos/${usuarioLogado._id}`
+//     );
 
-    const result = await userProgress.json();
+//     const result = await userProgress.json();
 
-    localStorage.setItem("progressoUsuario", JSON.stringify(result));
-});
+//     localStorage.setItem("progressoUsuario", JSON.stringify(result));
+// });
 
 //recuperando o progresso do usuario do localStorage
-const jsonProgress = localStorage.getItem("progressoUsuario");
-const progress = JSON.parse(jsonProgress);
-
-console.log(progress);
 
 //escrevendo o nome do usuario
 const jsonUsuario = localStorage.getItem("logar");
@@ -32,6 +28,11 @@ const iconContainer = document.getElementById("header-div-container");
 const progressBar = document.getElementById("header-div-progressBar");
 
 let progressBarNaTela = false;
+
+const jsonProgress = localStorage.getItem("progressoUsuario");
+const progress = JSON.parse(jsonProgress);
+
+console.log(progress);
 
 window.addEventListener("scroll", () => {
     //array que da a % que diz true pra cada fase que o usuario completou
@@ -93,9 +94,8 @@ window.addEventListener("scroll", () => {
         }
     });
     //calculo que retorna a porcentagem
-    const percent = parseInt((percentTrue  / progressPercent.length) * 100);
+    const percent = parseInt((percentTrue / progressPercent.length) * 100);
     if (scrollY >= 200 && !progressBarNaTela) {
-
         console.log("oi");
         iconContainer.style.display = "none"; //sumindo com o container de icones
         iconContainer.style.transform = "transform: translateX(7rem);";
@@ -103,32 +103,34 @@ window.addEventListener("scroll", () => {
         divPrincipal.style.width = "100%"; //aumentando a div total para fazer o efeito
         divPrincipal.style.border = "1px solid #CACACA"; //bordar da barra de progresso
         divPrincipal.style.justifyContent = "space-between";
-        divPrincipal.style.background = "rgb(255, 255, 255)" //background quando a barra está vazia
+        divPrincipal.style.background = "rgb(255, 255, 255)"; //background quando a barra está vazia
 
         labelDivPrincipal.innerHTML = `${percent}%`; //mudando pra %
         labelDivPrincipal.style.margin = "15px";
 
-            if (percent < 10) {
-                labelDivPrincipal.style.color = "#4e4e4e";
-            } else {
-                labelDivPrincipal.style.color = "white";
-            }
+        if (percent < 10) {
+            labelDivPrincipal.style.color = "#4e4e4e";
+        } else {
+            labelDivPrincipal.style.color = "white";
+        }
         // labelDivPrincipal.style.color = "white"; //cor da porcentagem da barra de progresso
         progressBar.style.width = `${percent}%`;
-        progressBar.style.borderRadius = "50px"
+        progressBar.style.borderRadius = "50px";
         divPrincipal.style.boxShadow = "0px 4px 10px 0px rgba(0, 0, 0, .5)";
         progressBar.style.background =
             "linear-gradient(270deg, rgb(255, 255, 255) -10%, #ffc5c5 60%)";
         progressBarNaTela = true;
     } else if (scrollY <= 199 && progressBarNaTela) {
         setTimeout(() => {
-            iconContainer.style.display = "flex"; //aparecendo com o container de comentarios
-            iconContainer.style.transform = "transform: translateX(0);";
+            if (scrollY <= 199) {
+                iconContainer.style.display = "flex"; //aparecendo com o container de comentarios
+                iconContainer.style.transform = "transform: translateX(0);";
+            }
         }, 500);
         divPrincipal.style.boxShadow = "none";
         divPrincipal.style.border = "none";
         divPrincipal.style.justifyContent = "start";
-        divPrincipal.style.background = "none"
+        divPrincipal.style.background = "none";
         progressBar.style.width = "0px";
         imgDivPrincipal.style.order = "0"; //trocando a ordem da imagem com o label
         divPrincipal.style.width = "11rem"; //aumentando a div total para fazer o efeito
@@ -147,7 +149,6 @@ window.addEventListener("scroll", () => {
 //         console.log("Ok")
 //     })
 // })
-
 
 // Abrir e fechar unidades
 const botoesUnidades = document.querySelectorAll(".container-bnt-img-bottom");
