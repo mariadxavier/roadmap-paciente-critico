@@ -1,13 +1,13 @@
 // função que ao carregar a pagina traz o progresso do usuário logado do banco de dados e manda pro localStorage
-// window.addEventListener("load", async () => {
-//     const userProgress = await fetch(
-//         `https://api-roadmap-proz.onrender.com/progressos/${usuarioLogado._id}`
-//     );
+window.addEventListener("load", async () => {
+    const userProgress = await fetch(
+        `https://api-roadmap-proz.onrender.com/progressos/${usuarioLogado._id}`
+    );
 
-//     const result = await userProgress.json();
+    const result = await userProgress.json();
 
-//     localStorage.setItem("progressoUsuario", JSON.stringify(result));
-// });
+    localStorage.setItem("progressoUsuario", JSON.stringify(result));
+});
 
 //recuperando o progresso do usuario do localStorage
 
@@ -162,14 +162,12 @@ for (let i = 0; i < divRoadmap.length; i++) {
 
 botoesUnidades.forEach((botao, index) => {
     botao.addEventListener("click", () => {
-        console.log(botao, index);
-        if (index === index) {
-            console.log("oi");
-            if (divRoadmap[index].style.display === "flex") {
-                divRoadmap[index].style.display = "none";
-            } else if (divRoadmap[index].style.display === "none") {
-                divRoadmap[index].style.display = "flex";
-            }
+        if (divRoadmap[index].style.display === "flex") {
+            divRoadmap[index].style.display = "none";
+            botoesUnidades[index].style.transform = "rotate(0deg)";
+        } else if (divRoadmap[index].style.display === "none") {
+            divRoadmap[index].style.display = "flex";
+            botoesUnidades[index].style.transform = "rotate(90deg)";
         }
     });
 });

@@ -206,6 +206,7 @@ main {
     /* position: absolute; */
     height: 4.5vh;
     transform: rotate(90deg);
+    transition: 1s;
     /* right: 35px; */
     /* top: 40px; */
 }
