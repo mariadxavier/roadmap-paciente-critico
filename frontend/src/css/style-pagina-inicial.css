@@ -103,6 +103,12 @@ body {
 }
 /* Fim Barra de Progresso */
 
+/* Main */
+main {
+    padding: 0 3vw;
+    transition: .8s;
+}
+
 /* Apresentação */
 /* Obs.: erro em relação ao header e unidades */
 #section-presentation {
@@ -274,4 +280,9 @@ main {
 #first-unit-div-level-6 {
     margin: 30px 0 0 0;
     background: #f5cd5f;
+}
+
+/* Unidade 2 */
+#units-section-two-unit {
+    background: #81baff;
 }

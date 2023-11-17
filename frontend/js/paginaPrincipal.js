@@ -32,6 +32,8 @@ let progressBarNaTela = false;
 const jsonProgress = localStorage.getItem("progressoUsuario");
 const progress = JSON.parse(jsonProgress);
 
+const main = document.querySelector("main");
+
 console.log(progress);
 
 window.addEventListener("scroll", () => {
@@ -104,6 +106,7 @@ window.addEventListener("scroll", () => {
         divPrincipal.style.border = "1px solid #CACACA"; //bordar da barra de progresso
         divPrincipal.style.justifyContent = "space-between";
         divPrincipal.style.background = "rgb(255, 255, 255)"; //background quando a barra está vazia
+        main.style.padding = "0px";
 
         labelDivPrincipal.innerHTML = `${percent}%`; //mudando pra %
         labelDivPrincipal.style.marginLeft = "15px";
@@ -137,6 +140,7 @@ window.addEventListener("scroll", () => {
         labelDivPrincipal.innerHTML = `Olá, ${usuarioLogado.apelido}`; //mudando pra conter o nome do usuario
         labelDivPrincipal.style.color = "#4e4e4e";
         console.log("tchau");
+        main.style.padding = "0 3vw";
         progressBarNaTela = false;
     }
 });
@@ -155,12 +159,13 @@ const botoesUnidades = document.querySelectorAll(".container-bnt-img-bottom");
 const unidades = document.querySelectorAll(".units");
 const divRoadmap = document.querySelectorAll(".units-div-roadmap");
 
-for (let i = 0; i < divRoadmap.length; i++) {
+for (let i = 1; i < divRoadmap.length; i++) {
     console.log(i);
-    divRoadmap[i].style.display = "flex";
+    divRoadmap[i].style.display = "none";
 }
 
 botoesUnidades.forEach((botao, index) => {
+    divRoadmap[0].style.display = "flex";
     botao.addEventListener("click", () => {
         if (divRoadmap[index].style.display === "flex") {
             divRoadmap[index].style.display = "none";
