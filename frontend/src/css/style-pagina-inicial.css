@@ -167,6 +167,14 @@ body {
 }
 /* Fim aparesentação */
 
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+/* Fim main */
+
 /* Unidades */
 .units {
     /* height: 300%; */
