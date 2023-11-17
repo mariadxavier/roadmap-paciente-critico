@@ -22,7 +22,7 @@ window.addEventListener('scroll', function () {
         header.style.width = '100%';
         header.style.height = '8vh';
         header.style.borderRadius = '0 0 40px 40px';
-        main.style.marginTop = '56.5vh';
+        main.style.marginTop = '58vh';
         
     } else {
         img.style.display = 'block';
