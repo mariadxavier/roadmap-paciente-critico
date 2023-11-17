@@ -162,18 +162,15 @@ for(let i = 0; i < divRoadmap.length; i++) {
 botoesUnidades.forEach( (botao, index) => {
     botao.addEventListener('click', () => {
         
-        console.log(botao, index)
         if(index === index) {
-            console.log("oi")
             if (divRoadmap[index].style.display === "flex") {
                 divRoadmap[index].style.display = "none";
+                botoesUnidades[index].style.transform = "rotate(0deg)";
             } else if (divRoadmap[index].style.display === "none")  {
                 divRoadmap[index].style.display = "flex";
+                botoesUnidades[index].style.transform = "rotate(90deg)";
             }
         } 
-
-
-
     })
 })
 
