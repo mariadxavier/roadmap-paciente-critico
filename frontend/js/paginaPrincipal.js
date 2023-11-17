@@ -150,7 +150,30 @@ window.addEventListener("scroll", () => {
 
 
 // Abrir e fechar unidades
-// const botoes = document.querySelectorAll("container-bnt-img-bottom");
-// const unidades = document.querySelectorAll("units");
-// console.log(botoes)
-// botoes
+const botoesUnidades = document.querySelectorAll(".container-bnt-img-bottom");
+const unidades = document.querySelectorAll(".units");
+const divRoadmap = document.querySelectorAll(".units-div-roadmap");
+
+for(let i = 0; i < divRoadmap.length; i++) {
+    console.log(i)
+    divRoadmap[i].style.display = "flex";
+}
+
+botoesUnidades.forEach( (botao, index) => {
+    botao.addEventListener('click', () => {
+        
+        console.log(botao, index)
+        if(index === index) {
+            console.log("oi")
+            if (divRoadmap[index].style.display === "flex") {
+                divRoadmap[index].style.display = "none";
+            } else if (divRoadmap[index].style.display === "none")  {
+                divRoadmap[index].style.display = "flex";
+            }
+        } 
+
+
+
+    })
+})
+
