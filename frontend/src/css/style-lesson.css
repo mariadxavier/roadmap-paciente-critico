@@ -30,6 +30,7 @@ header {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
+    text-shadow: 4px 4px 4px #00000050;
     
 }
 

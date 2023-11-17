@@ -13,7 +13,7 @@ const mainVideo = document.querySelector('#main-video-1');
 const mainUl = document.querySelector('#main-ul-complement');
 const btnNext = document.querySelector('#main-btn-nextLesson');
 
-// Unidade 1, fase 1: 
+// Unidade 1, fase 1 - choques - o que são choques 
 imgHeader.src = content[0].unity1_fase1.imgHeader;
 titleHeader.textContent = content[0].unity1_fase1.title;
 explicationP[0].textContent = content[0].unity1_fase1.p1;
