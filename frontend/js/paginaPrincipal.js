@@ -1,13 +1,13 @@
 // função que ao carregar a pagina traz o progresso do usuário logado do banco de dados e manda pro localStorage
-window.addEventListener("load", async () => {
-    const userProgress = await fetch(
-        `https://api-roadmap-proz.onrender.com/progressos/${usuarioLogado._id}`
-    );
+// window.addEventListener("load", async () => {
+//     const userProgress = await fetch(
+//         `https://api-roadmap-proz.onrender.com/progressos/${usuarioLogado._id}`
+//     );
 
-    const result = await userProgress.json();
+//     const result = await userProgress.json();
 
-    localStorage.setItem("progressoUsuario", JSON.stringify(result));
-});
+//     localStorage.setItem("progressoUsuario", JSON.stringify(result));
+// });
 
 //recuperando o progresso do usuario do localStorage
 
