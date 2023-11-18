@@ -224,6 +224,7 @@ main {
     gap: 5px;
     align-items: center;
     padding: 2vh 8vw;
+    /* transition: 3s; */
 }
 .roadmap-div-levels {
     display: flex;
@@ -231,7 +232,7 @@ main {
     height: 15vh;
     width: 15vh;
     background: blue;
-    border-radius: 10px;
+    border-radius: 20px;
     z-index: 2;
 }
 .roadmap-div-imgs {
@@ -242,7 +243,7 @@ main {
     text-align: center;
     color: var(--color-white);
     font-family: 'Poppins';
-    font-size: 2.2rem;
+    font-size: 2.9rem;
     padding: 5px;
 }
 #first-unit-div-level-1 {
