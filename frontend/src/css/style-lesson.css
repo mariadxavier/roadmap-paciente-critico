@@ -85,9 +85,17 @@ main {
 #main-ul-complement {
     align-self: flex-start;
     padding: 0.5rem 2rem 2rem 2rem;
-
 }
 
+#main-ul-complement li {
+    text-decoration: underline;
+    padding: 8px;
+}
+
+#main-ul-complement li a {
+    color: var(--color-black);
+    font-weight: 400;
+}
 .main-div-images {
     display: flex;
     flex-direction: column;

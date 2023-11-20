@@ -1,8 +1,6 @@
 import json from "./json/content.json" assert {type: 'json'};
 
-
 const content = json;
-
 const imgHeader = document.querySelector('#header-img-theme');
 const titleHeader = document.querySelector('#header-h1-title');
 const divExplication = document.querySelectorAll('.main-div-explication');
