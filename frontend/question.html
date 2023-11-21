@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questionario</title>
+</head>
+<body>
+    questionario
+    <button id="btn-teste">Enviar</button>
+    <script type="module">
+        import json from "./js/json/quiz.json" assert { type: "json" };
+        const unityFaseJSON = localStorage.getItem("botãoClicado")
+        const unityFase = JSON.parse(unityFaseJSON);
+        const unidade = unityFase.unidade
+
+        const btnEnviar = document.getElementById("btn-teste");
+        const content = json;
+
+        console.log(content[unidade])
+
+        btnEnviar.addEventListener("click", ()=>{
+            //validação das respostas
+
+            //troca de pagina
+            localStorage.setItem("botãoClicado", JSON.stringify({
+                fase: 0,
+                unidade : parseInt(unidade)+1
+            }))
+            window.location.href = "./pagina-principal.html"
+        })
+    </script>
+</body>
+</html>
