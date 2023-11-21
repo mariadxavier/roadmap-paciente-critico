@@ -12,5 +12,6 @@ btnFases.forEach((elem, i) => {
                 unidade: unidade,
             })
         );
+        window.location.href = "./lesson.html";
     });
 });
