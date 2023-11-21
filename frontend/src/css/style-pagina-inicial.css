@@ -9,7 +9,6 @@ body {
 }
 
 /* Header */
-/* Obs.: Foi observado que os botoões não estao no mesmo tamanho da img profile (talvez seja os px adicioandos para centralização */
 #header {
     /* height: 5vh; */
     /* padding: 0 15px; */
@@ -183,7 +182,6 @@ main {
 
 /* Unidades */
 .units {
-    /* height: 300%; */
     border-radius: 40px;
     background: var(--color-pink);
 }
@@ -191,30 +189,24 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* height: 20vh; */
     padding: 25px 35px 25px 25px;
-    /* right: 0;
-    left: 0; */
-    /* position: relative; */
-    /* margin: 25px 0 0 0; */
 }
 .title-units-h1-unit {
     color: var(--color-white);
     font-family: 'Poppins';
     font-weight: 800;
+    font-size: 1.6rem;
 }
 .title-units-p-unit-title {
     color: var(--color-white);
     font-family: 'Poppins';
-    font-weight: 800;
+    font-weight: 600;
+    font-size: 1.3rem;
 }
 .container-bnt-img-bottom {
-    /* position: absolute; */
     height: 4.5vh;
     transform: rotate(90deg);
     transition: 1s;
-    /* right: 35px; */
-    /* top: 40px; */
 }
 
 
@@ -236,6 +228,7 @@ main {
     background: blue;
     border-radius: 20px;
     z-index: 2;
+    box-shadow: 10px 12px 21px -3px rgba(0,0,0,0.39);
 }
 .roadmap-div-imgs {
     position: absolute;
@@ -250,51 +243,280 @@ main {
     padding: 5px;
 }
 
-
-/* Quadradinho das unidades */
-.unit-div-level-1 {
-   align-self: center;
-   background: #fb91ac;
+/* Unidades */
+.units:nth-child(1) {
+    background: var(--color-pink);
 }
+.units:nth-child(2) {
+    background: #ffd670;
+}
+.units:nth-child(3) {
+    background: #70d6ff;
+}
+.units:nth-child(4) {
+    background: #936bff;
+}
+.units:nth-child(5) {
+    background: #fb8e8e;
+}
+.units:nth-child(6) {
+    background: #9ae770;
+}
+.units:nth-child(7) {
+    background: #fcbf49;
+}
+.units:nth-child(8) {
+    background: #f48bdb;
+}
+
+/* Cores dos Quadradinhos */
+/* Unidade 1 */
+#frist-unit-div-roadmap .unit-div-level-1:nth-child(1) {
+    background: #fdb9b9;
+}
+#frist-unit-div-roadmap .unit-div-level-2:nth-child(3) {
+    background: #ffb0b0;
+}
+#frist-unit-div-roadmap .unit-div-level-3:nth-child(4) {
+    background: #ffa6a6;
+}
+#frist-unit-div-roadmap .unit-div-level-4:nth-child(5) {
+    background: #ff9c9c;
+}
+#frist-unit-div-roadmap .unit-div-level-5:nth-child(6) {
+    background: #ff9191;
+}
+#frist-unit-div-roadmap .unit-div-level-6:nth-child(8) {
+    background: #ff8888;
+}
+#frist-unit-div-roadmap .unit-div-level-7:nth-child(9) {
+    background: #ff7e7e;
+}
+#frist-unit-div-roadmap .unit-div-level-8:nth-child(10) {
+    background: #ff7272;
+}
+#frist-unit-div-roadmap .unit-div-level-9:nth-child(11) {
+    background: #ff5f5f;
+}
+
+/* Unidade 2 */
+.unit-div-level-1:nth-child(1) {
+    background: #ffea00;
+}
+.unit-div-level-2:nth-child(2) {
+    background: #ffdd00;
+}
+.unit-div-level-3:nth-child(3) {
+    background: #ffd000;
+}
+.unit-div-level-4:nth-child(4) {
+    background: #ffc300;
+}
+.unit-div-level-5:nth-child(5) {
+    background: #ffb700;
+}
+.unit-div-level-6:nth-child(6) {
+    background: #ffaa00;
+}
+.unit-div-level-7:nth-child(7) {
+    background: #ff8800;
+}
+.unit-div-level-8:nth-child(8) {
+    background: #ff8800;
+}
+
+/* Unidade 3 */
+#three-unit-div-roadmap .unit-div-level-1:nth-child(1) {
+    background: #b1d8f7;
+}
+#three-unit-div-roadmap .unit-div-level-2:nth-child(2) {
+    background: #acd7fb;
+}
+#three-unit-div-roadmap .unit-div-level-3:nth-child(3) {
+    background: #64b5f6;
+}
+#three-unit-div-roadmap .unit-div-level-4:nth-child(4) {
+    background: #42a5f5;
+}
+#three-unit-div-roadmap .unit-div-level-5:nth-child(5) {
+    background: #2196f3;
+}
+#three-unit-div-roadmap .unit-div-level-6:nth-child(6) {
+    background: #1e88e5;
+}
+#three-unit-div-roadmap .unit-div-level-7:nth-child(7) {
+    background: #1976d2;
+}
+#three-unit-div-roadmap .unit-div-level-8:nth-child(8) {
+    background: #1565c0;
+}
+
+/* Unidade 4 */
+#four-unit-div-roadmap .unit-div-level-1:nth-child(1) {
+    background: #d099e3;
+}
+#four-unit-div-roadmap .unit-div-level-2:nth-child(2) {
+    background: #c586dd;
+}
+#four-unit-div-roadmap .unit-div-level-3:nth-child(3) {
+    background: #b973d8;
+}
+#four-unit-div-roadmap .unit-div-level-4:nth-child(4) {
+    background: #ae60d3;
+}
+#four-unit-div-roadmap .unit-div-level-5:nth-child(5) {
+    background: #a24ccd;
+}
+#four-unit-div-roadmap .unit-div-level-6:nth-child(6) {
+    background: #9739c8;
+}
+#four-unit-div-roadmap .unit-div-level-7:nth-child(7) {
+    background: #8b26c3;
+}
+#four-unit-div-roadmap .unit-div-level-8:nth-child(8) {
+    background: #8013bd;
+}
+
+/* Unidade 5 */
+#five-unit-div-roadmap .unit-div-level-1:nth-child(1) {
+    background: #fbc3bc;
+}
+#five-unit-div-roadmap .unit-div-level-2:nth-child(2) {
+    background: rgb(250, 185, 177);
+}
+#five-unit-div-roadmap .unit-div-level-3:nth-child(3) {
+    background: rgb(252, 173, 163);
+}
+#five-unit-div-roadmap .unit-div-level-4:nth-child(4) {
+    background: rgb(252, 159, 147);
+}
+#five-unit-div-roadmap .unit-div-level-5:nth-child(5) {
+    background: rgb(251, 127, 111);
+}
+#five-unit-div-roadmap .unit-div-level-6:nth-child(6) {
+    background: rgb(255, 120, 102);
+}
+#five-unit-div-roadmap .unit-div-level-7:nth-child(7) {
+    background: rgb(253, 109, 90);
+}
+#five-unit-div-roadmap .unit-div-level-8:nth-child(8) {
+    background: rgb(254, 98, 77);
+}
+
+/* Unidade 6 */
+#six-unit-div-roadmap .unit-div-level-1:nth-child(1) {
+    background: #c0faa2;
+}
+#six-unit-div-roadmap .unit-div-level-2:nth-child(2) {
+    background: #b2fd8a;
+}
+#six-unit-div-roadmap .unit-div-level-3:nth-child(3) {
+    background: #a4fc75;
+}
+#six-unit-div-roadmap .unit-div-level-4:nth-child(4) {
+    background: #a0ff6d;
+}
+#six-unit-div-roadmap .unit-div-level-5:nth-child(5) {
+    background: #98ff60;
+}
+#six-unit-div-roadmap .unit-div-level-6:nth-child(6) {
+    background: #8afa4e;
+}
+#six-unit-div-roadmap .unit-div-level-7:nth-child(7) {
+    background: #81fc3f;
+}
+#six-unit-div-roadmap .unit-div-level-8:nth-child(8) {
+    background: #78ff30;
+}
+
+/* Unidade 7 */
+#seven-unit-div-roadmap .unit-div-level-1:nth-child(1) {
+    background: #f9cf7b;
+}
+#seven-unit-div-roadmap .unit-div-level-2:nth-child(2) {
+    background: #fbcd73;
+}
+#seven-unit-div-roadmap .unit-div-level-3:nth-child(3) {
+    background: #fbc65d;
+}
+#seven-unit-div-roadmap .unit-div-level-4:nth-child(4) {
+    background: #febd3b;
+}
+#seven-unit-div-roadmap .unit-div-level-5:nth-child(5) {
+    background: #feba32;
+}
+#seven-unit-div-roadmap .unit-div-level-6:nth-child(6) {
+    background: #ffb625;
+}
+#seven-unit-div-roadmap .unit-div-level-7:nth-child(7) {
+    background: #feb118;
+}
+#seven-unit-div-roadmap .unit-div-level-8:nth-child(8) {
+    background: #fdaa05;
+}
+
+/* Unidade 8 */
+#eight-unit-div-roadmap .unit-div-level-1:nth-child(1) {
+    background: #feaaeb;
+}
+#eight-unit-div-roadmap .unit-div-level-2:nth-child(2) {
+    background: #ff9ce8;
+}
+#eight-unit-div-roadmap .unit-div-level-3:nth-child(3) {
+    background: #fc7bde;
+}
+#eight-unit-div-roadmap .unit-div-level-4:nth-child(4) {
+    background: #f969d7;
+}
+#eight-unit-div-roadmap .unit-div-level-5:nth-child(5) {
+    background: #fc59d6;
+}
+#eight-unit-div-roadmap .unit-div-level-6:nth-child(6) {
+    background: #fc49d2;
+}
+#eight-unit-div-roadmap .unit-div-level-7:nth-child(7) {
+    background: #fb3ace;
+}
+#eight-unit-div-roadmap .unit-div-level-8:nth-child(8) {
+    background: #fe27cc;
+}
+
+
+/* Quadradinhos */
+/* Quadradinho das unidades DIREÇÃO */
+/* .unit-div-level-1 {
+
+} */
 .unit-div-level-2 {
-    background: #fb7597;
     right: 45px;
 }
 .unit-div-level-3 {
-    background: #fa5a83;
     right: 25px;
 }
-.unit-div-level-4 {
-    background: #fa5a83;
-}
+/* .unit-div-level-4 {
+    
+} */
 .unit-div-level-5 {
-    background: #f93e6e;
     left: 35px;
 }
 .unit-div-level-6 {
-    background: #f82359;
-    right: 15px;
+    left: 60px;
 }
 .unit-div-level-7 {
-    background: #f70845;
-    right: 15px;
+    left: 45px;
 }
 .unit-div-level-8 {
-    background: #ff0040;
-    left: 55px;
+    left: 0px;
 }
 
 /* Imagens dentro do roadmap */
-#units-section-two-unit {
-    background: #81baff;
-}
 #roadmap-img-doctor {
     bottom: -280px;
     right: 5px;
     height: 400px;
 }
 #roadmap-img-heart {
-    right: 15px;
+    left: 25px;
     height: 25vh;
     bottom: -680px;
     
