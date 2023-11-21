@@ -16,6 +16,18 @@ const jsonUsuario = localStorage.getItem("logar");
 const usuarioLogado = JSON.parse(jsonUsuario);
 const spanApelido = document.getElementById("user-apelido");
 
+
+try{
+    const faseUnityJSON = localStorage.getItem("botãoClicado");
+    const faseUnity = JSON.parse(faseUnityJSON);
+    var unidade = faseUnity.unidade;
+}catch(err){
+    var unidade = null;
+}
+
+console.log(unidade)
+
+
 spanApelido.textContent = usuarioLogado.apelido;
 
 // Teste-JP
@@ -159,13 +171,30 @@ const botoesUnidades = document.querySelectorAll(".container-bnt-img-bottom");
 const unidades = document.querySelectorAll(".units");
 const divRoadmap = document.querySelectorAll(".units-div-roadmap");
 
-for (let i = 1; i < divRoadmap.length; i++) {
-    console.log(i);
-    divRoadmap[i].style.display = "none";
-}
+
+divRoadmap.forEach((elem) =>{
+    console.log(elem.ariaValueMax, unidade)
+    if(elem.ariaValueMax === parseInt(unidade)){
+        elem.style.display = "flex";
+    }else{
+        elem.style.display = "none";
+    }
+})
+
+//aleração para deixar a abertura das unidades dinâmicas ao ultimo acesso de unidade 
+
+// for (let i = 1; i < divRoadmap.length; i++) {
+//     console.log(i);
+//     divRoadmap[i].style.display = "none";
+// }
 
 botoesUnidades.forEach((botao, index) => {
-    divRoadmap[0].style.display = "flex";
+    // divRoadmap[0].style.display = "flex";
+    if(unidade == null){
+        divRoadmap[0].style.display = "flex"
+    }else{
+    divRoadmap[unidade].style.display = "flex"
+    }
     botao.addEventListener("click", () => {
         if (divRoadmap[index].style.display === "flex") {
             divRoadmap[index].style.display = "none";

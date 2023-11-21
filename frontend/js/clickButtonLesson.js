@@ -1,5 +1,4 @@
 const btnFases = document.querySelectorAll(".roadmap-div-levels");
-console.log(btnFases);
 
 btnFases.forEach((elem, i) => {
     elem.addEventListener("click", () => {

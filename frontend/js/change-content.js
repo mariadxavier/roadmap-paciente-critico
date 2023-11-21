@@ -20,7 +20,6 @@ const mainVideo = document.querySelector("#main-video-1");
 const mainUl = document.querySelector("#main-ul-complement");
 const btnNext = document.querySelector("#main-btn-nextLesson");
 
-
 // Troca de conteúdo:
 imgHeader.src = content[unidade].unity[fase].imgHeader;
 titleHeader.textContent = content[unidade].unity[fase].title.toUpperCase();
@@ -31,10 +30,34 @@ mainVideo.src = content[3].unity[0].video;
 mainUl.innerHTML = content[3].unity[0].mainUl;
 divImages.innerHTML = content[0].unity[0].imgMain;
 
-btnNext.addEventListener("click", ()=>{
-    localStorage.setItem("botãoClicado", JSON.stringify({
-        unidade: unidade,
-        fase: fase+1
-    }))
-    window.location.href = "./lesson.html"
-})
+// console.log(content[0]);
+btnNext.addEventListener("click", () => {
+    // const proxFase = parseInt(fase) + 1;
+    if(parseInt(fase) === 7){
+        console.log("quiz")
+        window.location.href = "./pagina-principal.html";
+    }else if (content[unidade].unity.length < parseInt(fase)) {
+        unidade = parseInt(unidade) + 1;
+        fase = 0;
+        localStorage.setItem(
+            "botãoClicado",
+            JSON.stringify({
+                fase: parseInt(fase),
+                unidade: unidade,
+            })
+        );
+        window.location.href = "./lesson.html";
+    }
+    else{
+    localStorage.setItem(
+        "botãoClicado",
+        JSON.stringify({
+            fase: parseInt(fase) + 1,
+            unidade: unidade,
+        })
+    );
+        window.location.href = "./lesson.html";
+    }
+});
+
+
