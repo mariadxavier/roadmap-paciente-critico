@@ -221,7 +221,7 @@ main {
 .units-div-roadmap {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 55px;
     align-items: center;
     padding: 2vh 8vw;
     /* transition: 3s; */
@@ -229,6 +229,7 @@ main {
 .roadmap-div-levels {
     display: flex;
     align-items: center;
+    position: relative;
     height: 15vh;
     width: 15vh;
     background: blue;
@@ -237,6 +238,7 @@ main {
 }
 .roadmap-div-imgs {
     position: absolute;
+    z-index: 3;
 }
 .roadmap-h3-number {
     width: 100%;
@@ -247,40 +249,56 @@ main {
     padding: 5px;
 }
 #first-unit-div-level-1 {
-   align-self: flex-start;
-   background: #fbba52;
+   align-self: center;
+   background: #fb91ac;
 }
 #roadmap-img-heart {
-    right: 50px;
-    height: 15vh;
+    right: 15px;
+    height: 25vh;
+    bottom: -680px;
+
 }
 #first-unit-div-level-2 {
-    align-self: flex-end;
-    margin: 10px 0 0 0;
-    background: #a2a2a2;
+    /* align-self: flex-end; */
+    /* margin: 10px 0 0 0; */
+    background: #fb7597;
+    right: 45px;
 }
 #roadmap-img-doctor {
     bottom: -280px;
-    left: 30px;
+    right: 3px;
     height: 400px;
 }
 #first-unit-div-level-3 {
-    align-self: flex-end;
-    margin: 30px 0 0 0;
-    background: #eb2a2ad3;
+    /* align-self: flex-end; */
+    /* margin: 30px 0 0 0; */
+    background: #fa5a83;
+    right: 25px;
 }
 #first-unit-div-level-4 {
-    margin: 140px 0 0 0;
-    background: #529efb;
+    /* margin: 140px 0 0 0; */
+    background: #fa5a83;
 }
 #first-unit-div-level-5 {
-    align-self: self-start;
-    margin: 45px 0 0 0;
-    background: rgb(105, 134, 53);
+    /* align-self: self-start; */
+    /* margin: 45px 0 0 0; */
+    background: #f93e6e;
+    left: 35px;
 }
 #first-unit-div-level-6 {
-    margin: 30px 0 0 0;
-    background: #f5cd5f;
+    /* margin: 30px 0 0 0; */
+    background: #f82359;
+    right: 15px;
+}
+#first-unit-div-level-7 {
+    /* margin: 30px 0 0 0; */
+    background: #f70845;
+    left: 15px;
+}
+#first-unit-div-level-8 {
+    /* margin: 30px 0 0 0; */
+    background: #ff0040;
+    left: 55px;
 }
 
 /* Unidade 2 */
