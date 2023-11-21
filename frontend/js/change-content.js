@@ -23,7 +23,7 @@ const btnNext = document.querySelector("#main-btn-nextLesson");
 
 // Troca de conteúdo:
 imgHeader.src = content[unidade].unity[fase].imgHeader;
-titleHeader.textContent = content[unidade].unity[fase].title;
+titleHeader.textContent = content[unidade].unity[fase].title.toUpperCase();
 explicationP[0].textContent = content[unidade].unity[fase].p1;
 separatorTitle[0].textContent = content[unidade].unity[fase].subtitle;
 explicationP[1].textContent = content[unidade].unity[fase].p2;
