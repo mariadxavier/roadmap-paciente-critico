@@ -223,8 +223,8 @@ main {
     display: flex;
     align-items: center;
     position: relative;
-    height: 15vh;
-    width: 15vh;
+    height: 12vh;
+    width: 12vh;
     background: blue;
     border-radius: 20px;
     z-index: 2;
