@@ -33,9 +33,9 @@ divImages.innerHTML = content[0].unity[0].imgMain;
 // console.log(content[0]);
 btnNext.addEventListener("click", () => {
     // const proxFase = parseInt(fase) + 1;
-    if(parseInt(fase) === 7){
+    if(parseInt(fase) === content[unidade].unity.length-1){
         console.log("quiz")
-        window.location.href = "./pagina-principal.html";
+        window.location.href = "./question.html";
     }else if (content[unidade].unity.length < parseInt(fase)) {
         unidade = parseInt(unidade) + 1;
         fase = 0;
