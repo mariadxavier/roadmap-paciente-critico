@@ -4,31 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>questionario</title>
+    <!-- Reset e folha de estilo: -->
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style-question.css" />
+    <!-- JS -->
+    <script src="./js/animation-question.js" defer></script>
+    <!-- Fontes: -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    questionario
-    <button id="btn-teste">Enviar</button>
-    <script type="module">
-        import json from "./js/json/quiz.json" assert { type: "json" };
-        const unityFaseJSON = localStorage.getItem("botãoClicado")
-        const unityFase = JSON.parse(unityFaseJSON);
-        const unidade = unityFase.unidade
+    <header class="mandatory">
+        <img src="./src/img/3d-casual-life-busy-female-student1.png" alt="" id="header-img-theme">
+        <!-- O h1 aparecerá ao descer da página -->
+        <!-- <h1 id="header-h1-title"></h1> -->
+    </header>
 
-        const btnEnviar = document.getElementById("btn-teste");
-        const content = json;
+    <main> 
+        <section id="main-section-title">
+            <div id="title-div-time">
+                <p id="time-div-number">10 minutos</p>
+            </div>
+            <h1 id="title-h1-title">Questionário <span id="title-span-number">1</span>: <br> Qualidade das veias do coração</h1>
 
-        console.log(content[unidade])
+            <img src="./src/img/chevron-down-solid1.svg" alt="" id="title-img-down">
+        </section>
 
-        btnEnviar.addEventListener("click", ()=>{
-            //validação das respostas
 
-            //troca de pagina
-            localStorage.setItem("botãoClicado", JSON.stringify({
-                fase: 0,
-                unidade : parseInt(unidade)+1
-            }))
-            window.location.href = "./pagina-principal.html"
-        })
-    </script>
+        <section class="mandatory section-questions" id="main-section-question1">
+
+        </section>
+
+
+        <section class="mandatory section-questions" id="main-section-question2">
+
+        </section>
+        
+
+        </section>
+
+
+    </main>
+
+
 </body>
 </html>
