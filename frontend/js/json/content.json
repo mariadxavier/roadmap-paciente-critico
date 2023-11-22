@@ -288,9 +288,9 @@
                         "mainUl": "<li> <a href='https://youtu.be/g1gW4coZL3I?si=6aQw48lVg04yc_zq'>CHOQUE - OS DIFERENTES TIPOS DE CHOQUE: HIPOVOLÊMICO, OBSTRUTIVO, CARDIOGÊNICO</a></li> <li> <a href='https://youtu.be/lrzCIUTBgds?si=FdOtM1HCbTiZ1Zbe'>CIRCULAÇÃO SANGUÍNEA</a></li> "
                   },
                   {
-                        "id": "",
+                        "id": "fase2",
                         "imgHeader": "",
-                        "title": "",
+                        "title": "Tipos de choques",
                         "p1": "",
                         "subtitle": "",
                         "p2": "",
@@ -371,10 +371,10 @@
                   {
                         "id": "",
                         "imgHeader": "",
-                        "title": "",
-                        "p1": "",
+                        "title": "O que é hemorragia",
+                        "p1": "Hemorragia é a perda de sangue através de um corte ou ferida traumática, podendo acontecer também por motivos naturais (sangramento em nariz, ouvido, boca, ânus). As hemorragias ocorrem quando um ou mais vasos sanguíneos são rompidos, dentro ou fora do corpo. A hemorragia externa é quando o sangue sai do corpo através de um ferimento, o sangramento é visível na pele, como por exemplo, grandes cortes. A hemorragia interna édifícil de ser identificada por pessoas que não sejam profissionais de saúde. Você deve suspeitar da existência de uma hemorragia interna principalmente em acidentes grave ela não é visível. Além do sangramento,no caso das hemorragias externas,há outros sintomas: ",
                         "subtitle": "",
-                        "p2": "",
+                        "p2": "<ul> <li>palidez;</li> <li>fraqueza;</li> <li>falta de ar;</li> <li>tontura;</li> <li>sede;</li> <li>pulso rápido e fraco;</li> <li>respiração rápida e superficial;</li> <li>náuseas e vômitos;</li> <li>suor intenso;</li> <li>desmaio;</li> <li>mucosa pálida.</li> </ul>",
                         "video": "",
                         "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
                         "mainUl": "<li> <a href=''></a></li>"
@@ -382,10 +382,10 @@
                   {
                         "id": "",
                         "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
+                        "title": "Internas e externas",
+                        "p1": "A hemorragia INTERNA ocorre sem que a pele seja rompida. Logo, o sangue que sai dos vasos sangüíneos não pode ser visto. Ela pode ser provocada pela lesão de algum órgão interno. Normalmente, esse tipo de hemorragia se dá imediatamente após acidentes violentos, nos quais o corpo suporta pressões muito fortes, como: colisões, quedas, ferimento por projétil de arma de fogo. \n\n Os sintomas e os sinais dessa hemorragia demoram mais a aparecer. Os principais sinais de uma hemorragia interna são: pulso com batimento anormal (fraco ou acelerado), pele fria; sudorese abundante, palidez intensa, tonturas, eliminação de sangue pela boca (junto com vômito ou saliva), nas fezes e na urina, sede, inconsciência.",
+                        "subtitle": "Hemorragia externa:",
+                        "p2": "Aquela em que é possível observar o sangramento, podendo ser mais ou menos intensa de acordo com o tipo de vaso afetado e a localização. Ela pode ser classificada em: \n capilar (o sangramento mais comum, que acontece no dia a dia, geralmente, devido a pequenos cortes em que os pequenos vasos que chegam até a superfície do corpo, chamados de capilares, são atingidos), \n venosa (é a hemorragia que acontece devido a algum corte grande ou mais profundo, com sangramento em fluxo contínuo e lento, por vezes de grande volume, através da ferida) ou \n arterial (é o tipo de hemorragia em que são atingidas as artérias, isto é, os vasos que levam sangue do coração ao resto do corpo e, por isso, têm sangue vermelho vivo, com grande fluxo e intensidade. O sangramento arterial é o tipo mais grave, e pode, até, provocar jatos de sangue para locais distantes do corpo e risco de morte)",
                         "video": "",
                         "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
                         "mainUl": "<li> <a href=''></a></li>"
@@ -463,10 +463,10 @@
                   {
                         "id": "",
                         "imgHeader": "",
-                        "title": "",
-                        "p1": "",
+                        "title": "Definições das doenças",
+                        "p1": "EXAME PRIMÁRIO: O Protocolo XABCDE foi pensado para identificar lesões potencialmente fatais ao indivíduo. X- Exanguinação: Contenção de hemorragia externa. A- Vias areais e contenção da coluna cervical: Avaliar obstrução de vias aéreas e proteger coluna cervical. B- Boa ventilação e respiração: Analisar respiração, verificar se a frequência respiratória está adequada. Ex: FR, movimento torácico, cianose. C- Circulação com controles de hemorragia: contenção de hemorragias internas, onde deve-se investigar se a perda de volume sanguíneo não visível. D- Disfunção neurológica: analisar nível de consciência e tamanho da pupila. E- Exposição total do paciente: analisar a extensão das lesões e o controle do ambiente.",
                         "subtitle": "",
-                        "p2": "",
+                        "p2": "EXAME SEGUNDARIO: S: Sinais Vitais (SSVV). A: Histórico de alergia. M: Uso de medicamento. P: Problemas de saúde. L: Horário da última ingestão de líquidos/ alimentos. A: ambiente do evento",
                         "video": "",
                         "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
                         "mainUl": "<li> <a href=''></a></li>"
@@ -474,10 +474,10 @@
                   {
                         "id": "",
                         "imgHeader": "",
-                        "title": "",
-                        "p1": "",
+                        "title": "Fases do Trauma",
+                        "p1": " Fase pré-impacto: Todos os acontecimentos que precedem o acidente. Ex: Ingestão de álcool.<div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title'id='separator-h3-title-1'</h3> <hr class='separator-hr-line' id='separator-hr-line-1'> </div>",
                         "subtitle": "",
-                        "p2": "",
+                        "p2": "Fase do impacto: Inicia assim que dois corpos se colidem. Ex: Momento exato que um veículo choca ao outro veículo",
                         "video": "",
                         "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
                         "mainUl": "<li> <a href=''></a></li>"
