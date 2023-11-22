@@ -82,17 +82,17 @@ main {
     margin-bottom: 1rem;
 }
 
-#main-ul-complement {
+.main-ul-complement, #main-ul-complement {
     align-self: flex-start;
     padding: 0.5rem 2rem 2rem 2rem;
 }
 
-#main-ul-complement li {
+.main-ul-complement li , #main-ul-complement li {
     text-decoration: underline;
     padding: 8px;
 }
 
-#main-ul-complement li a {
+.main-ul-complement li a, #main-ul-complement li a {
     color: var(--color-black);
     font-weight: 400;
 }
