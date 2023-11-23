@@ -199,10 +199,20 @@ main {
 }
 
 /* Botão */
+footer {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    position: absolute;
+    bottom: 3vh;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
 
 
-
-@media (min-width: 370px) {
+@media (max-width: 375px) {
     .questions-div-asking {
         height: 35vh;
     }
@@ -217,7 +227,7 @@ main {
     }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     .questions-div-asking {
         height: 30vh;
     }
