@@ -227,7 +227,7 @@ footer {
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
     .questions-div-asking {
         height: 35vh;
     }
@@ -254,5 +254,12 @@ footer {
     }
     .questions-div-response form label {
         font-size: .83rem;
+    }
+    #footer-img-text {
+        left: 70px;
+    }
+    .asking-h1-number {
+        font-size: 1.5rem;
+        padding: 0px 14px;
     }
 }

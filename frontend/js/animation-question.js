@@ -6,7 +6,7 @@ const headerQuestion = document.getElementById("header-questions");
 
 window.addEventListener('scroll', function () {
     console.log(scrollY)
-    if (window.scrollY > 600) {
+    if (window.scrollY > 550) {
         setinha.style.display = "none";
         headerQuestion.style.display = "flex";
         headerQuestion.style.position = "fixed";
