@@ -4,7 +4,6 @@ const img = document.querySelector('#header-img-theme');
 const main = document.querySelector('main');
 
 window.addEventListener('scroll', function () {
-    console.log(scrollY)
     if (window.scrollY > 360) {
         img.style.display = 'none';
         title.style.position = 'inherit';

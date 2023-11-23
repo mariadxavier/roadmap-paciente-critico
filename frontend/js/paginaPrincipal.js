@@ -16,17 +16,13 @@ const jsonUsuario = localStorage.getItem("logar");
 const usuarioLogado = JSON.parse(jsonUsuario);
 const spanApelido = document.getElementById("user-apelido");
 
-
-try{
+try {
     const faseUnityJSON = localStorage.getItem("botãoClicado");
     const faseUnity = JSON.parse(faseUnityJSON);
     var unidade = faseUnity.unidade;
-}catch(err){
+} catch (err) {
     var unidade = null;
 }
-
-console.log(unidade)
-
 
 spanApelido.textContent = usuarioLogado.apelido;
 
@@ -41,65 +37,34 @@ const progressBar = document.getElementById("header-div-progressBar");
 
 let progressBarNaTela = false;
 
+// Buscando o progresso do usuário
 const jsonProgress = localStorage.getItem("progressoUsuario");
 const progress = JSON.parse(jsonProgress);
+console.log(progress);
 
 const main = document.querySelector("main");
-
-console.log(progress);
 
 window.addEventListener("scroll", () => {
     //array que da a % que diz true pra cada fase que o usuario completou
     const progressPercent = [
-        progress.progresso.fase1["10"],
-        progress.progresso.fase1["11"],
-        progress.progresso.fase1["12"],
-        progress.progresso.fase1["13"],
-        progress.progresso.fase1["14"],
-        progress.progresso.fase1["15"],
-        progress.progresso.fase1["16"],
-        progress.progresso.fase1["passouNaProva"],
-        progress.progresso.fase2["20"],
-        progress.progresso.fase2["21"],
-        progress.progresso.fase2["22"],
-        progress.progresso.fase2["23"],
-        progress.progresso.fase2["24"],
-        progress.progresso.fase2["25"],
-        progress.progresso.fase2["26"],
-        progress.progresso.fase2["passouNaProva"],
-        progress.progresso.fase3["30"],
-        progress.progresso.fase3["31"],
-        progress.progresso.fase3["32"],
-        progress.progresso.fase3["33"],
-        progress.progresso.fase3["34"],
-        progress.progresso.fase3["35"],
-        progress.progresso.fase3["36"],
-        progress.progresso.fase3["passouNaProva"],
-        progress.progresso.fase4["40"],
-        progress.progresso.fase4["41"],
-        progress.progresso.fase4["42"],
-        progress.progresso.fase4["43"],
-        progress.progresso.fase4["44"],
-        progress.progresso.fase4["45"],
-        progress.progresso.fase4["46"],
-        progress.progresso.fase4["passouNaProva"],
-        progress.progresso.fase5["50"],
-        progress.progresso.fase5["51"],
-        progress.progresso.fase5["52"],
-        progress.progresso.fase5["53"],
-        progress.progresso.fase5["54"],
-        progress.progresso.fase5["55"],
-        progress.progresso.fase5["56"],
-        progress.progresso.fase5["passouNaProva"],
-        progress.progresso.fase6["60"],
-        progress.progresso.fase6["61"],
-        progress.progresso.fase6["62"],
-        progress.progresso.fase6["63"],
-        progress.progresso.fase6["64"],
-        progress.progresso.fase6["65"],
-        progress.progresso.fase6["66"],
-        progress.progresso.fase6["passouNaProva"],
+        ...progress.progresso[0].fases,
+        progress.progresso[0].passouNaProva,
+        ...progress.progresso[1].fases,
+        progress.progresso[1].passouNaProva,
+        ...progress.progresso[2].fases,
+        progress.progresso[2].passouNaProva,
+        ...progress.progresso[3].fases,
+        progress.progresso[3].passouNaProva,
+        ...progress.progresso[4].fases,
+        progress.progresso[4].passouNaProva,
+        ...progress.progresso[5].fases,
+        progress.progresso[5].passouNaProva,
+        ...progress.progresso[6].fases,
+        progress.progresso[6].passouNaProva,
+        ...progress.progresso[7].fases,
+        progress.progresso[7].passouNaProva,
     ];
+
     let percentTrue = 0;
     //contando os trues do array
     progressPercent.forEach((elem) => {
@@ -110,7 +75,6 @@ window.addEventListener("scroll", () => {
     //calculo que retorna a porcentagem
     const percent = parseInt((percentTrue / progressPercent.length) * 100);
     if (scrollY >= 200 && !progressBarNaTela) {
-        console.log("oi");
         iconContainer.style.display = "none"; //sumindo com o container de icones
         iconContainer.style.transform = "transform: translateX(7rem);";
         imgDivPrincipal.style.order = "2"; //trocando a ordem da imagem com o label
@@ -143,6 +107,7 @@ window.addEventListener("scroll", () => {
             }
         }, 500);
         divPrincipal.style.boxShadow = "none";
+        labelDivPrincipal.style.marginLeft = "2px";
         divPrincipal.style.border = "none";
         divPrincipal.style.justifyContent = "start";
         divPrincipal.style.background = "none";
@@ -151,7 +116,6 @@ window.addEventListener("scroll", () => {
         divPrincipal.style.width = "11rem"; //aumentando a div total para fazer o efeito
         labelDivPrincipal.innerHTML = `Olá, ${usuarioLogado.apelido}`; //mudando pra conter o nome do usuario
         labelDivPrincipal.style.color = "#4e4e4e";
-        console.log("tchau");
         main.style.padding = "0 3vw";
         progressBarNaTela = false;
     }
@@ -171,17 +135,15 @@ const botoesUnidades = document.querySelectorAll(".container-bnt-img-bottom");
 const unidades = document.querySelectorAll(".units");
 const divRoadmap = document.querySelectorAll(".units-div-roadmap");
 
-
-divRoadmap.forEach((elem) =>{
-    console.log(elem.ariaValueMax, unidade)
-    if(elem.ariaValueMax === parseInt(unidade)){
+divRoadmap.forEach((elem) => {
+    if (elem.ariaValueMax === parseInt(unidade)) {
         elem.style.display = "flex";
-    }else{
+    } else {
         elem.style.display = "none";
     }
-})
+});
 
-//aleração para deixar a abertura das unidades dinâmicas ao ultimo acesso de unidade 
+//aleração para deixar a abertura das unidades dinâmicas ao ultimo acesso de unidade
 
 // for (let i = 1; i < divRoadmap.length; i++) {
 //     console.log(i);
@@ -190,10 +152,10 @@ divRoadmap.forEach((elem) =>{
 
 botoesUnidades.forEach((botao, index) => {
     // divRoadmap[0].style.display = "flex";
-    if(unidade == null){
-        divRoadmap[0].style.display = "flex"
-    }else{
-    divRoadmap[unidade].style.display = "flex"
+    if (unidade == null) {
+        divRoadmap[0].style.display = "flex";
+    } else {
+        divRoadmap[unidade].style.display = "flex";
     }
     botao.addEventListener("click", () => {
         if (divRoadmap[index].style.display === "flex") {
