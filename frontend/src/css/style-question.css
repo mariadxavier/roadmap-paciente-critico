@@ -211,6 +211,24 @@ footer {
     margin: 0 auto;
 }
 
+/* Imagens */
+#footer-div-img {
+    display: flex;
+    top: 15vh;
+    position: absolute;
+}
+#footer-img-doctor {
+    height: 65vh;
+    position: absolute;
+    right: 0px;
+}
+#footer-img-text {
+    position: relative;
+    height: 25vh;
+    left: 80px;
+}
+
+
 
 @media (max-width: 375px) {
     .questions-div-asking {
