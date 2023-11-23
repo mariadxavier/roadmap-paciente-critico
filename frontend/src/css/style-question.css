@@ -191,8 +191,43 @@ main {
     background-color: var(--color-background-pink);
 }
 
+/* Resposta */
 .questions-div-response form label {
     color: var(--color-dark-gray);
     font-weight: 700;
     font-size: 1.14rem;
+}
+
+/* Botão */
+
+
+
+@media (min-width: 370px) {
+    .questions-div-asking {
+        height: 35vh;
+    }
+    .asking-p-question {
+        font-size: 1rem;
+    }
+    .questions-div-response form {
+        top: 49vh;
+    }
+    .questions-div-response form label {
+        font-size: .9rem;
+    }
+}
+
+@media (min-width: 320px) {
+    .questions-div-asking {
+        height: 30vh;
+    }
+    .asking-p-question {
+        font-size: 0.8rem;
+    }
+    .questions-div-response form {
+        top: 44vh;
+    }
+    .questions-div-response form label {
+        font-size: .83rem;
+    }
 }
