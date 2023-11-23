@@ -10,18 +10,11 @@ window.addEventListener('scroll', function () {
         setinha.style.display = "none";
         headerQuestion.style.display = "flex";
         headerQuestion.style.position = "fixed";
-        // imgHeader.style.display = "none";
-        // header.style.position = 'fixed';
-        // header.style.height = "20vh";
-        // header.classList.remove("mandatory");
+    
         
     } else {
         setinha.style.display = "inherit";
         headerQuestion.style.display = "none";
-        // imgHeader.style.display = "inherit";
-        // header.style.position = "inherit";
-        // header.style.height = "inherit";
-        // header.classList.add("mandatory");
         
     }
 })
