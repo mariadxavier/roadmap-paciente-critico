@@ -14,9 +14,6 @@ const unityFase = JSON.parse(unityFaseJSON);
 let unidade = unityFase.unidade;
 let fase = unityFase.fase;
 
-console.log(`unidade : ${unidade}, fase : ${fase}`);
-
-console.log(progress.progresso[unidade].fases[fase]);
 
 const content = json;
 const imgHeader = document.querySelector("#header-img-theme");
@@ -33,7 +30,7 @@ const bodyLesson = document.querySelector("body");
 
 // Troca de conteúdo:
 titlePage.textContent = content[unidade].unity[fase].title.toUpperCase();
-bodyLesson.innerHTML = content[unidade].unity[fase].body;
+// bodyLesson.innerHTML = content[unidade].unity[fase].body;
 const btnNext = document.querySelector("#main-btn-nextLesson");
 // imgHeader.src = content[unidade].unity[fase].imgHeader;
 // explicationP[0].innerHTML = content[unidade].unity[fase].p1;
