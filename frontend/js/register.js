@@ -23,74 +23,56 @@ btnRegister.addEventListener("click", async () => {
     btnRegister.innerText = "";
     btnRegister.innerHTML = loading;
 
-    const progressoZerado = {
-        fase1: {
-            desabilitou: true,
-            1_0: false,
-            1_1: false,
-            1_2: false,
-            1_3: false,
-            1_4: false,
-            1_5: false,
-            1_6: false,
+    const progressoZerado = [
+        {
+            id: "unidade1",
+            liberou: true,
+            fases: [true, false, false, false, false, false, false, false],
             passouNaProva: false,
         },
-        fase2: {
-            desabilitou: false,
-            2_0: false,
-            2_1: false,
-            2_2: false,
-            2_3: false,
-            2_4: false,
-            2_5: false,
-            2_6: false,
+        {
+            id: "unidade2",
+            liberou: false,
+            fases: [false, false, false, false, false, false, false, false],
             passouNaProva: false,
         },
-        fase3: {
-            desabilitou: false,
-            3_0: false,
-            3_1: false,
-            3_2: false,
-            3_3: false,
-            3_4: false,
-            3_5: false,
-            3_6: false,
+        {
+            id: "unidade3",
+            liberou: false,
+            fases: [false, false, false, false, false, false, false, false],
             passouNaProva: false,
         },
-        fase4: {
-            desabilitou: false,
-            4_0: false,
-            4_1: false,
-            4_2: false,
-            4_3: false,
-            4_4: false,
-            4_5: false,
-            4_6: false,
+        {
+            id: "unidade4",
+            liberou: false,
+            fases: [false, false, false, false, false, false, false, false],
             passouNaProva: false,
         },
-        fase5: {
-            desabilitou: false,
-            5_0: false,
-            5_1: false,
-            5_2: false,
-            5_3: false,
-            5_4: false,
-            5_5: false,
-            5_6: false,
+        {
+            id: "unidade5",
+            liberou: false,
+            fases: [false, false, false, false, false, false, false, false],
             passouNaProva: false,
         },
-        fase6: {
-            desabilitou: false,
-            6_1: false,
-            6_1: false,
-            6_2: false,
-            6_3: false,
-            6_4: false,
-            6_5: false,
-            6_6: false,
+        {
+            id: "unidade6",
+            liberou: false,
+            fases: [false, false, false, false, false, false, false, false],
             passouNaProva: false,
         },
-    };
+        {
+            id: "unidade7",
+            liberou: false,
+            fases: [false, false, false, false, false, false, false, false],
+            passouNaProva: false,
+        },
+        {
+            id: "unidade8",
+            liberou: false,
+            fases: [false, false, false, false, false, false, false, false],
+            passouNaProva: false,
+        },
+    ];
 
     const userCriado = await fetch(
         "https://api-roadmap-proz.onrender.com/users",
