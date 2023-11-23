@@ -112,6 +112,7 @@ body {
 
 main {
     background: var(--color-white);
+    padding: 0 3vw;
     /* height: 150vh; */
     /* border-radius: 40px; */
 }
@@ -130,19 +131,22 @@ main {
 
 .questions-div-response form {
     display: grid;
-    grid-template-columns: 20px 1fr;
+    /* grid-template-columns: 1fr 1fr; */
+    align-items: self-start;
     position: absolute;
-    top: 290px;
+    top: 53vh;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
+    width: 88vw;
 }
 
 /* Pergunta */
 .questions-div-asking {
     display: flex;
+    height: 35vh;
+    justify-content: center;
     flex-direction: column;
     background: rgba(131, 197, 190, 0.70);
-    height: 30vh;
     padding: 2vh;
     border-radius: 10px;
     gap: 5px;
@@ -152,18 +156,43 @@ main {
     align-items: center;
     justify-content: center;
     color: var(--color-white);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Poppins';
     font-weight: 700;
 }
 .asking-h1-number {
-    /* position: absolute; */
+    display: flex;
+    justify-content: center;
     width: 30px;
-    /* top: 0px; */
     color: var(--color-white);
     font-size: 2rem;
     font-weight: 700;
     background: var(--color-background-pink);
-    /* padding: 10px; */
+    padding: 0px 18px;
     border-radius: 100%;
+}
+
+/* Botão */
+.questions-div-response form input {
+    height: 20px;
+    display: none;
+}
+.questions-div-response form input + label::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgba(131, 197, 190, 0.70);
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px 10px 0;
+}
+.questions-div-response form input:checked + label:before {
+    background-color: var(--color-background-pink);
+}
+
+.questions-div-response form label {
+    color: var(--color-dark-gray);
+    font-weight: 700;
+    font-size: 1.14rem;
 }
