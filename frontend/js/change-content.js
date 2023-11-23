@@ -20,7 +20,7 @@ console.log(progress.progresso[unidade].fases[fase])
 
 const content = json;
 const imgHeader = document.querySelector("#header-img-theme");
-const titleHeader = document.querySelector("#header-h1-title");
+const titlePage = document.querySelector("title");
 const divExplication = document.querySelectorAll(".main-div-explication");
 const explicationP = document.querySelectorAll(".explication-p-text");
 const divSeparator = document.querySelectorAll(".main-div-separator");
@@ -30,16 +30,18 @@ const imgItem = document.querySelectorAll(".main-img-themeImg");
 const mainVideo = document.querySelector("#main-video-1");
 const mainUl = document.querySelector("#main-ul-complement");
 const btnNext = document.querySelector("#main-btn-nextLesson");
-
+const bodyLesson = document.querySelector('body');
 // Troca de conteúdo:
-imgHeader.src = content[unidade].unity[fase].imgHeader;
-titleHeader.textContent = content[unidade].unity[fase].title.toUpperCase();
-explicationP[0].textContent = content[unidade].unity[fase].p1;
-separatorTitle[0].textContent = content[unidade].unity[fase].subtitle;
-explicationP[1].textContent = content[unidade].unity[fase].p2;
-mainVideo.src = content[3].unity[0].video;
-mainUl.innerHTML = content[3].unity[0].mainUl;
-divImages.innerHTML = content[0].unity[0].imgMain;
+// titlePage.textContent = content[unidade].unity[fase].title.toUpperCase();
+// bodyLesson.innerHTML = content[unidade].unity[fase].body;
+// imgHeader.src = content[unidade].unity[fase].imgHeader;
+// explicationP[0].innerHTML = content[unidade].unity[fase].p1;
+// separatorTitle[0].textContent = content[unidade].unity[fase].subtitle;
+// explicationP[1].textContent = content[unidade].unity[fase].p2;
+// mainVideo.src = content[3].unity[0].video;
+// mainUl.innerHTML = content[3].unity[0].mainUl;
+// divImages.innerHTML = content[0].unity[0].imgMain;
+
 
 // console.log(content[0]);
 btnNext.addEventListener("click", async () => {

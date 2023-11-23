@@ -22,7 +22,7 @@ function removeErrorMessage(index) {
 // Validações input Apelido:
 function nameValidate() {
   let validated = false;
-  if (valInputApelido.value.length < 3 || valInputApelido.value.length > 15) {
+  if (valInputApelido.value.length < 3 || valInputApelido.value.length > 10) {
     setErrorMessage(0);
     buttonRegister.disabled = true;
     validated = false;

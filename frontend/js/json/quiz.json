@@ -207,67 +207,44 @@
         "quiz": [
             {
                 "id": "question1",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "a",
+                "optionA": "Choque Cardiogênico",
+                "optionB": "Choque Obstrutivo",
+                "optionC": "Choque Distributivo",
+                "optionD": "Choque Hipovolêmico"
             },
             {
                 "id": "question2",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "A circulação sanguínea tem um papel muito importante para que um corpo não entre em estado de choque. Diante disso, quando ocorre a falta de circulação sanguínea os tecidos do nosso corpo geram uma perda total, isso acontece principalmente devido: ",
+                "optionA": "A má formação dos tecidos",
+                "optionB": "A falta de oxigênio no corpo",
+                "optionC": "Ao aumento de vasos sanguíneos ",
+                "optionD": "A falta de glóbulos brancos"
             },
             {
                 "id": "question3",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "São formas de ajudar uma pessoa que está em estado de choque, exceto:",
+                "optionA": "Manter a vítima aquecida ",
+                "optionB": "Levantar as pernas e virar a cabeça de lado ",
+                "optionC": "Administrar líquido e medicamentos pela boca",
+                "optionD": "Afrouxar as roupas da vítima"
             },
             {
                 "id": "question4",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "São sintomas de choque séptico, exceto:",
+                "optionA": "Desmaio",
+                "optionB": "Confusão Mental",
+                "optionC": "Calafrios",
+                "optionD": "Diminuição da urina"
             },
             {
                 "id": "question5",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question6",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question7",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question8",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Identifique como verdadeiras (V) ou falsas (F) as afirmações abaixo. Na sequência, assinale a alternativa correta.",
+                "ol" : "<li>( )  A perfusão capilar não é útil para avaliar o volume sanguíneo do paciente. </li> <li>( ) As causas do choque distributivo são: Anafilaxia; Infecção bacteriana pela liberação de endotoxina; Lesão medular grave; Ingestão de certos fármacos ou venenos, como nitratos, opioides e bloqueadores adrenérgicos.</li>li> ( ) O choque distributivo é dividido em três choques: séptico que ocorre devido a uma infecção generalizada, anafilático que ocorre devido a uma alergia intensa e o neurogênico que ocorre devido a lesões no sistema nervoso central. </li> <li> ( ) O choque anafilático é um colapso circulatório provocado por uma intensa reação alérgica, que afeta apenas crianças e idosos, causando diminuição do fluxo de sangue para os órgãos vitais.</li>",
+                "optionA": "F – F – V – V",
+                "optionB": "V- V – F - V",
+                "optionC": "V – F – F - V",
+                "optionD": "F - V - V - F"
             }
         ]
     },

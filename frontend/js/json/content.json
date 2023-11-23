@@ -3,25 +3,13 @@
             "unity": [
                   {
                         "id": "",
-                        "imgHeader": "./src/img/casual-life-3d-young-woman-wearing-smart-watch-and-holding-coffee-cup.png",
-                        "title": "Teste",
-                        "p1": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores beatae corrupti esse reiciendis fugiat, adipisci ex itaque facere laboriosam ea animi sed tempore, minima quod voluptate eum distinctio? Iusto, vitae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quo veritatis illo nobis maiores vero non qui quas amet minus, dolorem sit quia dolores quae enim impedit laboriosam illum totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam saepe voluptatem et in dicta? Exercitationem impedit, modi laudantium in dolor itaque minus minima beatae odit, cum molestiae nisi facilis!",
-                        "subtitle": "testando",
-                        "p2": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores beatae corrupti esse reiciendis fugiat, adipisci ex itaque facere laboriosam ea animi sed tempore, minima quod voluptate eum distinctio? Iusto, vitae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quo veritatis illo nobis maiores vero non qui quas amet minus, dolorem sit quia dolores quae enim impedit laboriosam illum totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam saepe voluptatem et in dicta? Exercitationem impedit, modi laudantium in dolor itaque minus minima beatae odit, cum molestiae nisi facilis!",
-                        "video": "https://youtu.be/g1gW4coZL3I?si=6aQw48lVg04yc_zq",
-                        "imgMain": "<img src='./src/img/download.jpeg' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "title": "O que são choques",
+                        "body" : "<body> <header> <img src='./src/img/3d-casual-life-heart.png' alt='' id='header-img-theme'> <h1 id='header-h1-title'>O QUE SÃO CHOQUES</h1> </header> <main> <div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'> São o Estado de Hipoperfusão Tecidual Sistêmica. Ou seja, falta de oxigenação nos tecidos. Caso o indivíduo não possua sangue, o mesmo terá choque, visto que, o oxigênio é encontrado no sangue através das células vermelhas. </p> </div> <div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>Saiba mais</h3> <hr class='separator-hr-line' id='separator-hr-line-1'> </div> <div class='main-div-explication' id='main-div-explication-2'> <p class='explication-p-text' id='explication-p-text-2'> Entenda melhor como funciona a circulação sanguínea que leva o oxigênio para o corpo humano no vídeo abaixo. </p> </div> <div class='main-div-images'> </div> <iframe class='main-video' id='main-video-1' src='https://www.youtube.com/embed/lrzCIUTBgds?si=2eX6-9sqZUFn58QA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen> </iframe> <script src='https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@4.0.1/dist/YouTubeToHtml5.js'></script> <script>new YouTubeToHtml5();</script> <h3 class='separator-h3-title' id='main-h3-materialComp'>Material complementar:</h3> <ul id='main-ul-complement'> <li> <a href='https://youtu.be/g1gW4coZL3I?si=6aQw48lVg04yc_zq'>CHOQUE - OS DIFERENTES TIPOS DE CHOQUE: HIPOVOLÊMICO, OBSTRUTIVO, CARDIOGÊNICO</a></li> </ul> <button id='main-btn-nextLesson' class='btn'>Próximo</button> </main> </body>"
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "uiguiogpuibkl",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body": "TESTET TESTE TESTE"
                   },
                   {
                         "id": "",
@@ -279,13 +267,18 @@
             "unity": [
                   {
                         "id": "fase1",
-                        "imgHeader": "./src/img/casual-life-3d-young-woman-wearing-smart-watch-and-holding-coffee-cup.png",
-                        "title": "O QUE SÃO CHOQUES",
-                        "p1": "Choques são um 'Estado de Hipoperfusão Tecidual Sistêmica'. Ou seja, seja, falta de oxigenação nos tecidos. Caso o indivíduo não possua sangue, o mesmo terá choque, visto que, o oxigênio é encontrado no sangue através das células vermelhas.",
-                        "subtitle": "Saiba Mais",
-                        "p2": "Entenda melhor como funciona a circulação sanguínea que leva o oxigênio para o corpo humano no vídeo abaixo: ",
-                        "video": "https://www.youtube.com/embed/lrzCIUTBgds?si=kLhvG6lt23eu7wNE",
-                        "mainUl": "<li> <a href='https://youtu.be/g1gW4coZL3I?si=6aQw48lVg04yc_zq'>CHOQUE - OS DIFERENTES TIPOS DE CHOQUE: HIPOVOLÊMICO, OBSTRUTIVO, CARDIOGÊNICO</a></li> <li> <a href='https://youtu.be/lrzCIUTBgds?si=FdOtM1HCbTiZ1Zbe'>CIRCULAÇÃO SANGUÍNEA</a></li> "
+                        "title": "O que são choques",
+                        "body" : "<body> <header> <img src='./src/img/3d-casual-life-heart.png' alt='' id='header-img-theme'> <h1 id='header-h1-title'>O QUE SÃO CHOQUES</h1> </header> <main> <div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'> São o Estado de Hipoperfusão Tecidual Sistêmica. Ou seja, falta de oxigenação nos tecidos. Caso o indivíduo não possua sangue, o mesmo terá choque, visto que, o oxigênio é encontrado no sangue através das células vermelhas. </p> </div> <div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>Saiba mais</h3> <hr class='separator-hr-line' id='separator-hr-line-1'> </div> <div class='main-div-explication' id='main-div-explication-2'> <p class='explication-p-text' id='explication-p-text-2'> Entenda melhor como funciona a circulação sanguínea que leva o oxigênio para o corpo humano no vídeo abaixo. </p> </div> <div class='main-div-images'> </div> <iframe class='main-video' id='main-video-1' src='https://www.youtube.com/embed/lrzCIUTBgds?si=2eX6-9sqZUFn58QA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen> </iframe> <script src='https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@4.0.1/dist/YouTubeToHtml5.js'></script> <script>new YouTubeToHtml5();</script> <h3 class='separator-h3-title' id='main-h3-materialComp'>Material complementar:</h3> <ul id='main-ul-complement' class='main-ul-complement' > <li> <a href='https://youtu.be/g1gW4coZL3I?si=6aQw48lVg04yc_zq'>CHOQUE - OS DIFERENTES TIPOS DE CHOQUE: HIPOVOLÊMICO, OBSTRUTIVO, CARDIOGÊNICO</a></li> </ul> <button id='main-btn-nextLesson' class='btn'>Próximo</button> </main> </body>"
+                  },
+                  {
+                        "id": "fase2",
+                        "title": "Tipos de choques",
+                        "body": "<body> <header> <img src='./src/img/3d-casual-life-heart.png' alt='' id='header-img-theme'/> <h1 id='header-h1-title'>TIPOS DE CHOQUES</h1> </header> <main> <div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'> Choque Hipovolêmico: Ocorre uma diminuição significativa do volume de sangue circulante no corpo, levando a uma queda da pressão arterial e redução do fluxo sanguíneo para as células. </p> </div> <div class='main-div-images'> <img src='./src/img/Choques.png' alt='' class='main-img-themeImg' />  </div>  <div class='main-div-separator' id='main-div-separator-1'>  <h3 class='separator-h3-title' id='separator-h3-title-1'></h3> <hr class='separator-hr-line' id='separator-hr-line-1' />  </div> <div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'> Choque Cardiogênico: O coração é incapaz de bombear sangue suficiente para atender as necessidades do corpo. </p> </div> <div class='main-div-images'> <img src='./src/img/Choque Cardiogênico.png' class='main-img-themeImg'/> </div> <div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'></h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> </div> <div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'> Choque Obstrutivo: Pode ser definido como uma redução do débito cardíaco secundário a um inadequado enchimento ventricular. </p> </div> <div class='main-div-images'> <img src='./src/img/Choque Obstrutivo.png' alt='' class='main-img-themeImg' /> </div> <div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'></h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> </div>  <div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'> Choque Distributivo: A má perfusão tecidual é resultado de vasodilatação periférica global que leva a redução acentuada da pressão de enchimento capilar, comprometendo o fornecimento de oxigênio pelos capilares. Entenda o que é o enchimento capilar: </p> </div> <iframe class='main-video' id='main-video-1' src='https://www.youtube.com/embed/h7gJG_Miyn8?si=n11GYf_nxXoJqr2y' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen > </iframe> <div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>Existem 3 subtipos de choque Distributivo:</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> </div> <p class='explication-p-text' id='explication-p-text-1'> <ul id='main-ul-complement' class='main-ul-complement'> <li>Choque Séptico: É uma condição grave que ocorre em decorrência de uma infecção generalizada, conhecida como sepse.</li> <li>Choque Anafilático: Um colapso circulatório provocado por uma intensa reação alérgica.</li> <li>Choque Neurogênico: É uma queda na pressão arterial causada por lesões do sistema nervoso central.</li> </ul></p> <div class='main-div-images'> <img src='./src/img/Choque-Séptico.png' alt='' class='main-img-themeImg'/> <img src='./src/img/Choque-Anafilático.png' alt='' class='main-img-themeImg'/> <img src='./src/img/Choque-Neurogênico.png' alt='' class='main-img-themeImg'/> </div> <h3 class='separator-h3-title' id='main-h3-materialComp'> Material complementar: </h3> <ul id='main-ul-complement' class='main-ul-complement'> <li> <a href='https://youtu.be/j4jQsezAUQ0?si=YN5oOETQ1GUh1jXu'> Vídeo sobre tipos de Choque: Hipovolêmico, cardiogênico, obstrutivo e distributivo.</a> </li> </ul> <button id='main-btn-nextLesson' class='btn'>Próximo</button> </main> <script src='https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@4.0.1/dist/YouTubeToHtml5.js'></script> <script> new YouTubeToHtml5(); </script> </body>"
+                  },
+                  {
+                        "id": "fase3",
+                        "title": "Como identificar",
+                        "body": ""
                   },
                   {
                         "id": "",
@@ -294,6 +287,76 @@
                         "p1": "",
                         "subtitle": "",
                         "p2": "",
+                        "video": "",
+                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
+                        "mainUl": "<li> <a href=''></a></li>"
+                  },
+                  {
+                        "id": "",
+                        "imgHeader": "",
+                        "title": "",
+                        "p1": "",
+                        "subtitle": "",
+                        "p2": "",
+                        "video": "",
+                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
+                        "mainUl": "<li> <a href=''></a></li>"
+                  },
+                  {
+                        "id": "",
+                        "imgHeader": "",
+                        "title": "",
+                        "p1": "",
+                        "subtitle": "",
+                        "p2": "",
+                        "video": "",
+                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
+                        "mainUl": "<li> <a href=''></a></li>"
+                  },
+                  {
+                        "id": "",
+                        "imgHeader": "",
+                        "title": "",
+                        "p1": "",
+                        "subtitle": "",
+                        "p2": "",
+                        "video": "",
+                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
+                        "mainUl": "<li> <a href=''></a></li>"
+                  },
+                  {
+                        "id": "",
+                        "imgHeader": "",
+                        "title": "",
+                        "p1": "",
+                        "subtitle": "",
+                        "p2": "",
+                        "video": "",
+                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
+                        "mainUl": "<li> <a href=''></a></li>"
+                  }
+            ]
+      },
+      {
+            "unity": [
+                  {
+                        "id": "",
+                        "imgHeader": "",
+                        "title": "O que é hemorragia",
+                        "p1": "Hemorragia é a perda de sangue através de um corte ou ferida traumática, podendo acontecer também por motivos naturais (sangramento em nariz, ouvido, boca, ânus). As hemorragias ocorrem quando um ou mais vasos sanguíneos são rompidos, dentro ou fora do corpo. A hemorragia externa é quando o sangue sai do corpo através de um ferimento, o sangramento é visível na pele, como por exemplo, grandes cortes. A hemorragia interna édifícil de ser identificada por pessoas que não sejam profissionais de saúde. Você deve suspeitar da existência de uma hemorragia interna principalmente em acidentes grave ela não é visível. Além do sangramento,no caso das hemorragias externas,há outros sintomas: ",
+                        "subtitle": "",
+                        "p2": "<ul> <li>palidez;</li> <li>fraqueza;</li> <li>falta de ar;</li> <li>tontura;</li> <li>sede;</li> <li>pulso rápido e fraco;</li> <li>respiração rápida e superficial;</li> <li>náuseas e vômitos;</li> <li>suor intenso;</li> <li>desmaio;</li> <li>mucosa pálida.</li> </ul>",
+                        "video": "",
+                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
+                        "mainUl": "<li> <a href=''></a></li>"
+                  },
+                  {
+                        "id": "",
+                        "imgHeader": "",
+                        "title": "Internas e externas",
+                        "p1": "A hemorragia INTERNA ocorre sem que a pele seja rompida. Logo, o sangue que sai dos vasos sangüíneos não pode ser visto. Ela pode ser provocada pela lesão de algum órgão interno. Normalmente, esse tipo de hemorragia se dá imediatamente após acidentes violentos, nos quais o corpo suporta pressões muito fortes, como: colisões, quedas, ferimento por projétil de arma de fogo. \n\n Os sintomas e os sinais dessa hemorragia demoram mais a aparecer. Os principais sinais de uma hemorragia interna são: pulso com batimento anormal (fraco ou acelerado), pele fria; sudorese abundante, palidez intensa, tonturas, eliminação de sangue pela boca (junto com vômito ou saliva), nas fezes e na urina, sede, inconsciência.",
+                        "subtitle": "Hemorragia externa:",
+                        "p2": "Aquela em que é possível observar o sangramento, podendo ser mais ou menos intensa de acordo com o tipo de vaso afetado e a localização. Ela pode ser classificada em: \n capilar (o sangramento mais comum, que acontece no dia a dia, geralmente, devido a pequenos cortes em que os pequenos vasos que chegam até a superfície do corpo, chamados de capilares, são atingidos), \n venosa (é a hemorragia que acontece devido a algum corte grande ou mais profundo, com sangramento em fluxo contínuo e lento, por vezes de grande volume, através da ferida) ou \n arterial (é o tipo de hemorragia em que são atingidas as artérias, isto é, os vasos que levam sangue do coração ao resto do corpo e, por isso, têm sangue vermelho vivo, com grande fluxo e intensidade. O sangramento arterial é o tipo mais grave, e pode, até, provocar jatos de sangue para locais distantes do corpo e risco de morte)",
                         "video": "",
                         "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
                         "mainUl": "<li> <a href=''></a></li>"
@@ -371,10 +434,10 @@
                   {
                         "id": "",
                         "imgHeader": "",
-                        "title": "",
-                        "p1": "",
+                        "title": "Definições das doenças",
+                        "p1": "EXAME PRIMÁRIO: O Protocolo XABCDE foi pensado para identificar lesões potencialmente fatais ao indivíduo. X- Exanguinação: Contenção de hemorragia externa. A- Vias areais e contenção da coluna cervical: Avaliar obstrução de vias aéreas e proteger coluna cervical. B- Boa ventilação e respiração: Analisar respiração, verificar se a frequência respiratória está adequada. Ex: FR, movimento torácico, cianose. C- Circulação com controles de hemorragia: contenção de hemorragias internas, onde deve-se investigar se a perda de volume sanguíneo não visível. D- Disfunção neurológica: analisar nível de consciência e tamanho da pupila. E- Exposição total do paciente: analisar a extensão das lesões e o controle do ambiente.",
                         "subtitle": "",
-                        "p2": "",
+                        "p2": "EXAME SEGUNDARIO: S: Sinais Vitais (SSVV). A: Histórico de alergia. M: Uso de medicamento. P: Problemas de saúde. L: Horário da última ingestão de líquidos/ alimentos. A: ambiente do evento",
                         "video": "",
                         "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
                         "mainUl": "<li> <a href=''></a></li>"
@@ -382,102 +445,10 @@
                   {
                         "id": "",
                         "imgHeader": "",
-                        "title": "",
-                        "p1": "",
+                        "title": "Fases do Trauma",
+                        "p1": " Fase pré-impacto: Todos os acontecimentos que precedem o acidente. Ex: Ingestão de álcool.<div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title'id='separator-h3-title-1'</h3> <hr class='separator-hr-line' id='separator-hr-line-1'> </div>",
                         "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  }
-            ]
-      },
-      {
-            "unity": [
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
+                        "p2": "Fase do impacto: Inicia assim que dois corpos se colidem. Ex: Momento exato que um veículo choca ao outro veículo",
                         "video": "",
                         "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
                         "mainUl": "<li> <a href=''></a></li>"
