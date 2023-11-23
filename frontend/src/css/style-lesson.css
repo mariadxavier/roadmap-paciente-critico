@@ -18,20 +18,20 @@ header {
 #header-h1-title {
     position: absolute;
     top: 21rem;
-    color: #FFF;
+    color: #fff;
     font-size: 2rem;
     font-style: normal;
     font-weight: 900;
     line-height: 2rem;
     letter-spacing: 3px;
     display: flex;
-    width: 261px;
+    text-align: center;
+    width: 100%;
     height: 39px;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
     text-shadow: 4px 4px 4px #00000050;
-    
 }
 
 main {
@@ -82,17 +82,20 @@ main {
     margin-bottom: 1rem;
 }
 
-.main-ul-complement, #main-ul-complement {
+.main-ul-complement,
+#main-ul-complement {
     align-self: flex-start;
     padding: 0.5rem 2rem 2rem 2rem;
 }
 
-.main-ul-complement li , #main-ul-complement li {
+.main-ul-complement li,
+#main-ul-complement li {
     text-decoration: underline;
     padding: 8px;
 }
 
-.main-ul-complement li a, #main-ul-complement li a {
+.main-ul-complement li a,
+#main-ul-complement li a {
     color: var(--color-black);
     font-weight: 400;
 }
