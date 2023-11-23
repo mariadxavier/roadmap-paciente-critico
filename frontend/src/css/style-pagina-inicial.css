@@ -64,7 +64,7 @@ body {
 }
 #header-label-name {
     color: var(--color-dark-gray);
-    font-family: 'Inter';
+    font-family: "Inter";
     font-weight: 700;
     font-size: 1.2rem;
     z-index: 99;
@@ -105,7 +105,7 @@ body {
 /* Main */
 main {
     padding: 0 3vw;
-    transition: .8s;
+    transition: 0.8s;
 }
 
 /* Apresentação */
@@ -194,13 +194,13 @@ main {
 }
 .title-units-h1-unit {
     color: var(--color-white);
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 800;
     font-size: 1.6rem;
 }
 .title-units-p-unit-title {
     color: var(--color-white);
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 600;
     font-size: 1.3rem;
 }
@@ -209,8 +209,6 @@ main {
     transform: rotate(90deg);
     transition: 1s;
 }
-
-
 
 /* Levels */
 .units-div-roadmap {
@@ -227,9 +225,10 @@ main {
     height: 12vh;
     width: 12vh;
     background: blue;
+    border: none;
     border-radius: 20px;
     z-index: 2;
-    box-shadow: 10px 12px 21px -3px rgba(0,0,0,0.39);
+    box-shadow: 10px 12px 21px -3px rgba(0, 0, 0, 0.39);
 }
 .roadmap-div-imgs {
     position: absolute;
@@ -241,7 +240,7 @@ main {
     width: 100%;
     text-align: center;
     color: var(--color-white);
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-size: 2.9rem;
     padding: 5px;
 }
@@ -481,7 +480,6 @@ main {
     background: #fe27cc;
 }
 
-
 /* Quadradinhos */
 /* Quadradinho das unidades DIREÇÃO */
 /* .unit-div-level-1 {
@@ -521,7 +519,6 @@ main {
     left: 20px;
 }
 /* Ajustando casos específicos */
-
 
 #three-unit-div-roadmap .roadmap-img-first {
     height: 20vh;
@@ -573,6 +570,10 @@ main {
 #eight-unit-div-roadmap .roadmap-img-second {
     height: 20vh;
     left: 0px;
+}
+
+.disabled {
+    background-color: crimson;
 }
 
 /* .roadmap-img-doctor {
