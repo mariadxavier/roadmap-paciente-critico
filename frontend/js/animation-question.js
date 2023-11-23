@@ -8,7 +8,8 @@ window.addEventListener('scroll', function () {
     console.log(scrollY)
     if (window.scrollY > 600) {
         setinha.style.display = "none";
-        headerQuestion.style.display = "fixed";
+        headerQuestion.style.display = "flex";
+        headerQuestion.style.position = "fixed";
         // imgHeader.style.display = "none";
         // header.style.position = 'fixed';
         // header.style.height = "20vh";
