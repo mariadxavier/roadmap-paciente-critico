@@ -138,52 +138,46 @@
       {
             "unity": [
                   {
-                        "id": "",
+                        "id": "fase1",
                         "title": "O que é hemorragia",
                         "body": "<body><header> <img src='./src/img/3d-casual-life-boy-scientist.png' id='header-img-theme'/><h1 id='header-h1-title'>O QUE É HEMORRAGIA</h1></header><main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> Hemorragia é a perda de sangue através de um corte ou ferida traumática, podendo acontecer também por motivos naturais (sangramento em nariz, ouvido, boca, ânus). As hemorragias ocorrem quando um ou mais vasos sanguíneos são rompidos, dentro ou fora do corpo. </p></div><div class='main-div-images'><img class='main-img-themeImg' src='./src/img/hemorragia-img.webp'></div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>  A hemorragia externa é quando o sangue sai do corpo através de um ferimento, o sangramento é visível na pele, como por exemplo, grandes cortes. A hemorragia interna édifícil de ser identificada por pessoas que não sejam profissionais de saúde. Você deve suspeitar da existência de uma hemorragia interna principalmente em acidentes grave ela não é visível.Além do sangramento,no caso das hemorragias externas,há outros sintomas: <ul> <li>palidez;</li> <li>fraqueza;</li> <li>falta de ar;</li> <li>tontura;</li> <li>sede;</li> <li>pulso rápido e fraco;</li> <li>respiração rápida e superficial;</li> <li>náuseas e vômitos;</li> <li>suor intenso;</li> <li>desmaio;</li> <li>mucosa pálida.</li> </ul></p></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></main><script src='https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@4.0.1/dist/YouTubeToHtml5.js'></script><script> new YouTubeToHtml5();</script> </body>"
                   },
                   {
-                        "id": "",
+                        "id": "fase2",
                         "title": "Internas e externas",
                         "body": "<body><header><img src='./src/img/3d-casual-life-boy-scientist.png' alt='' id='header-img-theme' /><h1 id='header-h1-title'>INTERNAS E EXTERNAS</h1></header><main><div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>HEMORRAGIA INTERNA</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> </div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>Ocorre sem que a pele seja rompida. Logo, o sangue que sai dos vasos sangüíneos não pode ser vista. Ela pode ser provocada pela lesão de algum órgão interno. Normalmente, esse tipo de hemorragia se dá imediatamente após acidentes violentos, nos quais o corpo suporta pressões muito fortes, como colisões, quedas, ferimento por projétil de arma de fogo, etc. Os sintomas e os sinais dessa hemorragia demoram mais a aparecer. Os principais sinais de uma hemorragia interna são:<ul><li>pulso com batimento anormal (fraco ou acelerado);</li><li>pele fria;</li><li>sudorese abundante;</li><li>palidez intensa;</li><li>tonturas; </li><li>eliminação de sangue pela boca (junto com vômito ou saliva), nas fezes e na urina;</li><li>sede;</li> <li>inconsciência.</li></ul></p></div><div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>HEMORRAGIA EXTERNA</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> </div> <div class='main-div-explication'> <p class='explication-p-text'>Aquela em que é possível observar o sangramento, podendo ser mais ou menos intensa de acordo com o tipo de vaso afetado e a localização. A hemorragia externa pode ser classificada em: <ul><li>Capilar: é o sangramento mais comum, que acontece no dia-a-dia, geralmente, devido a pequenos cortes em que os pequenos vasos que chegam até a superfície do corpo, chamados de capilares, são atingidos.</li><li>Venosa: é a hemorragia que acontece devido a algum corte grande ou mais profundo, com sangramento em fluxo contínuo e lento, por vezes de grande volume, através da ferida.</li><li>Arterial: é o tipo de hemorragia em que são atingidas as artérias, isto é, os vasos que levam sangue do coração ao resto do corpo e, por isso, têm sangue vermelho vivo, com grande fluxo e intensidade. O sangramento arterial é o tipo mais grave, e pode, até, provocar jatos de sangue para locais distantes do corpo e risco de morte.</li></ul></p></div><div class='main-div-images'><img class='main-img-themeImg' src='./src/img/Tipos-de-hemorragia-externa.webp' alt='' id='header-img-theme' /></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
-                        "id": "",
+                        "id": "fase3",
                         "title": "Situações em que podem ocorrer hemorragias",
                         "body" : "<body> <header> <img src='./src/img/3d-casual-life-boy-scientist.png' id='header-img-theme' /><h1 id='header-h1-title'>QUANDO OCORREM</h1> </header><main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> As hemorragias ocorrem quando os vasos sanguíneos são rompidos, e a gravidade é medida pela quantidade e rapidez que o sangue é extravasado/perdido. Quando ocorre a perda de sangue, o organismo responde com algumas respostas fisiológicas, mas se a perda for superior a resposta compensatória, diz que o indivíduo encontra-se em choque hipovolêmico, situação de emergência decorrente da perda de grande quantidade de líquidos e sangue. Essa situação faz com que o coração deixe de bombear sangue para o corpo, levando a problemas em vários órgãos e colocando a vida do paciente em risco. </p></div><h3 class='separator-h3-title' id='main-h3-materialComp'>Material Complementar:</h3><ul class='main-ul-complement'><li><a href='https://www.samunoroestepr.com.br/materia/dicas/3-hemorragias-conheca-os-tipos-e-como-cuidar'>Tipos de hemorragia e como cuidar - SAMU noroeste</a></li><li><a href='https://www.rededorsaoluiz.com.br/doencas/choque-hipovolemico'>Choque hipovolêmico - Rede d´or</a></li></ul> <button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
-                        "id": "",
+                        "id": "fase4",
                         "title": "Materiais e equipamentos",
                         "body" : "<body><header><img src='./src/img/3d-casual-life-boy-scientist.png' id='header-img-theme'/> <h1 id='header-h1-title'>MATERIAIS</h1></header><main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'><h3 class='separator-h3-title' id='separator-h3-title-1'>Torniquete</h3><hr class='separator-hr-line' id='separator-hr-line-1' />O torniquete é um dispositivo de compressão usado para controlar o fluxo sanguíneo arterial e venoso de uma extremidade por um período de tempo, a fim de conter hemorragias graves nos membros inferiores e superiores.<div class='main-div-images'> <img class='main-img-themeImg' src='./src/img/Torniquete-Hemorragia.jpg' id='header-img-theme'/> </div><h3 class='separator-h3-title' id='separator-h3-title-1'>Agente hemostático</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> Pó Hemostático é utilizado em casos de ferimentos com pouco sangue, como nos casos dos cortes de unha e remoção de cutículas, barbear, entre outros. Por ser um produto em pó, ele é de fácil aplicação, facilitando o processo de cicatrização e estancamento de sangue.<div class='main-div-images'> <img class='main-img-themeImg' src='./src/img/Agente-hemostático-hemorragia.jpg' id='header-img-theme' /> </div><h3 class='separator-h3-title' id='separator-h3-title-1'>Gaze</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> Quando a Gaze entra em contato com o sangue ou exsudato, pode rapidamente transformar-se em gel viscoso claro, que enche os vazios da ferida, fecha as extremidades capilares, ativa o sistema de coagulação e assim ajuda a parar o sangramento. <div class='main-div-images'> <img class='main-img-themeImg' src='./src/img/Gaze-Hemorragia.webp' alt=''id='header-img-theme' /> </div><h3 class='separator-h3-title' id='separator-h3-title-1'>Bandagens</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> As bandagens são constituídas por peças de tecido em algodão crú, cortado em triângulo medindo: 1,20m X 1,20m x 1,70m, sendo utilizadas para: Fixar curativos, cobrindo as compressas; Imobilizar e apoiar seguimentos traumatizados; Promover hemostasia (conter sangramentos).<div class='main-div-images'></div> <img class='main-img-themeImg' src='./src/img/Bandagens-Hemorragia.jpg'id='header-img-theme'/></div></p> </div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
-                        "id": "",
+                        "id": "fase5",
+                        "title": "",
+                        "body" : ""
+                  },
+                  {
+                        "id": "fase6",
+                        "title": "",
+                        "body" : ""
+                  },
+                  {
+                        "id": "fase7",
                         "title": "Fatores de risco",
                         "body" : "<body><header><img src='./src/img/3d-casual-life-boy-scientist.png' alt='' id='header-img-theme' /> <h1 id='header-h1-title'>FATORES DE RISCO</h1></header><main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> São considerados fatores de risco para hemorragias:<ul><li>Doença hereditária, como a hemofilia; </li><li>Deficiência de vitamina K;</li><li>Câncer no fígado;</li><li>Metástases (no fígado, mama, cólon e pâncreas);</li><li>pele fria;</li><li>Outras doenças hepáticas, como hepatite e cirrose hepática; </li><li>Uso de antibióticos anticoagulantes a longo tempo;</li> <li>Inibidores da angiogênese;</li><li>Trombocitopenia (nível baixo de plaquetas);</li><li> Outras doenças não relacionadas ao câncer.</li></ul></p><div class='main-div-images'><img class='main-img-themeImg' src='./src/img/risco-hemorragia.jpg'></div></div></div><h3 class='separator-h3-title' id='main-h3-materialComp'> Material complementar: </h3><ul id='main-ul-complement' class='main-ul-complement'><li> <a href='http://www.oncoguia.org.br/mobile/conteudo/hemorragias-e-problemas-de-coagulacao/210/109/'>Hemorragias e Problemas de Coagulação - Onco Guia</a> </li></ul><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
-                  },
-                  {
-                        "id": "",
-                        "title": "",
-                        "body" : ""
-                  },
-                  {
-                        "id": "",
-                        "title": "",
-                        "body" : ""
-                  },
-                  {
-                        "id": "",
-                        "title": "",
-                        "body" : ""
                   }
             ]
       },
       {
             "unity": [
                   {
-                        "id": "",
-                        "imgHeader": "",
+                        "id": "fase1",
                         "title": "Definições das doenças",
                         "body": "EXAME PRIMÁRIO: O Protocolo XABCDE foi pensado para identificar lesões potencialmente fatais ao indivíduo. X- Exanguinação: Contenção de hemorragia externa. A- Vias areais e contenção da coluna cervical: Avaliar obstrução de vias aéreas e proteger coluna cervical. B- Boa ventilação e respiração: Analisar respiração, verificar se a frequência respiratória está adequada. Ex: FR, movimento torácico, cianose. C- Circulação com controles de hemorragia: contenção de hemorragias internas, onde deve-se investigar se a perda de volume sanguíneo não visível. D- Disfunção neurológica: analisar nível de consciência e tamanho da pupila. E- Exposição total do paciente: analisar a extensão das lesões e o controle do ambiente.",
                         "subtitle": "",
