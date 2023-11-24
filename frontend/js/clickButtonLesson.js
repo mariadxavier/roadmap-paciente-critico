@@ -20,9 +20,9 @@ console.log(btnFases);
 console.log(progressoFases);
 
 btnFases.forEach((elem, i) => {
-    if (progressoFases[i] === false) {
-        elem.disabled = true;
-    }
+    // if (progressoFases[i] === false) {
+    //     elem.disabled = true;
+    // }
 
     if (elem.disabled) {
         elem.style.backgroundColor = "black";
