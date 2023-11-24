@@ -1,20 +1,20 @@
 import json from "./json/quiz.json" assert { type: "json" };
 
-//pegando a fase e a unidade do localStorage
-// const unityFaseJSON = localStorage.getItem("botãoClicado");
-// const unityFase = JSON.parse(unityFaseJSON);
-// const unidade = unityFase.unidade;
+// pegando a fase e a unidade do localStorage
+const unityFaseJSON = localStorage.getItem("botãoClicado");
+const unityFase = JSON.parse(unityFaseJSON);
+const unidade = unityFase.unidade;
 
-// //trazendo o progresso do usuario do localStorage
-// const progressJSON = localStorage.getItem("progressoUsuario");
-// const progress = JSON.parse(progressJSON);
+//trazendo o progresso do usuario do localStorage
+const progressJSON = localStorage.getItem("progressoUsuario");
+const progress = JSON.parse(progressJSON);
 
-// //trazendo os dados do usuário do localStorage
-// const userJSON = localStorage.getItem("logar");
-// const user = JSON.parse(userJSON);
+//trazendo os dados do usuário do localStorage
+const userJSON = localStorage.getItem("logar");
+const user = JSON.parse(userJSON);
 
 const btnEnviar = document.querySelector(".btn");
-// const content = json;
+const content = json;
 
 // Resultado do quiz: mensagem na tela
 const exibirResultado = document.getElementById("main-div-result");
@@ -24,7 +24,7 @@ const textoResultado = document.getElementById("result-h1-phrase");
 const bntResultado = document.getElementById("result-bnt");
 
 
-// console.log(content[unidade]);
+console.log(content[unidade]);
 
 btnEnviar.addEventListener("click", async () => {
     //validação das respostas
