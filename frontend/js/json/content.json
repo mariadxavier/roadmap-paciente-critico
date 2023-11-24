@@ -2,264 +2,112 @@
       {
             "unity": [
                   {
-                        "id": "",
-                        "title": "O que são choques",
-                        "body" : "<body> <header> <img src='./src/img/3d-casual-life-heart.png' alt='' id='header-img-theme'> <h1 id='header-h1-title'>O QUE SÃO CHOQUES</h1> </header> <main> <div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'> São o Estado de Hipoperfusão Tecidual Sistêmica. Ou seja, falta de oxigenação nos tecidos. Caso o indivíduo não possua sangue, o mesmo terá choque, visto que, o oxigênio é encontrado no sangue através das células vermelhas. </p> </div> <div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>Saiba mais</h3> <hr class='separator-hr-line' id='separator-hr-line-1'> </div> <div class='main-div-explication' id='main-div-explication-2'> <p class='explication-p-text' id='explication-p-text-2'> Entenda melhor como funciona a circulação sanguínea que leva o oxigênio para o corpo humano no vídeo abaixo. </p> </div> <div class='main-div-images'> </div> <iframe class='main-video' id='main-video-1' src='https://www.youtube.com/embed/lrzCIUTBgds?si=2eX6-9sqZUFn58QA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen> </iframe> <script src='https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@4.0.1/dist/YouTubeToHtml5.js'></script> <script>new YouTubeToHtml5();</script> <h3 class='separator-h3-title' id='main-h3-materialComp'>Material complementar:</h3> <ul id='main-ul-complement'> <li> <a href='https://youtu.be/g1gW4coZL3I?si=6aQw48lVg04yc_zq'>CHOQUE - OS DIFERENTES TIPOS DE CHOQUE: HIPOVOLÊMICO, OBSTRUTIVO, CARDIOGÊNICO</a></li> </ul> <button id='main-btn-nextLesson' class='btn'>Próximo</button> </main> </body>"
+                        "id": "fase1",
+                        "title": "O que são sinais vitais",
+                        "body" : "<body><header><img src='./src/img/3d-casual-life-chart-3.png' alt='' id='header-img-theme' /> <h1 id='header-h1-title'>O QUE SÃO SINAIS VITAIS</h1> </header><main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>São medidas de várias estatísticas fisiológicas procuradas por vários profissionais de saúde para avaliar as funções corporais básicas do corpo humano. </p> </div> <div class='main-div-images'> <img src='./src/img/sinais-vitais.jfif' alt='' class='main-img-themeImg' /> </div> <div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>Como é aplicado?</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> </div> <div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'> Acompanhamento e controle dos parâmetros relacionados à pressão arterial, frequência cardíaca, frequência respiratória, dor e temperatura dos pacientes. </p> </div> <button id='main-btn-nextLesson' class='btn'>Próximo</button> </body>"
                   },
                   {
-                        "id": "",
-                        "title": "",
-                        "body": "TESTET TESTE TESTE"
+                        "id": "fase2",
+                        "title": "Tempratura",
+                        "body": "<body><header><img src='./src/img/3d-casual-life-chart-3.png' id='header-img-theme'/> <h1 id='header-h1-title'>TEMPERATURA</h1></header> <main><div class='main-div-explication' id='main-div-explication-1'><h3 class='separator-h3-title' id='separator-h3-title-1'> Como aferir</h3><hr class='separator-hr-line' id='separator-hr-line-1' /><p class='explication-p-text' id='explication-p-text-1'> Colocar a ponta do termômetro debaixo da axila ou introduzir cuidadosamente no ânus, depois de lubrificar a ponta do termômetro com vaselina, lidocaína geleia ou gel hidrossolúvel. A melhor forma para medir a temperatura do paciente é por meio de um termômetro. Há diversas opções no mercado, de vidro, digital,de ouvido, entre outros.</p></div><div class='main-div-images'><img src='./src/img/sinais-vitais-termometro.jpg' class='main-img-themeImg' /> </div><div class='main-div-explication' id='main-div-explication-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>Valores de referência e Termos Técnicos: </h3><hr class='separator-hr-line' id='separator-hr-line-1' /> <p class='explication-p-text' id='explication-p-text-1'><ul><li>Hipotermia: Temperatura abaixo de 35°C ;</li><li>Afebril: 36,1°C a 37,2°C ; </li><li>Febril: 37,3°C a 37,7°C ;</li><li>Febre: 37,8°C a 38,9°C ;</li><li>Pirexia: 39°C a 40°C </li><li>Hiperpirexia: acima de 40°C ;</li><li>Temperatura axilar: 35,8°C a 37°C ;</li><li>Temperatura bucal: 36,3°C a 37,4°C </li><li>Temperatura retal: 37°C a 38°C .</li></ul></p></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "uihioiouitty",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "id": "fase3",
+                        "title": "Frequência respiratória",
+                        "body" : "<body><header><img src='./src/img/3d-casual-life-chart-3.png' alt='' id='header-img-theme' /><h1 id='header-h1-title'>FREQUÊNCIA RESPIRATÓRIA</h1></header><main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> Para aferir a frequência respiratória, deve-se contar o número de respirações completas (uma inspiração seguida de uma expiração) em um minuto. Você pode observar o movimento do peito ou do abdômen para contar as respirações.  </p></div><div class='main-div-separator' id='main-div-separator-1'><h3 class='separator-h3-title' id='separator-h3-title-1'>Valores de referência e Termos Técnicos</h3><hr class='separator-hr-line' id='separator-hr-line-1' /> </div><div class='main-div-explication' id='main-div-explication-1'><ul> <li>Bradipneia: < 12 irpm ;</li><li>Eupneia: 12 - 20 irpm ;</li><li>Taquipneia: > 20 irpm . </li></ul></div> <div class='main-div-images'><img class='main-img-themeImg' src='./src/img/taxa-de-respiracao.webp'></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "123",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "id": "fase4",
+                        "title": "Frequência Cardíaca",
+                        "body" : "<body><header><img src='./src/img/3d-casual-life-chart-3.png' alt='' id='header-img-theme' /> <h1 id='header-h1-title'>FREQUÊNCIA CARDÍACA</h1></header><main><div class='main-div-explication' id='main-div-explication-1'><h3 class='separator-h3-title' id='separator-h3-title-1'> Como aferir? </h3><p class='explication-p-text' id='explication-p-text-1'>Encontrar o pulso: Coloque dois dedos (geralmente o indicador e o médio) suavemente em um dos seguintes pontos: pulso (no lado interno do punho), pescoço (ao lado da traqueia) ou virilha (na parte interna da coxa). Conte os batimentos: Use um cronômetro ou olhe para um relógio com ponteiro de segundos e conte o número de batimentos que você sente em 60 segundos. Registre os resultados: Anote o número de batimentos por minuto que você contou. </div><div class='main-div-separator' id='main-div-separator-1'>  <h3 class='separator-h3-title' id='separator-h3-title-1'>Valores de referência e termos técnicos:</h3> <hr class='separator-hr-line' id='separator-hr-line-1' />  </div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'><ul><li>Bradicardia: < 60 ;</li> <li>Normocardia: 60- 100 ;</li><li>Taquicardia: > 100 . </li> </ul> </p></div> <div class='main-div-images'><img class='main-img-themeImg' src='./src/img/Frequencia-Cardiaca-Sinais-Vitais.webp'></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "id": "fase5",
+                        "title": "Pressão Arterial",
+                        "body" : "<body><header><img src='./src/img/3d-casual-life-chart-3.png' id='header-img-theme'/><h1 id='header-h1-title'>PRESSÃO ARTERIAL</h1> </header> <main><div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>Como aferir</h3> <hr class='separator-hr-line' id='separator-hr-line-1' />  </div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> O paciente deve ser colocado sentado, com ambos os pés encostando no chão e com as costas retas, apoiadas no encosto da cadeira. Os braços devem ficar esticados, apoiados em uma mesa, mais ou menos na mesma altura do coração. Coloque a braçadeira ao redor do braço do paciente (de preferência o esquerdo), ficando a mesma cerca de 2 cm acima da fossa cubital (dobra do braço). Palpe a artéria braquial logo abaixo da fossa cubital e ponha o diafragma do estetoscópio em cima desta. Com o estetoscópio ao ouvido, comece a inflar a braçadeira. A partir de um certo momento, você começará a ouvir a pulsação da artéria. Continue inflando até o som do pulso desparecer. Comece a esvaziar a braçadeira de forma bem lenta. Quando o som do pulso reaparecer, veja qual é o valor que o aparelho está mostrando. Esta é a pressão sistólica, chamada popularmente de pressão máxima. Continue desinflando a braçadeira. Quando o som do pulso desaparecer de vez, veja qual é o valor que o aparelho está mostrando. Esta é a pressão diastólica, chamada popularmente de pressão mínima. </div> <div class='main-div-separator' id='main-div-separator-1'>  <h3 class='separator-h3-title' id='separator-h3-title-1'>Valores de referência e termo técnicos:</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> </div> <div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'> <ul><li>PRESSÃO ARTERIAL NORMAL – menor ou igual à 120/80 mmHg ;</li><li>HIPERTENSÃO ESTÁGIO 1 – entre 130 à 139/80 à 90 mmHg ;</li><li>HIPERTENSÃO ESTÁGIO 2 – acima ou igual à 140/90 mmHm . </li></ul></p> </div> <div class='main-div-images'> <img class='main-img-themeImg' src='./src/img/medidor-pressao-arterial.webp'></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "id": "fase6",
+                        "title": "Dor",
+                        "body" : "<body> <header> <img src='./src/img/3d-casual-life-chart-3.png' alt='' id='header-img-theme' /><h1 id='header-h1-title'>DOR</h1></header><main><div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>Como aferir?</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> </div><div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'>Em uma escala de 0 a 10 para se identificar o grau de dor do paciente. </div> <div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>Valores de referência e Termos Técnicos: </h3><hr class='separator-hr-line' id='separator-hr-line-1' /></div><div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'> <ul><li>Zero (0) = Ausência de Dor.</li><li>Um a Três (1 a 3) = Dor de fraca intensidade.</li><li>Quatro a Seis (4 a 6) = Dor de intensidade moderada.</li><li>Sete a Nove (7 a 9) = Dor de forte intensidade.</li><li>Dez (10) = Dor de forte intensidade insuportável. </li></ul> </p></div><div class='main-div-images'><img class='main-img-themeImg' src='./src/img/dor-escala.webp'></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "id": "fase7",
+                        "title": "Saturação de Oxigênio",
+                        "body" : "<body><header><img src='./src/img/3d-casual-life-chart-3.png' alt='' id='header-img-theme' /><h1 id='header-h1-title'>SATURAÇÃO DE OXIGÊNIO</h1></header> <main><div class='main-div-separator' id='main-div-separator-1'>  <h3 class='separator-h3-title' id='separator-h3-title-1'>Como aferir</h3> <hr class='separator-hr-line' id='separator-hr-line-1' />  </div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> A saturação de oxigênio pode ser obtida em uma região anatômica que permita a aferição da medida, preferencialmente de localização periférica, como as extremidades digitais das mãos e dos pés, lóbulos da orelha, entre outros. </p></div> <div class='main-div-separator' id='main-div-separator-1'>  <h3 class='separator-h3-title' id='separator-h3-title-1'>Valores de referência: </h3> <hr class='separator-hr-line' id='separator-hr-line-1' />  </div> <div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'>Para adultos, a escala normal do SpO2 é 95 – 100%. Um valor mais baixo de 90% é considerado a baixa saturação do oxigênio, que exige o suplemento externo do oxigênio.</p> </div> <div class='main-div-separator' id='main-div-separator-1'>  <h3 class='separator-h3-title' id='separator-h3-title-1'>Termos técnicos: </h3><hr class='separator-hr-line' id='separator-hr-line-1' />  </div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>O nível de oxigênio mensurado com um oxímetro é chamado de nível de saturação de oxigênio (abreviado como O2sat ou SaO2). A SaO2 é a porcentagem de oxigênio que seu sangue está transportando, comparada com o máximo da sua capacidade de transporte.</p></div><div class='main-div-images'> <img class='main-img-themeImg' src='./src/img/saturacao-de-oxigenio.jpg'></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   }
             ]
       },
       {
             "unity": [
                   {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "AQUI DEU CERTO UNI 2",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "id": "fase1",
+                        "title": "",
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   }
             ]
       },
       {
             "unity": [
                   {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "id": "fase1",
+                        "title": "Escalas de Glascow e Ramsay",
+                        "body" : "<body><header><img src='./src/img/3d-casual-life-blue-pill-packaging.png' alt='' id='header-img-theme' /><h1 id='header-h1-title'>ESCALAS DE GLASCOW E RAMSAY</h1></header><main><div class='main-div-separator' id='main-div-separator-1'><h3 class='separator-h3-title' id='separator-h3-title-1'>O que é, para que serve e como funciona</h3><hr class='separator-hr-line' id='separator-hr-line-1' /></div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>A Escala de GLASGOW, trata-se de um questionário que é aplicado em pacientes que se encontram em um estado crítico de saúde. O paciente assim que é admitido no pronto atendimento passar por essa avaliação sendo realizada por uma equipe de técnico de Enfermagem e/ou Enfermeiros para ser encaminhado para Urgência ou Emergência de acordo com sua pontuação na escala será realizado seu tratamento visando o socorro e alívio de forma rápida e eficaz. Também conhecida é uma ferramenta clínica amplamente usada para avaliar o estado de consciência de um paciente após um trauma cerebral ou em situações de comprometimento neurológico.</p></div><div class='main-div-separator' id='main-div-separator-1'>  <h3 class='separator-h3-title' id='separator-h3-title-1'>Escala de Ramsay e Rass</h3> <hr class='separator-hr-line' id='separator-hr-line-1' />  </div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>São utilizadas para direcionar os protocolos de sedação em Unidade Terapia Intensiva (UTI), ou seja, observação durante a sedação do paciente evitando o uso insuficiente ou demasiadamente excessivo. Realizada pela Enfermagem já os Técnico de Enfermagem podem auxiliar com verificação de SSVV e anotar parâmetros. Praticado com critérios clínicos simples para descobrir o nível de sedação do paciente. Com uma escala de 1 a 6 para pontuar ansiedade, agitação ou ambas, até como irresponsivo. É de fácil aprendizado e prático no trato com o paciente crítico. </p> </div><div class='main-div-images'><img class='main-img-themeImg' src='./src/img/escalas-sedacao.png'></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "id": "fase2",
+                        "title": "Técnico na prática",
+                        "body" : "<body><header><img src='./src/img/3d-casual-life-blue-pill-packaging.png' alt='' id='header-img-theme' /><h1 id='header-h1-title'>TÉCNICO NA PRATICA</h1></header> <main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>1° Verifique: Se há alguns fatores que possam impossibilitar a capacidade de resposta clara do paciente. Importante verificar na avaliação se o ele possui auditivo,visual, portadoras de congnitivas).</p></div><div class='main-div-separator' id='main-div-separator-1'><hr class='separator-hr-line' id='separator-hr-line-1' /> </div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> 2° Observe: Esteja atento ao paciente em todo o tempo e comportamento espontâneo que ele faça dentro dos componentes da escala.</p> </div><div class='main-div-separator' id='main-div-separator-1'><hr class='separator-hr-line' id='separator-hr-line-1' /></div> <div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'> 3° Estimule: Em todo momento estimule o paciente a falar e agir conforme a escala orienta. Converse com o paciente em um tom de voz calmo e alto para que faça o esperado. Verifique como está seu estado físico se há alguma ferida ou dor ao toque ou pressão sobre algum membro do corpo.</p>  </div> <div class='main-div-separator' id='main-div-separator-1'><hr class='separator-hr-line' id='separator-hr-line-1' /> </div> <div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> 4° Pontue e Some: Conforme o paciente responde às perguntas da escala vai pontuando de acordo com a sua real situação e informando de forma simples e prática. Se houver algo que impeça a resposta do paciente coloque NR (Não Respondido).</p></div><div class='main-div-separator' id='main-div-separator-1'>  <hr class='separator-hr-line' id='separator-hr-line-1' />  </div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> 5° Análise Reativa Pupilar: Suspende a pálpebras do paciente com cuidado, aproxime a lanterna na lateral do rosto do paciente assim será possível verificar a reação da pupila ao foco de luz. Após anote a nota e subtraia da soma feita das pontuações anteriores.</p></div><div class='main-div-images'><img src='./src/img/3d-female-doctor-at-desk 1.png'></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "id": "fase3",
+                        "title": "Classificação de Danos e Graus",
+                        "body" : "<body><header><img src='./src/img/3d-casual-life-blue-pill-packaging.png' alt='' id='header-img-theme' /><h1 id='header-h1-title'>CLASSIFICAÇÃO DE DANOS E GRAUS</h1> </header> <main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>Uma pontuação de 8 ou menos na escala de Glasgow configura uma definição geralmente aceita de coma ou lesão cerebral grave. Pacientes com lesão cerebral que tenham uma pontuação de 9 a 12 são categorizados como tendo “Lesão moderada” e indivíduos com escore de 13 a 15 são designados como tendo “lesão leve”.</p></div><div class='main-div-images'><img  src='./src/img/Escalas-tabela.png'></div><button id='main-btn-nextLesson' class='btn'>Próximo</button> </body>"
                   },
                   {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "id": "fase4",
+                        "title": "Benefícios e Malefícios da aplicação",
+                        "body" : "<body><header><img src='./src/img/3d-casual-life-blue-pill-packaging.png' alt='' id='header-img-theme' /><h1 id='header-h1-title'>BENEFÍCIOS E MALEFÍCIOS</h1> </header><main> <div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>É através da aplicação e observação correta, realizada pelo Técnico de Enfermagem, que poderá evitar danos neurológicos irreversíveis. Além de fácil aplicação e reprodutibilidade, um rápido atendimento agindo em sua real necessidade com agilidade e precisão encaminhado o paciente de maneira mais segura para em casos em que a lesão é grave e necessita de intubação orotraqueal para proteção de via aérea.<ul><li>Grau 1: paciente ansioso, agitado, sedação inadequada;</li><li>Grau 2: cooperativo, orientado, tranquilo;</li><li>Grau 3: sonolento, atendendo aos comandos;</li> <li>Grau 4: dormindo, responde rapidamente ao estímulo glabelar ou ao estímulo sonoro vigoroso;</li><li>Grau 5: dormindo, responde lentamente ao estímulo glabelar ou ao estímulo sonoro vigoroso;</li> <li>Grau 6: dormindo, sem resposta.</li></ul></p> </div><div class='main-div-separator' id='main-div-separator-1'>  <h3 class='separator-h3-title' id='separator-h3-title-1'>Técnica na prática</h3><hr class='separator-hr-line' id='separator-hr-line-1' />  </div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> Observando o paciente e veja em qual grau ele se encaixa, de acordo com o que ele apresenta. Por exemplo: paciente apresenta sonolência e responde de acordo com o comando verbal. Então observando os graus, vamos ver qual deles tem o que o paciente apresenta. De acordo com esse paciente, ele está em grau 3 da escala de Rawsay devido ao que ele me apresentou.</p></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "id": "fase5",
+                        "title": "Casos Clínicos",
+                        "body" : "<body><header><img src='./src/img/3d-casual-life-blue-pill-packaging.png' alt='' id='header-img-theme' /><h1 id='header-h1-title'>CASOS CLÍNICOS</h1></header><main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>1 - Um homem de 40 anos está internado em uma unidade de terapia intensiva, fazendo o uso de drogas sedativas após um acidente automobilístico. Ao se aproximar do leito do paciente, o profissional de saúde observa que ele encontra-se dormindo e, ao chamá-lo vigorosamente, percebe que ele mantém-se desacordado, e sem resposta. De acordo com a escala de Ramsay, qual é o grau de sedação do paciente?<ul><li>Primeiro: observe o que o paciente nos apresenta. Bom, o profissional o chama, mas o paciente não responde, e ele diz que o paciente mantém-se sem responder.</li><li>Então, de acordo com o que paciente apresenta, ele está em grau 6, de acordo com a escala de Ramsay.</li></ul></p></div><div class='main-div-separator' id='main-div-separator-1'> <hr class='separator-hr-line' id='separator-hr-line-1' />  </div> <div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>2 - Paciente com Trauma Crânio Encefálico apresenta abertura ocular a comandos verbais, responde com palavras inapropriadas e localiza dor; tem o escore na Escala de Coma de Glasgow. Ao observarmos o caso vemos que ele nos apresentou algumas informações, então para saber qual a pontuação temos que observar a escala e ver quantos escores esse paciente vai ganhar. <ul><li>Primeiro: ''Apresenta abertura ocular a comandos verbais''. Então de acordo com a escala ele ganha 3 pontos.</li><li>Segundo: ''Responde com palavras inapropriadas''. Observando a escala ele ganha mais 3 pontos.</li><li>Terceiro: ''E localiza dor''. Ele ganha mais 5 pontos.</li></ul>Somando então: 3+3+5=11 pontos. Então de acordo com as classificações das lesões, este paciente está com lesão moderada. </p></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   }
             ]
       },
@@ -278,62 +126,12 @@
                   {
                         "id": "fase3",
                         "title": "Como identificar",
-                        "body": ""
+                        "body": "<body> <header> <img src='./src/img/3d-casual-life-heart.png' id='header-img-theme'/><h1 id='header-h1-title'>COMO IDENTIFICAR</h1></header><main> <div class='main-div-separator' id='main-div-separator-1'><h3 class='separator-h3-title' id='separator-h3-title-1'>Choque Hipovolêmico:</h3><hr class='separator-hr-line' id='separator-hr-line-1' /></div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'><ul><li>Cianose (Cor da pele azulada ou arroxada);</li><li>Sudorese (Suor);</li><li>Taquicardia (Ritmo acelerado do coração);</li><li>Sede;</li><li>Pulso filiforme (Pulso quase imperceptível);</li><li>Pressão Arterial baixa;</li><li>Tontura e/ou perda de consciência.</li></ul></p></div><div class='main-div-separator' id='main-div-separator-1'><h3 class='separator-h3-title' id='separator-h3-title-1'>Choque Cardiogênico:</h3><hr class='separator-hr-line' id='separator-hr-line-1' /></div><div class='main-div-explication' id='main-div-explication-1'> <p class='explication-p-text' id='explication-p-text-1'><ul><li>Infarto do miocárdio;</li><li>Insuficiência cardíaca;</li><li>Arritmias cardíacas graves ou tamponamento cardíaco.</li></ul></p></div><div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>Choque Obstrutivo:</h3><hr class='separator-hr-line' id='separator-hr-line-1' /> </div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'><ul><li>A pele se apresenta acinzentada e úmida;</li><li>A excreção de urina é baixa;</li><li>Lóbulos das orelhas, nariz e extremidades se apresentam cianóticos (azulado ou arroxado);</li><li>Dor na região do peito;</li><li>Hipotensão (pressão arterial baixa);</li><li>Taquicardia (Ritmo acelerado do coração).</li></ul></p></div></div> <h3 class='separator-h3-title' id='main-h3-materialComp'> Material complementar:</h3><ul id='main-ul-complement' class='main-ul-complement'> <li><a href='https://youtu.be/j4jQsezAUQ0?si=YN5oOETQ1GUh1jXu'>Vídeo sobre tipos de Choque: Hipovolêmico, cardiogênico, obstrutivo e distributivo.</a></li></ul><button id='main-btn-nextLesson' class='btn'>Próximo</button></main><script src='https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@4.0.1/dist/YouTubeToHtml5.js'></script><script>new YouTubeToHtml5();</script></body>"
                   },
                   {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
-                  },
-                  {
-                        "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "id": "fase4",
+                        "title": "Condução",
+                        "body": "<body><header> <img src='./src/img/3d-casual-life-heart.png' id='header-img-theme' /><h1 id='header-h1-title'>CONDUÇÃO</h1> </header><main><div class='main-div-separator' id='main-div-separator-1'><h3  class='separator-h3-title' id='separator-h3-title-1'>Como conduzir antes do serviço de urgência e emergência chegar: </h3><hr class='separator-hr-line' id='separator-hr-line-1' /></div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'><ul> <li>Se manter calmo e acalmar a vítima; </li><li>Acionar o serviço de urgência e emergência; </li><li>Caso a vítima se apresente consciente, deite-a de costas, com as pernas levantadas e a cabeça virada para o lado (evita afogamento caso a vítima vomite); </li> <li>Não virar a cabeça da vítima em caso de suspeita de lesão na coluna;</li><li>Caso possível, afrouxe as roupas da vítima (gravata, cinto e etc.) para ajudar na circulação e respiração </li><li>Retirar objetos da boca da vítima;</li> <li>Manter a vítima aquecida (cobertores, toalhas e etc.) mas sempre tomar cuidado para não sufocá-la;</li><li>Não administre líquidos ou medicamentos pela boca;</li><li>Controle imediatamente hemorragias externas e imobilize somente grandes fraturas;</li> <li>Em perda total de consciência, encaminhar a vítima o mais rápido possível ao prontosocorro</li></ul></p></div><div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>Como o serviço de urgência e emergência conduz:</h3><hr class='separator-hr-line' id='separator-hr-line-1' /> </div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> Conduta 1: Realizar avaliação primária (Protocolo AC1) com ênfase para:<ul><li>Manter via aérea pérvia;</li><li>Avaliar responsividade;</li><li>Estabilizar coluna cervical, se suspeita de trauma;</li><li>Identificar e controlar sangramentos, se necessário (considerar compressão, torniquete, imobilização de pelve e membros, se necessário);</li><li>Coletar história SAMPLA;</li><li>Monitorizar oximetria de pulso, ritmo cardíaco e sinais vitais;</li><li>Posicionar o paciente de forma compatível com a modalidade do choque, visando à melhora da sintomatologia e controle de danos;</li><li>Tentar identificar a causa do choque e iniciar tratamento específico.</li></ul></p></div><h3 class='separator-h3-title' id='main-h3-materialComp'> Material complementar:</h3><ul id='main-ul-complement' class='main-ul-complement'><li><a href='https://youtu.be/j4jQsezAUQ0?si=YN5oOETQ1GUh1jXu'>Vídeo sobre tipos de Choque: Hipovolêmico, cardiogênico, obstrutivo e distributivo.</a></li></ul><button id='main-btn-nextLesson' class='btn'>Próximo</button></main><script src='https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@4.0.1/dist/YouTubeToHtml5.js'></script><script>new YouTubeToHtml5(); </script></body>"
                   }
             ]
       },
@@ -341,91 +139,43 @@
             "unity": [
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "O que é hemorragia",
-                        "p1": "Hemorragia é a perda de sangue através de um corte ou ferida traumática, podendo acontecer também por motivos naturais (sangramento em nariz, ouvido, boca, ânus). As hemorragias ocorrem quando um ou mais vasos sanguíneos são rompidos, dentro ou fora do corpo. A hemorragia externa é quando o sangue sai do corpo através de um ferimento, o sangramento é visível na pele, como por exemplo, grandes cortes. A hemorragia interna édifícil de ser identificada por pessoas que não sejam profissionais de saúde. Você deve suspeitar da existência de uma hemorragia interna principalmente em acidentes grave ela não é visível. Além do sangramento,no caso das hemorragias externas,há outros sintomas: ",
-                        "subtitle": "",
-                        "p2": "<ul> <li>palidez;</li> <li>fraqueza;</li> <li>falta de ar;</li> <li>tontura;</li> <li>sede;</li> <li>pulso rápido e fraco;</li> <li>respiração rápida e superficial;</li> <li>náuseas e vômitos;</li> <li>suor intenso;</li> <li>desmaio;</li> <li>mucosa pálida.</li> </ul>",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body": "<body><header> <img src='./src/img/3d-casual-life-boy-scientist.png' id='header-img-theme'/><h1 id='header-h1-title'>O QUE É HEMORRAGIA</h1></header><main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> Hemorragia é a perda de sangue através de um corte ou ferida traumática, podendo acontecer também por motivos naturais (sangramento em nariz, ouvido, boca, ânus). As hemorragias ocorrem quando um ou mais vasos sanguíneos são rompidos, dentro ou fora do corpo. </p></div><div class='main-div-images'><img class='main-img-themeImg' src='./src/img/hemorragia-img.webp'></div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>  A hemorragia externa é quando o sangue sai do corpo através de um ferimento, o sangramento é visível na pele, como por exemplo, grandes cortes. A hemorragia interna édifícil de ser identificada por pessoas que não sejam profissionais de saúde. Você deve suspeitar da existência de uma hemorragia interna principalmente em acidentes grave ela não é visível.Além do sangramento,no caso das hemorragias externas,há outros sintomas: <ul> <li>palidez;</li> <li>fraqueza;</li> <li>falta de ar;</li> <li>tontura;</li> <li>sede;</li> <li>pulso rápido e fraco;</li> <li>respiração rápida e superficial;</li> <li>náuseas e vômitos;</li> <li>suor intenso;</li> <li>desmaio;</li> <li>mucosa pálida.</li> </ul></p></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></main><script src='https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@4.0.1/dist/YouTubeToHtml5.js'></script><script> new YouTubeToHtml5();</script> </body>"
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "Internas e externas",
-                        "p1": "A hemorragia INTERNA ocorre sem que a pele seja rompida. Logo, o sangue que sai dos vasos sangüíneos não pode ser visto. Ela pode ser provocada pela lesão de algum órgão interno. Normalmente, esse tipo de hemorragia se dá imediatamente após acidentes violentos, nos quais o corpo suporta pressões muito fortes, como: colisões, quedas, ferimento por projétil de arma de fogo. \n\n Os sintomas e os sinais dessa hemorragia demoram mais a aparecer. Os principais sinais de uma hemorragia interna são: pulso com batimento anormal (fraco ou acelerado), pele fria; sudorese abundante, palidez intensa, tonturas, eliminação de sangue pela boca (junto com vômito ou saliva), nas fezes e na urina, sede, inconsciência.",
-                        "subtitle": "Hemorragia externa:",
-                        "p2": "Aquela em que é possível observar o sangramento, podendo ser mais ou menos intensa de acordo com o tipo de vaso afetado e a localização. Ela pode ser classificada em: \n capilar (o sangramento mais comum, que acontece no dia a dia, geralmente, devido a pequenos cortes em que os pequenos vasos que chegam até a superfície do corpo, chamados de capilares, são atingidos), \n venosa (é a hemorragia que acontece devido a algum corte grande ou mais profundo, com sangramento em fluxo contínuo e lento, por vezes de grande volume, através da ferida) ou \n arterial (é o tipo de hemorragia em que são atingidas as artérias, isto é, os vasos que levam sangue do coração ao resto do corpo e, por isso, têm sangue vermelho vivo, com grande fluxo e intensidade. O sangramento arterial é o tipo mais grave, e pode, até, provocar jatos de sangue para locais distantes do corpo e risco de morte)",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body": "<body><header><img src='./src/img/3d-casual-life-boy-scientist.png' alt='' id='header-img-theme' /><h1 id='header-h1-title'>INTERNAS E EXTERNAS</h1></header><main><div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>HEMORRAGIA INTERNA</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> </div><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'>Ocorre sem que a pele seja rompida. Logo, o sangue que sai dos vasos sangüíneos não pode ser vista. Ela pode ser provocada pela lesão de algum órgão interno. Normalmente, esse tipo de hemorragia se dá imediatamente após acidentes violentos, nos quais o corpo suporta pressões muito fortes, como colisões, quedas, ferimento por projétil de arma de fogo, etc. Os sintomas e os sinais dessa hemorragia demoram mais a aparecer. Os principais sinais de uma hemorragia interna são:<ul><li>pulso com batimento anormal (fraco ou acelerado);</li><li>pele fria;</li><li>sudorese abundante;</li><li>palidez intensa;</li><li>tonturas; </li><li>eliminação de sangue pela boca (junto com vômito ou saliva), nas fezes e na urina;</li><li>sede;</li> <li>inconsciência.</li></ul></p></div><div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>HEMORRAGIA EXTERNA</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> </div> <div class='main-div-explication'> <p class='explication-p-text'>Aquela em que é possível observar o sangramento, podendo ser mais ou menos intensa de acordo com o tipo de vaso afetado e a localização. A hemorragia externa pode ser classificada em: <ul><li>Capilar: é o sangramento mais comum, que acontece no dia-a-dia, geralmente, devido a pequenos cortes em que os pequenos vasos que chegam até a superfície do corpo, chamados de capilares, são atingidos.</li><li>Venosa: é a hemorragia que acontece devido a algum corte grande ou mais profundo, com sangramento em fluxo contínuo e lento, por vezes de grande volume, através da ferida.</li><li>Arterial: é o tipo de hemorragia em que são atingidas as artérias, isto é, os vasos que levam sangue do coração ao resto do corpo e, por isso, têm sangue vermelho vivo, com grande fluxo e intensidade. O sangramento arterial é o tipo mais grave, e pode, até, provocar jatos de sangue para locais distantes do corpo e risco de morte.</li></ul></p></div><div class='main-div-images'><img class='main-img-themeImg' src='./src/img/Tipos-de-hemorragia-externa.webp' alt='' id='header-img-theme' /></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "title": "Situações em que podem ocorrer hemorragias",
+                        "body" : "<body> <header> <img src='./src/img/3d-casual-life-boy-scientist.png' id='header-img-theme' /><h1 id='header-h1-title'>QUANDO OCORREM</h1> </header><main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> As hemorragias ocorrem quando os vasos sanguíneos são rompidos, e a gravidade é medida pela quantidade e rapidez que o sangue é extravasado/perdido. Quando ocorre a perda de sangue, o organismo responde com algumas respostas fisiológicas, mas se a perda for superior a resposta compensatória, diz que o indivíduo encontra-se em choque hipovolêmico, situação de emergência decorrente da perda de grande quantidade de líquidos e sangue. Essa situação faz com que o coração deixe de bombear sangue para o corpo, levando a problemas em vários órgãos e colocando a vida do paciente em risco. </p></div><h3 class='separator-h3-title' id='main-h3-materialComp'>Material Complementar:</h3><ul class='main-ul-complement'><li><a href='https://www.samunoroestepr.com.br/materia/dicas/3-hemorragias-conheca-os-tipos-e-como-cuidar'>Tipos de hemorragia e como cuidar - SAMU noroeste</a></li><li><a href='https://www.rededorsaoluiz.com.br/doencas/choque-hipovolemico'>Choque hipovolêmico - Rede d´or</a></li></ul> <button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "title": "Materiais e equipamentos",
+                        "body" : "<body><header><img src='./src/img/3d-casual-life-boy-scientist.png' id='header-img-theme'/> <h1 id='header-h1-title'>MATERIAIS</h1></header><main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'><h3 class='separator-h3-title' id='separator-h3-title-1'>Torniquete</h3><hr class='separator-hr-line' id='separator-hr-line-1' />O torniquete é um dispositivo de compressão usado para controlar o fluxo sanguíneo arterial e venoso de uma extremidade por um período de tempo, a fim de conter hemorragias graves nos membros inferiores e superiores.<div class='main-div-images'> <img class='main-img-themeImg' src='./src/img/Torniquete-Hemorragia.jpg' id='header-img-theme'/> </div><h3 class='separator-h3-title' id='separator-h3-title-1'>Agente hemostático</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> Pó Hemostático é utilizado em casos de ferimentos com pouco sangue, como nos casos dos cortes de unha e remoção de cutículas, barbear, entre outros. Por ser um produto em pó, ele é de fácil aplicação, facilitando o processo de cicatrização e estancamento de sangue.<div class='main-div-images'> <img class='main-img-themeImg' src='./src/img/Agente-hemostático-hemorragia.jpg' id='header-img-theme' /> </div><h3 class='separator-h3-title' id='separator-h3-title-1'>Gaze</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> Quando a Gaze entra em contato com o sangue ou exsudato, pode rapidamente transformar-se em gel viscoso claro, que enche os vazios da ferida, fecha as extremidades capilares, ativa o sistema de coagulação e assim ajuda a parar o sangramento. <div class='main-div-images'> <img class='main-img-themeImg' src='./src/img/Gaze-Hemorragia.webp' alt=''id='header-img-theme' /> </div><h3 class='separator-h3-title' id='separator-h3-title-1'>Bandagens</h3> <hr class='separator-hr-line' id='separator-hr-line-1' /> As bandagens são constituídas por peças de tecido em algodão crú, cortado em triângulo medindo: 1,20m X 1,20m x 1,70m, sendo utilizadas para: Fixar curativos, cobrindo as compressas; Imobilizar e apoiar seguimentos traumatizados; Promover hemostasia (conter sangramentos).<div class='main-div-images'></div> <img class='main-img-themeImg' src='./src/img/Bandagens-Hemorragia.jpg'id='header-img-theme'/></div></p> </div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
-                        "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "title": "Fatores de risco",
+                        "body" : "<body><header><img src='./src/img/3d-casual-life-boy-scientist.png' alt='' id='header-img-theme' /> <h1 id='header-h1-title'>FATORES DE RISCO</h1></header><main><div class='main-div-explication' id='main-div-explication-1'><p class='explication-p-text' id='explication-p-text-1'> São considerados fatores de risco para hemorragias:<ul><li>Doença hereditária, como a hemofilia; </li><li>Deficiência de vitamina K;</li><li>Câncer no fígado;</li><li>Metástases (no fígado, mama, cólon e pâncreas);</li><li>pele fria;</li><li>Outras doenças hepáticas, como hepatite e cirrose hepática; </li><li>Uso de antibióticos anticoagulantes a longo tempo;</li> <li>Inibidores da angiogênese;</li><li>Trombocitopenia (nível baixo de plaquetas);</li><li> Outras doenças não relacionadas ao câncer.</li></ul></p><div class='main-div-images'><img class='main-img-themeImg' src='./src/img/risco-hemorragia.jpg'></div></div></div><h3 class='separator-h3-title' id='main-h3-materialComp'> Material complementar: </h3><ul id='main-ul-complement' class='main-ul-complement'><li> <a href='http://www.oncoguia.org.br/mobile/conteudo/hemorragias-e-problemas-de-coagulacao/210/109/'>Hemorragias e Problemas de Coagulação - Onco Guia</a> </li></ul><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   }
             ]
       },
@@ -435,7 +185,7 @@
                         "id": "",
                         "imgHeader": "",
                         "title": "Definições das doenças",
-                        "p1": "EXAME PRIMÁRIO: O Protocolo XABCDE foi pensado para identificar lesões potencialmente fatais ao indivíduo. X- Exanguinação: Contenção de hemorragia externa. A- Vias areais e contenção da coluna cervical: Avaliar obstrução de vias aéreas e proteger coluna cervical. B- Boa ventilação e respiração: Analisar respiração, verificar se a frequência respiratória está adequada. Ex: FR, movimento torácico, cianose. C- Circulação com controles de hemorragia: contenção de hemorragias internas, onde deve-se investigar se a perda de volume sanguíneo não visível. D- Disfunção neurológica: analisar nível de consciência e tamanho da pupila. E- Exposição total do paciente: analisar a extensão das lesões e o controle do ambiente.",
+                        "body": "EXAME PRIMÁRIO: O Protocolo XABCDE foi pensado para identificar lesões potencialmente fatais ao indivíduo. X- Exanguinação: Contenção de hemorragia externa. A- Vias areais e contenção da coluna cervical: Avaliar obstrução de vias aéreas e proteger coluna cervical. B- Boa ventilação e respiração: Analisar respiração, verificar se a frequência respiratória está adequada. Ex: FR, movimento torácico, cianose. C- Circulação com controles de hemorragia: contenção de hemorragias internas, onde deve-se investigar se a perda de volume sanguíneo não visível. D- Disfunção neurológica: analisar nível de consciência e tamanho da pupila. E- Exposição total do paciente: analisar a extensão das lesões e o controle do ambiente.",
                         "subtitle": "",
                         "p2": "EXAME SEGUNDARIO: S: Sinais Vitais (SSVV). A: Histórico de alergia. M: Uso de medicamento. P: Problemas de saúde. L: Horário da última ingestão de líquidos/ alimentos. A: ambiente do evento",
                         "video": "",
@@ -446,7 +196,7 @@
                         "id": "",
                         "imgHeader": "",
                         "title": "Fases do Trauma",
-                        "p1": " Fase pré-impacto: Todos os acontecimentos que precedem o acidente. Ex: Ingestão de álcool.<div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title'id='separator-h3-title-1'</h3> <hr class='separator-hr-line' id='separator-hr-line-1'> </div>",
+                        "body": " Fase pré-impacto: Todos os acontecimentos que precedem o acidente. Ex: Ingestão de álcool.<div class='main-div-separator' id='main-div-separator-1'> <h3 class='separator-h3-title'id='separator-h3-title-1'</h3> <hr class='separator-hr-line' id='separator-hr-line-1'> </div>",
                         "subtitle": "",
                         "p2": "Fase do impacto: Inicia assim que dois corpos se colidem. Ex: Momento exato que um veículo choca ao outro veículo",
                         "video": "",
@@ -455,69 +205,33 @@
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   }
             ]
       },
@@ -525,91 +239,43 @@
             "unity": [
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   }
             ]
       },
@@ -619,7 +285,7 @@
                         "id": "fase8-1",
                         "imgHeader": "./src/img/casual-life-3d-young-woman-wearing-smart-watch-and-holding-coffee-cup.png",
                         "title": "CONCEITOS FUNDAMENTAIS",
-                        "p1": "A Parada Cardiorrespiratória (PCR) é uma condição médica em que ocorre a interrupção súbita e completa do funcionamento do coração e da respiração. Isso leva à ausência de pulso, falta de respiração e perda de consciência.A PCR ocorre quando há uma falha no sistema elétrico do coração, resultando em ritmos cardíacos anormais, como a fibrilação ventricular.A PCR é uma situação de emergência que requer intervenção imediata, como a realização de compressões torácicas para manter a circulação sanguínea e o uso de um desfibrilador externo automático (DEA) para restaurar o ritmo cardíaco normal. O objetivo principal da ressuscitação cardiopulmonar (RCP) durante uma PCR é manter a circulação sanguínea e a oxigenação dos órgãos até que cuidados médicos avançados possam ser fornecidos. O tempo é crucial durante uma PCR, e a resposta rápida e adequada pode aumentar significativamente as chances de sobrevivência da pessoa afetada.",
+                        "body": "A Parada Cardiorrespiratória (PCR) é uma condição médica em que ocorre a interrupção súbita e completa do funcionamento do coração e da respiração. Isso leva à ausência de pulso, falta de respiração e perda de consciência.A PCR ocorre quando há uma falha no sistema elétrico do coração, resultando em ritmos cardíacos anormais, como a fibrilação ventricular.A PCR é uma situação de emergência que requer intervenção imediata, como a realização de compressões torácicas para manter a circulação sanguínea e o uso de um desfibrilador externo automático (DEA) para restaurar o ritmo cardíaco normal. O objetivo principal da ressuscitação cardiopulmonar (RCP) durante uma PCR é manter a circulação sanguínea e a oxigenação dos órgãos até que cuidados médicos avançados possam ser fornecidos. O tempo é crucial durante uma PCR, e a resposta rápida e adequada pode aumentar significativamente as chances de sobrevivência da pessoa afetada.",
                         "subtitle": "Segurança no atendimento",
                         "p2": "Antes de iniciar qualquer intervenção, verifique se a cena está segura para você e para a vítima. Certifique-se de que não há riscos iminentes, como incêndio, substâncias perigosas ou situações de violência. Se houver várias pessoas presentes, designe um líder para coordenar as ações e garantir uma comunicação clara. Ao realizar as compressões torácicas, certifique-se de que a vítima esteja em uma posição estável e que você esteja em uma posição confortável para evitar lesões musculoesqueléticas. Ao utilizar um desfibrilador externo automático (DEA), certifique-se de seguir as instruções do aparelho e evite tocar na vítima durante a análise do ritmo cardíaco ou durante a administração do choque.",
                         "video": "https://www.youtube.com/embed/J2vRYceUnpk?si=459fAyaEGRx4_6xz",
@@ -628,80 +294,38 @@
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   },
                   {
                         "id": "",
-                        "imgHeader": "",
                         "title": "",
-                        "p1": "",
-                        "subtitle": "",
-                        "p2": "",
-                        "video": "",
-                        "imgMain": "<img src='' class='main-img-themeImg' id='main-img-themeImg-1'>",
-                        "mainUl": "<li> <a href=''></a></li>"
+                        "body" : ""
                   }
             ]
       }
