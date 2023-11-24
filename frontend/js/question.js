@@ -16,10 +16,17 @@ const user = JSON.parse(userJSON);
 const btnEnviar = document.querySelector(".btn");
 const content = json;
 
+// Resultado do quiz: mensagem na tela
+const corret = document.getElementById("main-div-result");
+
 console.log(content[unidade]);
 
 btnEnviar.addEventListener("click", async () => {
     //validação das respostas
+
+    // Aparição da resposta
+    // Acertou:
+    corret.style.display = "flex";
 
     //atualização do progresso
     //se passou na prova

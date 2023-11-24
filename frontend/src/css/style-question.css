@@ -109,6 +109,10 @@ body {
 /* Fim */
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: var(--color-white);
     padding: 0 3vw;
     /* height: 150vh; */
@@ -199,6 +203,10 @@ main {
 footer {
     display: flex;
     justify-content: center;
+
+    /* Deverá ser adicionado via JS ao header e footer */
+    /* filter: blur(10px);
+    -webkit-filter: blur(2px); */
 }
 .btn {
     position: absolute;
@@ -223,6 +231,74 @@ footer {
     position: relative;
     height: 25vh;
     left: 80px;
+}
+
+/* Acertos ou erros */
+#main-div-result {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 305vh;
+    background: var(--color-white);
+    height: 90vh;
+    width: 90vw;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+    /* Reajustar para não ficar tão forte */
+    box-shadow: 3px 10px 74px 26px rgba(0,0,0,0.34);
+    -webkit-box-shadow: 3px 10px 74px 26px rgba(0,0,0,0.34);
+    -moz-box-shadow: 3px 10px 74px 26px rgba(0,0,0,0.34);
+
+
+}
+#result-div-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0 0 0;
+    height: 35vh;
+    width: 35vh;
+    background: #CCFDA6;
+    border-radius: 100%;
+}
+#result-img-people {
+    height: 40vh;
+}
+
+#result-div-box-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+.result-h1-phrase {
+    color: var(--color-background-pink);
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: 1;
+    font-family: 'Poppins';
+}
+#result-h1-porcent {
+    color: #83C5BE;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: 'Poppins';
+}
+
+#main-div-result button {
+    position: relative;
+    bottom: 5.5vh;
+    width: 65vw;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
 }
 
 
