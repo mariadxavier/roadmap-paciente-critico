@@ -209,11 +209,12 @@ footer {
     -webkit-filter: blur(2px); */
 }
 .btn {
+    display: flex;
     position: absolute;
     bottom: 3vh;
-    width: 100%;
+    width: 80vw;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center;
 }
 
 /* Imagens */

@@ -27,6 +27,8 @@ btnEnviar.addEventListener("click", async () => {
     // Aparição da resposta
     // Acertou:
     corret.style.display = "flex";
+    // Teste para saber se o botão está funcionando no celular
+    btnEnviar.style.background = "blue";
 
     //atualização do progresso
     //se passou na prova
