@@ -1,6 +1,5 @@
 body {
     background-color: var(--color-background-gray);
-    padding: 15px;
 }
 
 #body-div-return {
@@ -14,6 +13,7 @@ body {
     align-content: center;
     justify-content: center;
     position: fixed;
+    margin: 15px;
 }
 
 #return-img-arrow {
@@ -28,11 +28,14 @@ main {
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: column;
+    height: 100vh;
 }
 
-main img.main-img-primary {
-    width: 33vh;
-    margin: 1rem;
+.main-img-primary {
+    position: relative;
+    bottom: 8vh;
+    width: 35vh;
+    margin-bottom: 1vh;
 }
 
 main h1 {
@@ -48,13 +51,13 @@ main h1 {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 #form-register {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1vh;
     width: 80%;
 }
 
@@ -129,7 +132,8 @@ main h1 {
     line-height: 30px;
     letter-spacing: 3px;
     border: none;
-    margin: 1rem 0;
+    position: relative;
+    top: 2vh;
 }
 
 .span-required {
