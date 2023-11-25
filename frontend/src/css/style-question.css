@@ -22,7 +22,6 @@ body {
     color: var(--color-white);
     display: flex;
     flex-direction: column;
-    /* position: relative; */
     align-items: center;
     justify-content: center;
 
@@ -115,13 +114,10 @@ main {
     align-items: center;
     background: var(--color-white);
     padding: 0 3vw;
-    /* height: 150vh; */
-    /* border-radius: 40px; */
 }
 
 /* Questões */
 .section-questions {
-    position: relative;
     height: 100vh;
     padding: 0 3vw;
 }
@@ -133,14 +129,16 @@ main {
 
 /* Pergunta */
 .questions-div-asking {
-    display: flex;
+    display: grid;
     height: 35vh;
     justify-content: center;
-    flex-direction: column;
     background: rgba(131, 197, 190, 0.70);
-    padding: 2vh;
+    padding: 1.2vh;
     border-radius: 10px;
     gap: 5px;
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 .asking-p-question {
     display: flex;
@@ -166,13 +164,15 @@ main {
 /* Respostas */
 .questions-div-response {
     display: flex;
+    min-height: 45vh;
+    /* background: #83C5BE; */
 }
 .questions-div-response form {
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
     align-items: self-start;
-    position: absolute;
-    top: 49vh;
+    position: relative;
+    top: 13.3vh;
     flex-direction: column;
     gap: 15px;
     width: 88vw;
@@ -212,15 +212,17 @@ main {
 /* Botão */
 footer {
     display: flex;
-    justify-content: center;
-
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
     /* Deverá ser adicionado via JS ao header e footer */
     /* filter: blur(10px);
     -webkit-filter: blur(2px); */
 }
 .btn {
     display: flex;
-    position: absolute;
+    position: relative;
     bottom: 3vh;
     width: 80vw;
     justify-content: center;
@@ -231,17 +233,18 @@ footer {
 #footer-div-img {
     display: flex;
     top: 15vh;
-    position: absolute;
+    position: relative;
+    max-width: 90vw;
 }
 #footer-img-doctor {
+    position: relative;
     height: 65vh;
-    position: absolute;
-    right: 0px;
+    left: 0px;
 }
 #footer-img-text {
     position: relative;
     height: 25vh;
-    left: 80px;
+    right: 40vw;
 }
 
 /* Resultado */
@@ -375,14 +378,8 @@ footer {
 
 
 @media (max-width: 380px) {
-    .questions-div-asking {
-        height: 35vh;
-    }
     .asking-p-question {
         font-size: 1rem;
-    }
-    .questions-div-response form {
-        top: 49vh;
     }
     .questions-div-response form label {
         font-size: .9rem;
@@ -396,24 +393,22 @@ footer {
     .topic-h1-numbers-topics {
         font-size: 1rem;
     }
+    #footer-img-text {
+        right: 30vw;
+    }
 
 }
 
 @media (max-width: 320px) {
-    .questions-div-asking {
-        height: 30vh;
-    }
     .asking-p-question {
         font-size: 0.8rem;
-    }
-    .questions-div-response form {
-        top: 44vh;
     }
     .questions-div-response form label {
         font-size: .83rem;
     }
     #footer-img-text {
-        left: 70px;
+        right: 80px;
+        height: 20vh;
     }
     .asking-h1-number {
         font-size: 1.5rem;
