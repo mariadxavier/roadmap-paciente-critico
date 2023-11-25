@@ -107,38 +107,51 @@
         </section>
 
         </section>
-        
+
         <footer class="mandatory section-questions">
             <div id="footer-div-img">
                 <img src="./src/img/casual-life-3d-doctor-making-heart-hand-shadow.png" alt="" id="footer-img-doctor">
                 <img src="./src/img/bobble.png" alt="" id="footer-img-text">
-                
+
             </div>
             <button class="btn">Enviar</button>
         </footer>
 
-        <div id="main-div-result">
-            <div id="result-div-background">
-                <img src="./src/img/casual-life-3d-boy-online-doctor.png" alt="" id="result-img-people">
+        <div class="main-div-result" id="main-div-result-approved">
+            <div class="result-div-background" id="result-div-background-approved">
+                <img src="./src/img/casual-life-3d-boy-online-doctor.png" alt="" id="result-img-people-approved">
             </div>
-            <div id="result-div-box-text">
-                <h1 id="result-h1-phrase">Parabéns!<br>
-                    <span id="result-h1-porcent">70%</span><br>de acertos!</h1>
+            <div class="result-div-box-text">
+                <h1 id="result-h1-phrase-approved">Parabéns!<br>
+                    <span id="result-h1-porcent">70%</span><br>de acertos!
+                </h1>
             </div>
-            <!-- Quando o passou de nível estiver correto, esta div não existirá -->
+            <button class="btn" id="result-bnt">Próximo</button>
+        </div>
+
+        <div class="main-div-result" id="main-div-result-disapproved">
+            <div class="result-div-background" id="result-div-background-disapproved">
+                <img src="./src/img/3d-casual-life-tired-female-student-sitting-with-book-on-her-face.png" alt=""
+                    id="result-img-people-disapproved">
+            </div>
+            <div class="result-div-box-text">
+                <h1 id="result-h1-phrase-disapproved">Seu esforço foi<br>válido, falta pouco!<br>Acertos: <span
+                        id="result-h1-porcent-disapproved">30%</span></h1>
+            </div>
+            <!-- Passar para o reprovado -->
             <div id="result-div-revision">
-                <img src="" alt="" id="revision-img-attention">
+                <img src="./src/img/triangle-exclamation-solid.svg" alt="" id="revision-img-attention">
                 <div id="revision-div-topic">
                     <h1 id="topic-h1-title">Revise os tópicos:</h1>
                     <h1 class="topic-h1-numbers-topics">2</h1>
                     <h1 class="topic-h1-numbers-topics">3</h1>
                     <h1 class="topic-h1-numbers-topics">4</h1>
-
                 </div>
             </div>
-                <button class="btn" id="result-bnt">Próximo</button>
-            
+
+            <button class="btn" id="result-bnt-disapproved">Página Inicial</button>
         </div>
+
 
     </main>
 

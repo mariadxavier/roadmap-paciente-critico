@@ -234,8 +234,9 @@ footer {
     left: 80px;
 }
 
-/* Acertos ou erros */
-#main-div-result {
+/* Resultado */
+/* Passou */
+.main-div-result {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -255,7 +256,7 @@ footer {
 
 
 }
-#result-div-background {
+.result-div-background {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,16 +266,19 @@ footer {
     background: #CCFDA6;
     border-radius: 100%;
 }
-#result-img-people {
+#result-div-background-approved {
+    background: #CCFDA6;
+}
+#result-img-people-approved {
     height: 40vh;
 }
 
-#result-div-box-text {
+.result-div-box-text {
     display: flex;
     flex-direction: column;
     
 }
-#result-h1-phrase {
+#result-h1-phrase-approved {
     color: var(--color-background-pink);
     font-size: 2.5rem;
     font-weight: 800;
@@ -290,9 +294,9 @@ footer {
     font-family: 'Poppins';
 }
 
-#main-div-result button {
+#main-div-result-approved button {
     position: relative;
-    bottom: 5.5vh;
+    /* bottom: 5.5vh; */
     /* width: 65vw; */
     border-radius: 20px;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
@@ -303,6 +307,61 @@ footer {
     line-height: 0px;
 }
 
+/* Reprovou: */
+#result-div-background-disapproved {
+    background: #FF4747;
+}
+#result-img-people-disapproved {
+    position: absolute;
+    left: 25px;
+    height: 30vh;
+}
+#result-h1-phrase-disapproved, #result-h1-porcent-disapproved {
+    font-size: 2rem;
+    color: #83C5BE;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+#result-bnt-disapproved {
+    position: relative;
+}
+
+
+
+/* Div de conteúdos para estudar */
+#revision-img-attention {
+    height: 4vh;
+}
+#result-div-revision {
+    display: flex;
+    justify-content: center;
+    align-items: "center";
+    gap: 10px;
+}
+#revision-div-topic {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    width: 230px;
+    flex-wrap: wrap;
+}
+#topic-h1-title {
+    font-size: 1.2rem;
+    color: #434343;
+    font-weight: 800;
+}
+.topic-h1-numbers-topics {
+    color: var(--color-white);
+    font-size: 1.2rem;
+    background: var(--color-background-pink);
+    padding: 2px 7px;
+    border-radius: 100%;
+}
+#result-bnt-disapproved {
+    font-size: 1.7rem;
+    padding: 3vh 0vw;;
+}
 
 
 @media (max-width: 380px) {
@@ -318,6 +377,16 @@ footer {
     .questions-div-response form label {
         font-size: .9rem;
     }
+    #result-h1-phrase-disapproved, #result-h1-porcent-disapproved {
+        font-size: 1.8rem;
+    }
+    #topic-h1-title {
+        font-size: 1rem;
+    }
+    .topic-h1-numbers-topics {
+        font-size: 1rem;
+    }
+
 }
 
 @media (max-width: 320px) {
@@ -339,5 +408,25 @@ footer {
     .asking-h1-number {
         font-size: 1.5rem;
         padding: 0px 14px;
+    }
+
+    /* Div de conteúdos para estudar */
+    #result-img-people {
+        height: 30vh;
+    }
+    #result-h1-phrase-disapproved, #result-h1-porcent-disapproved {
+        font-size: 1.5rem;
+    }
+    #topic-h1-title {
+        font-size: 0.9rem;
+    }
+    .topic-h1-numbers-topics {
+        font-size: 0.9rem;
+    }
+    #revision-div-topic {
+        width: 180px;
+    }
+    #result-bnt-disapproved {
+        font-size: 1.4rem;
     }
 }
