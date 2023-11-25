@@ -93,6 +93,7 @@ body {
     border-radius: 500px;
     z-index: 99;
 }
+
 #progressBar-p-percent {
     margin: 0 0 0 20px;
     height: 1.3rem;

@@ -34,6 +34,8 @@ main {
 
 main img {
     height: 43vh;
+    position: relative;
+    bottom: 2vh;
 }
 
 main h1 {
@@ -122,7 +124,7 @@ main h1 {
     background: var(--color-light-pink);
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     justify-content: center;
-    width: 70%;
+    width: 75%;
     flex-shrink: 0;
     color: rgba(255, 125, 76, 0.91);
     text-align: center;
