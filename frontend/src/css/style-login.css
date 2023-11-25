@@ -1,6 +1,5 @@
 body {
     background-color: var(--color-background-gray);
-    padding: 15px;
 }
 
 #body-div-return {
@@ -14,6 +13,7 @@ body {
     align-content: center;
     justify-content: center;
     position: fixed;
+    margin: 15px;
 }
 
 #return-img-arrow {
@@ -29,6 +29,7 @@ main {
     flex-wrap: nowrap;
     flex-direction: column;
     padding: 0 15px;
+    height: 100vh;
 }
 
 main img {
@@ -116,12 +117,12 @@ main h1 {
 }
 
 #main-btn-enter {
-    padding: 3vh 20vw;
+    padding: 3vh 18vw;
     border-radius: 10px;
     background: var(--color-light-pink);
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     justify-content: center;
-    width: 85%;
+    width: 70%;
     flex-shrink: 0;
     color: rgba(255, 125, 76, 0.91);
     text-align: center;
@@ -137,9 +138,27 @@ main h1 {
 #main-a-registerAnchor {
     color: var(--color-gray);
     font-weight: 700;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 #main-a-registerAnchor span {
     color: var(--color-orange);
+}
+
+@media (max-width: 375px) {
+    #main-btn-enter {
+        width: 85%;
+        padding: 3vh 0vw;
+    }
+}
+@media (max-width: 320px) {
+    #main-form-login {
+        margin-bottom: 2vh;
+    }
+    main h1 {
+        margin-bottom: 1vh;
+    }
+    #main-btn-enter {
+        width: 100%;
+    }
 }
