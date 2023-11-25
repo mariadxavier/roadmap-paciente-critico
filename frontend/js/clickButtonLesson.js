@@ -16,9 +16,6 @@ const progressoFases = [
     ...fases.progresso[7].fases,
 ];
 
-console.log(btnFases);
-console.log(progressoFases);
-
 btnFases.forEach((elem, i) => {
     // if (progressoFases[i] === false) {
     //     elem.disabled = true;
@@ -53,10 +50,3 @@ btnFases.forEach((elem, i) => {
     });
 });
 
-/**
- * <>p content[unidade].quiz[0].questo<>
- * <>p content[unidade].quiz[0].opa<>
- * <>p content[unidade].quiz[0].opa<>
- * <>p content[unidade].quiz[0].opa<>
- *
- *<>p content[unidade].quiz[1].questao<>*/

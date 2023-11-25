@@ -36,15 +36,20 @@ btnLogin.addEventListener("click", async () => {
     );
 
     const result = await user.json();
-    const progress = await fetch(
-        `https://api-roadmap-proz.onrender.com/progressos/${result.usuarioEncontrado._id}`
-    );
-    const resultProg = await progress.json();
+    console.log(result);
 
     if (result.autorizado) {
+        const progress = await fetch(
+            `https://api-roadmap-proz.onrender.com/progressos/${result.usuarioEncontrado._id}`
+        );
+        
+        const resultProg = await progress.json();
         localStorage.setItem("logar", JSON.stringify(result.usuarioEncontrado));
         localStorage.setItem("progressoUsuario", JSON.stringify(resultProg));
         btnLogin.innerHTML = sucesso;
+
+        
+
         setTimeout(() => {
             window.location.href = "./pagina-principal.html";
         }, 2000);
