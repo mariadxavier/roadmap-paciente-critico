@@ -9,10 +9,12 @@ header {
     position: relative;
     border-radius: 0 0 10% 10%;
     align-items: center;
+    justify-content: center;
 }
 
 #header-img-theme {
     width: 17.8rem;
+    
 }
 
 #header-h1-title {
@@ -114,4 +116,5 @@ main {
     border-radius: 10px;
     object-fit: cover;
     object-position: center;
+    height: 100%;
 }

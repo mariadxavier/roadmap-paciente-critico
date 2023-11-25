@@ -14,7 +14,6 @@ const unityFase = JSON.parse(unityFaseJSON);
 let unidade = unityFase.unidade;
 let fase = unityFase.fase;
 
-
 const content = json;
 const imgHeader = document.querySelector("#header-img-theme");
 const titlePage = document.querySelector("title");
@@ -26,10 +25,10 @@ const divImages = document.querySelector(".main-div-images");
 const imgItem = document.querySelectorAll(".main-img-themeImg");
 const mainVideo = document.querySelector("#main-video-1");
 const mainUl = document.querySelector("#main-ul-complement");
-const bodyLesson = document.querySelector('body');
+const bodyLesson = document.querySelector("body");
 // Troca de conteúdo:
-// titlePage.textContent = content[unidade].unity[fase].title.toUpperCase();
-// bodyLesson.innerHTML = content[unidade].unity[fase].body;
+titlePage.textContent = content[unidade].unity[fase].title.toUpperCase();
+bodyLesson.innerHTML = content[unidade].unity[fase].body;
 const btnNext = document.querySelector("#main-btn-nextLesson");
 // imgHeader.src = content[unidade].unity[fase].imgHeader;
 // explicationP[0].innerHTML = content[unidade].unity[fase].p1;
@@ -39,10 +38,9 @@ const btnNext = document.querySelector("#main-btn-nextLesson");
 // mainUl.innerHTML = content[3].unity[0].mainUl;
 // divImages.innerHTML = content[0].unity[0].imgMain;
 
-
 // console.log(content[0]);
 btnNext.addEventListener("click", async () => {
-    console.log('clicou');
+    console.log("clicou");
     // const proxFase = parseInt(fase) + 1;
     if (parseInt(fase) === content[unidade].unity.length - 1) {
         window.location.href = "./question.html";
