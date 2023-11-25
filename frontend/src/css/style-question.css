@@ -172,10 +172,18 @@ main {
     /* grid-template-columns: 1fr 1fr; */
     align-items: self-start;
     position: absolute;
-    top: 53vh;
+    top: 49vh;
     flex-direction: column;
     gap: 15px;
     width: 88vw;
+}
+.questions-div-response form label {
+    color: var(--color-dark-gray);
+    font-weight: 700;
+    font-size: 1.1rem;
+    position: relative;
+    left: 35px;
+    width: 78vw;
 }
 
 /* Botão */
@@ -200,14 +208,6 @@ main {
 }
 
 /* Resposta */
-.questions-div-response form label {
-    color: var(--color-dark-gray);
-    font-weight: 700;
-    font-size: 1.14rem;
-    position: relative;
-    left: 35px;
-    width: 78vw;
-}
 
 /* Botão */
 footer {
