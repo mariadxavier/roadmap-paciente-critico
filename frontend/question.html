@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#FFAFAF" />
+        <title>questionario</title>
+        <!-- Reset e folha de estilo: -->
+        <link rel="stylesheet" href="./src/css/reset.css" />
+        <link rel="stylesheet" href="./src/css/style-question.css" />
+        <!-- JS -->
+        <script src="./js/animation-question.js" defer></script>
+        <script src="./js/question.js" type="module" defer></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#FFAFAF" />
-    <title>questionario</title>
-    <!-- Reset e folha de estilo: -->
-    <link rel="stylesheet" href="./src/css/reset.css" />
-    <link rel="stylesheet" href="./src/css/style-question.css" />
-    <!-- JS -->
-    <script src="./js/animation-question.js" defer></script>
-    <script src="./js/question.js" type="module" defer></script>
+        <!-- Fontes: -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-    <!-- Fontes: -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-</head>
+    <body>
+        <header id="header-questions">
+            <h1 id="header-h1-question">Questionário 1:</h1>
+        </header>
 
-<body>
-
-    <header id="header-questions">
-        <h1 id="header-h1-question">Questionário 1:</h1>
-    </header>
-
-    <section id="header" class="mandatory">
-        <div id="header-div-img">
-            <img src="./src/img/3d-casual-life-busy-female-student1.png" alt="" id="header-img-theme">
-        </div>
-
-        <div id="header-div-title">
-            <div id="title-div-time">
-                <p id="time-div-number">10 minutos</p>
+        <section id="header" class="mandatory">
+            <div id="header-div-img">
+                <img
+                    src="./src/img/3d-casual-life-busy-female-student1.png"
+                    alt=""
+                    id="header-img-theme"
+                />
             </div>
-            <h1 id="title-h1-title">Questionário <span id="title-span-number">1</span>: <br> Qualidade das veias do
-                coração</h1>
 
-            <img src="./src/img/chevron-down-solid1.svg" alt="" id="title-img-down">
-        </div>
-    </section>
+            <div id="header-div-title">
+                <div id="title-div-time">
+                    <p id="time-div-number">10 minutos</p>
+                </div>
+                <h1 id="title-h1-title">
+                    Questionário <span id="title-span-number">1</span>: <br />
+                    Qualidade das veias do coração
+                </h1>
 
+                <img
+                    src="./src/img/chevron-down-solid1.svg"
+                    alt=""
+                    id="title-img-down"
+                />
+            </div>
+        </section>
 
-    <main>
-
-        <section class="mandatory section-questions" id="main-section-question1">
-
+        <main>
+            <div id="questions"></div>
+            <!-- <section class="mandatory section-questions" id="main-section-question1"> -->
+            <!-- 
             <div class="questions-div-asking">
                 <h1 class="asking-h1-number">1</h1>
                 <p class="asking-p-question">( )  A perfusão capilar não é útil para avaliar o volume sanguíneo do paciente. <br>( ) As causas do choque distributivo são: Anafilaxia; Infecção bacteriana pela liberação de endotoxina; Lesão medular grave; Ingestão de certos fármacos ou venenos, como nitratos, opioides e bloqueadores adrenérgicos. <br> ( ) O choque distributivo é dividido em três choques: séptico que ocorre devido a uma infecção generalizada, anafilático que ocorre devido a uma alergia intensa e o neurogênico que ocorre devido a lesões no sistema nervoso central. <br> ( ) O choque anafilático é um colapso circulatório provocado por uma intensa reação alérgica, que afeta apenas crianças e idosos, causando diminuição do fluxo de sangue para os órgãos vitais.</p>
@@ -103,57 +112,80 @@
             </div>
         </section>
 
-        </section>
+        </section> -->
 
-        <footer class="mandatory section-questions">
-            <div id="footer-div-img">
-                <img src="./src/img/casual-life-3d-doctor-making-heart-hand-shadow.png" alt="" id="footer-img-doctor">
-                <img src="./src/img/bobble.png" alt="" id="footer-img-text">
-
-            </div>
-            <button class="btn">Enviar</button>
-        </footer>
-
-        <div class="main-div-result" id="main-div-result-approved">
-            <div class="result-div-background" id="result-div-background-approved">
-                <img src="./src/img/casual-life-3d-boy-online-doctor.png" alt="" id="result-img-people-approved">
-            </div>
-            <div class="result-div-box-text">
-                <h1 id="result-h1-phrase-approved">Parabéns!<br>
-                    <span id="result-h1-porcent">70%</span><br>de acertos!
-                </h1>
-            </div>
-            <button class="btn" id="result-bnt">Proximo</button>
-        </div>
-
-        <div class="main-div-result" id="main-div-result-disapproved">
-            <div class="result-div-background" id="result-div-background-disapproved">
-                <img src="./src/img/3d-casual-life-tired-female-student-sitting-with-book-on-her-face.png" alt=""
-                    id="result-img-people-disapproved">
-            </div>
-            <div class="result-div-box-text">
-                <h1 id="result-h1-phrase-disapproved">Seu esforço foi<br>válido, falta pouco!<br>Acertos: <span
-                        id="result-h1-porcent-disapproved">30%</span></h1>
-            </div>
-            <!-- Passar para o reprovado -->
-            <div id="result-div-revision">
-                <img src="./src/img/triangle-exclamation-solid.svg" alt="" id="revision-img-attention">
-                <div id="revision-div-topic">
-                    <h1 id="topic-h1-title">Revise os tópicos:</h1>
-                    <h1 class="topic-h1-numbers-topics">2</h1>
-                    <h1 class="topic-h1-numbers-topics">3</h1>
-                    <h1 class="topic-h1-numbers-topics">4</h1>
+            <footer class="mandatory section-questions">
+                <div id="footer-div-img">
+                    <img
+                        src="./src/img/casual-life-3d-doctor-making-heart-hand-shadow.png"
+                        alt=""
+                        id="footer-img-doctor"
+                    />
+                    <img
+                        src="./src/img/bobble.png"
+                        alt=""
+                        id="footer-img-text"
+                    />
                 </div>
+                <button class="btn enviarform">Enviar</button>
+            </footer>
+
+            <div class="main-div-result" id="main-div-result-approved">
+                <div
+                    class="result-div-background"
+                    id="result-div-background-approved"
+                >
+                    <img
+                        src="./src/img/casual-life-3d-boy-online-doctor.png"
+                        alt=""
+                        id="result-img-people-approved"
+                    />
+                </div>
+                <div class="result-div-box-text">
+                    <h1 id="result-h1-phrase-approved">
+                        Parabéns!<br />
+                        <span id="result-h1-porcent">70%</span><br />de acertos!
+                    </h1>
+                </div>
+                <button class="btn" id="result-bnt">Proximo</button>
             </div>
 
-            <button class="btn" id="result-bnt-disapproved">Página Inicial</button>
-        </div>
+            <div class="main-div-result" id="main-div-result-disapproved">
+                <div
+                    class="result-div-background"
+                    id="result-div-background-disapproved"
+                >
+                    <img
+                        src="./src/img/3d-casual-life-tired-female-student-sitting-with-book-on-her-face.png"
+                        alt=""
+                        id="result-img-people-disapproved"
+                    />
+                </div>
+                <div class="result-div-box-text">
+                    <h1 id="result-h1-phrase-disapproved">
+                        Seu esforço foi<br />válido, falta pouco!<br />Acertos:
+                        <span id="result-h1-porcent-disapproved">30%</span>
+                    </h1>
+                </div>
+                Passar para o reprovado
+                <div id="result-div-revision">
+                    <img
+                        src="./src/img/triangle-exclamation-solid.svg"
+                        alt=""
+                        id="revision-img-attention"
+                    />
+                    <div id="revision-div-topic">
+                        <h1 id="topic-h1-title">Revise os tópicos:</h1>
+                        <h1 class="topic-h1-numbers-topics">2</h1>
+                        <h1 class="topic-h1-numbers-topics">3</h1>
+                        <h1 class="topic-h1-numbers-topics">4</h1>
+                    </div>
+                </div>
 
-
-    </main>
-
-
-
-</body>
-
+                <button class="btn" id="result-bnt-disapproved">
+                    Página Inicial
+                </button>
+            </div>
+        </main>
+    </body>
 </html>

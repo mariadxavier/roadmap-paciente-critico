@@ -46,13 +46,13 @@ const main = document.querySelector("main");
 
 // Botão menu:
 const buttonMenu = document.querySelectorAll(".header-div-background-menu");
-console.log(buttonMenu)
+console.log(buttonMenu);
 const menu = document.getElementById("header-menu");
 const sectionPresentation = document.getElementById("section-presentation");
 const units = document.querySelectorAll(".units");
 const buttonBars = document.querySelectorAll(".header-div-bar");
 
-buttonMenu[0].addEventListener('click', () => {
+buttonMenu[0].addEventListener("click", () => {
     // Fazendo o botão girar
 
     buttonBars[3].style.transform = "rotate(135deg)";
@@ -60,41 +60,41 @@ buttonMenu[0].addEventListener('click', () => {
 
     buttonBars[5].style.display = "none";
 
-    buttonBars[3].style.bottom = "-3px"
+    buttonBars[3].style.bottom = "-3px";
     buttonBars[4].style.bottom = "5px";
 
     // Mudanças de style
     buttonMenu[1].style.padding = "15px 8px";
-    
+
     menu.style.display = "flex";
     header.style.filter = "blur(2px)";
-})
-buttonMenu[1].addEventListener('click', () => {
-
+});
+buttonMenu[1].addEventListener("click", () => {
     // Mudanças de style
     menu.style.display = "none";
     header.style.filter = "inherit";
-
-})
+});
 
 // Notificação
-const notification = document.getElementById("header-div-background-notification");
+const notification = document.getElementById(
+    "header-div-background-notification"
+);
 
-notification.addEventListener('click')
+// notification.addEventListener("click");
 
 // Sobre nós
 const buttonAboutUs = document.getElementById("option-li-about-us");
 const aboutUs = document.getElementById("contatos");
 const buttonBack = document.getElementById("body-div-return-contatos");
 
-buttonAboutUs.addEventListener('click', () => {
+buttonAboutUs.addEventListener("click", () => {
     contatos.style.display = "flex";
     menu.style.display = "none";
-})
-buttonBack.addEventListener('click', () => {
+});
+buttonBack.addEventListener("click", () => {
     contatos.style.display = "none";
     menu.style.display = "flex";
-})
+});
 
 // buttonMenu.addEventListener('click', () => {
 //     menu.style.display = "flex";

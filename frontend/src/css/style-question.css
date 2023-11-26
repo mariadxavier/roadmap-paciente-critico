@@ -25,7 +25,6 @@ body {
     align-items: center;
     justify-content: center;
 
-    overflow-y: scroll;
     scroll-snap-type: y proximity;
 }
 
@@ -126,18 +125,18 @@ main {
     top: 12vh;
 }
 
-
 /* Pergunta */
 .questions-div-asking {
-    display: grid;
+    display: flex;
     height: 35vh;
-    justify-content: center;
-    background: rgba(131, 197, 190, 0.70);
+    flex-direction: column;
+    /* justify-content: center; */
+    background: rgba(131, 197, 190, 0.7);
     padding: 1.2vh;
     border-radius: 10px;
     gap: 5px;
 
-    overflow-y: scroll;
+    overflow-y: auto;
     scroll-behavior: smooth;
 }
 .asking-p-question {
@@ -146,11 +145,12 @@ main {
     justify-content: center;
     color: var(--color-white);
     font-size: 1.2rem;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 700;
 }
 .asking-h1-number {
     display: flex;
+    height: fit-content;
     justify-content: center;
     width: 30px;
     color: var(--color-white);
@@ -192,11 +192,11 @@ main {
     display: none;
 }
 .questions-div-response form input + label::before {
-    content: '';
+    content: "";
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    background-color: rgba(131, 197, 190, 0.70);
+    background-color: rgba(131, 197, 190, 0.7);
     display: inline-block;
     position: absolute;
     left: -30px;
@@ -252,8 +252,8 @@ footer {
 .main-div-result {
     display: none;
     flex-direction: column;
-    position: absolute;
-    top: 305vh;
+    position: sticky;
+    bottom: 50px;
     background: var(--color-white);
     height: 90vh;
     width: 90vw;
@@ -263,11 +263,9 @@ footer {
     z-index: 100;
 
     /* Reajustar para não ficar tão forte */
-    box-shadow: 3px 10px 74px 26px rgba(0,0,0,0.34);
-    -webkit-box-shadow: 3px 10px 74px 26px rgba(0,0,0,0.34);
-    -moz-box-shadow: 3px 10px 74px 26px rgba(0,0,0,0.34);
-
-
+    box-shadow: 3px 10px 74px 26px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 3px 10px 74px 26px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 3px 10px 74px 26px rgba(0, 0, 0, 0.34);
 }
 .result-div-background {
     display: flex;
@@ -276,11 +274,11 @@ footer {
     margin: 5vh 0 0 0;
     height: 35vh;
     width: 35vh;
-    background: #CCFDA6;
+    background: #ccfda6;
     border-radius: 100%;
 }
 #result-div-background-approved {
-    background: #CCFDA6;
+    background: #ccfda6;
 }
 #result-img-people-approved {
     height: 40vh;
@@ -289,7 +287,6 @@ footer {
 .result-div-box-text {
     display: flex;
     flex-direction: column;
-    
 }
 #result-h1-phrase-approved {
     color: var(--color-background-pink);
@@ -297,14 +294,14 @@ footer {
     font-weight: 800;
     text-align: center;
     line-height: 1;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
 #result-h1-porcent {
-    color: #83C5BE;
+    color: #83c5be;
     text-align: center;
     font-size: 3.5rem;
     font-weight: 800;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
 
 #main-div-result-approved button {
@@ -322,25 +319,24 @@ footer {
 
 /* Reprovou: */
 #result-div-background-disapproved {
-    background: #FF4747;
+    background: #ff4747;
 }
 #result-img-people-disapproved {
     position: absolute;
     left: 25px;
     height: 30vh;
 }
-#result-h1-phrase-disapproved, #result-h1-porcent-disapproved {
+#result-h1-phrase-disapproved,
+#result-h1-porcent-disapproved {
     font-size: 2rem;
-    color: #83C5BE;
+    color: #83c5be;
     text-align: center;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
 
 #result-bnt-disapproved {
     position: relative;
 }
-
-
 
 /* Div de conteúdos para estudar */
 #revision-img-attention {
@@ -373,18 +369,18 @@ footer {
 }
 #result-bnt-disapproved {
     font-size: 1.7rem;
-    padding: 3vh 0vw;;
+    padding: 3vh 0vw;
 }
-
 
 @media (max-width: 380px) {
     .asking-p-question {
         font-size: 1rem;
     }
     .questions-div-response form label {
-        font-size: .9rem;
+        font-size: 0.9rem;
     }
-    #result-h1-phrase-disapproved, #result-h1-porcent-disapproved {
+    #result-h1-phrase-disapproved,
+    #result-h1-porcent-disapproved {
         font-size: 1.8rem;
     }
     #topic-h1-title {
@@ -396,7 +392,6 @@ footer {
     #footer-img-text {
         right: 30vw;
     }
-
 }
 
 @media (max-width: 320px) {
@@ -404,7 +399,7 @@ footer {
         font-size: 0.8rem;
     }
     .questions-div-response form label {
-        font-size: .83rem;
+        font-size: 0.83rem;
     }
     #footer-img-text {
         right: 80px;
@@ -419,7 +414,8 @@ footer {
     #result-img-people {
         height: 30vh;
     }
-    #result-h1-phrase-disapproved, #result-h1-porcent-disapproved {
+    #result-h1-phrase-disapproved,
+    #result-h1-porcent-disapproved {
         font-size: 1.5rem;
     }
     #topic-h1-title {
