@@ -175,7 +175,7 @@
         "quiz": [
             {
                 "id": "question1",
-                "question": "a",
+                "question": "Homem, 55 anos deu entrada no serviço de urgência e emergência bastante confuso após um acidente de carro em uma rodoviária, ele se encontra com uma hemorragia no tórax, com náuseas e sensação de desmaio. Diante desses dados, qual choque se enquadra nesse caso?",
                 "optionA": "Choque Cardiogênico",
                 "optionB": "Choque Hipovolêmico",
                 "optionC": "Choque Distributivo",
