@@ -18,55 +18,64 @@ const content = json;
 
 // Resultado do quiz: mensagem na tela
 const exibirAprovado = document.getElementById("main-div-result-approved");
-const exibirDesaprovado = document.getElementById("main-div-result-disapproved");
+const exibirDesaprovado = document.getElementById(
+    "main-div-result-disapproved"
+);
 
 console.log(content[unidade]);
 
-
-btnEnviar.addEventListener("click", async () => {
+btnEnviar.addEventListener("click", () => {
     //validação das respostas
-    const porcentagemResultado = 90; // Utilizar esta variável como resultado da porcentagem de acertos
+    const porcentagemResultado = 78; // Utilizar esta variável como resultado da porcentagem de acertos
 
-    // Aparição da resposta 
+    // Aparição da resposta
     if (porcentagemResultado > 75) {
         exibirAprovado.style.display = "flex";
+        const btnResultado = document.getElementById("result-bnt");
+        btnResultado.addEventListener("click", async () => {
+            progress.progresso[unidade].passouNaProva = true;
+            if (parseInt(unidade) === 7) {
+                progress.progresso[parseInt(unidade)].liberou = true;
+                progress.progresso[parseInt(unidade)].fases[0] = true;
+            } else {
+                progress.progresso[parseInt(unidade) + 1].liberou = true;
+                progress.progresso[parseInt(unidade) + 1].fases[0] = true;
+            }
+            // console.log(progress.progresso[parseInt(unidade) + 1]);
+
+            const progressoAtualizado = await fetch(
+                `https://api-roadmap-proz.onrender.com/progressos/${user._id}`,
+                {
+                    method: "PUT",
+                    body: JSON.stringify({
+                        user: user._id,
+                        progresso: {
+                            ...progress.progresso,
+                        },
+                    }),
+                    headers: { "Content-Type": "application/json" },
+                }
+            );
+
+            localStorage.setItem("progressoUsuario", JSON.stringify(progress));
+
+            //troca de pagina
+            localStorage.setItem(
+                "botãoClicado",
+                JSON.stringify({
+                    fase: 0,
+                    unidade:
+                        unidade == "7"
+                            ? parseInt(unidade)
+                            : parseInt(unidade) + 1,
+                })
+            );
+            window.location.href = "./pagina-principal.html";
+        });
     } else if (porcentagemResultado < 75) {
         exibirDesaprovado.style.display = "flex";
     }
 
-
-
     //atualização do progresso
     //se passou na prova
-    console.log("click");
-    // progress.progresso[unidade].passouNaProva = true;
-    // progress.progresso[parseInt(unidade) + 1].liberou = true;
-    // progress.progresso[parseInt(unidade) + 1].fases[0] = true;
-    // console.log(progress.progresso[parseInt(unidade) + 1]);
-
-    // const progressoAtualizado = await fetch(
-    //     `https://api-roadmap-proz.onrender.com/progressos/${user._id}`,
-    //     {
-    //         method: "PUT",
-    //         body: JSON.stringify({
-    //             user: user._id,
-    //             progresso: {
-    //                 ...progress.progresso,
-    //             },
-    //         }),
-    //         headers: { "Content-Type": "application/json" },
-    //     }
-    // );
-
-    // localStorage.setItem("progressoUsuario", JSON.stringify(progress));
-
-    // //troca de pagina
-    // localStorage.setItem(
-    //     "botãoClicado",
-    //     JSON.stringify({
-    //         fase: 0,
-    //         unidade: parseInt(unidade) + 1,
-    //     })
-    // );
-    // window.location.href = "./pagina-principal.html";
 });

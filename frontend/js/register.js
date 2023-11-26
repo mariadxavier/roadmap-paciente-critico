@@ -27,31 +27,31 @@ btnRegister.addEventListener("click", async () => {
         {
             id: "unidade1",
             liberou: true,
-            fases: [true, false, false, false, false, false, false, false],
+            fases: [true, false, false, false, false, false, false,false],
             passouNaProva: false,
         },
         {
             id: "unidade2",
             liberou: false,
-            fases: [false, false, false, false, false, false, false, false],
+            fases: [false, false, false, false, false, false],
             passouNaProva: false,
         },
         {
             id: "unidade3",
             liberou: false,
-            fases: [false, false, false, false, false, false, false, false],
+            fases: [false, false, false, false, false, false],
             passouNaProva: false,
         },
         {
             id: "unidade4",
             liberou: false,
-            fases: [false, false, false, false, false, false, false, false],
+            fases: [false, false, false, false, false],
             passouNaProva: false,
         },
         {
             id: "unidade5",
             liberou: false,
-            fases: [false, false, false, false, false, false, false, false],
+            fases: [false, false, false, false, false, false, false],
             passouNaProva: false,
         },
         {
