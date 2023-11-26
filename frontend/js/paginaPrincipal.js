@@ -78,16 +78,16 @@ buttonMenu[1].addEventListener('click', () => {
 })
 
 // Botão Notificação
-const notification = document.getElementById("header-div-background-notification");
-const developing = document.getElementById("notification-h1-developing");
+// const notification = document.getElementById("header-div-background-notification");
+// const developing = document.getElementById("notification-h1-developing");
 
-notification.addEventListener('click', () => {
-    developing.style.display = "flex";
-    setTimeout(() => {
-        developing.style.display = "none";
+// notification.addEventListener('click', () => {
+//     developing.style.display = "flex";
+//     setTimeout(() => {
+//         developing.style.display = "none";
         
-    }, 4000);
-})
+//     }, 4000);
+// })
 
 // Sobre nós
 const buttonAboutUs = document.getElementById("option-li-about-us");
