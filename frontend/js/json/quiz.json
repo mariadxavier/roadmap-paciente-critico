@@ -3,67 +3,35 @@
         "quiz": [
             {
                 "id": "question1",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Seu paciente acaba de chegar à UBS (Unidade Básica de Saúde) em que você trabalha, e o mesmo apresenta 120 bpm. Qual termo técnico se enquadra no caso acima?",
+                "optionA": "Normocardia",
+                "optionB": "Taquicardia",
+                "optionC": "Bradicardia",
+                "optionD": "Taquipneia"
             },
             {
                 "id": "question2",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Assinale a alternativa que apresenta um cuidado a ser realizado no preparo do paciente para a aferição da pressão arterial:",
+                "optionA": "Aferir a pressão após esforço/exercício.",
+                "optionB": "Evitar estar com a bexiga cheia.",
+                "optionC": "Não estar com fome, ingerir café e bolachas 10 minutos antes.",
+                "optionD": "Conversar com o paciente durante a aferição."
             },
             {
                 "id": "question3",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "A aferição dos sinais vitais é uma prática fundamental na avaliação do estado de saúde de um paciente. Qual das alternativas abaixo NÃO é considerada um sinal vital?",
+                "optionA": "Dor",
+                "optionB": "Frequência cardíaca",
+                "optionC": "Nível de glicose no sangue",
+                "optionD": "Pressão arterial"
             },
             {
                 "id": "question4",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question5",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question6",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question7",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question8",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "É CORRETO afirmar que a temperatura corporal normalmente muda de 0,5°C a 1°C durante um período de:",
+                "optionA": "48 horas",
+                "optionB": "6 horas",
+                "optionC": "24 horas",
+                "optionD": "12 horas"
             }
         ]
     },
@@ -252,66 +220,82 @@
         "quiz": [
             {
                 "id": "question1",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
+                "question": "Quais são os sintomas comuns de uma hemorragia?",
+                "optionA": "Palidez, aumento temporário da força muscular na região atingida e formigamento",
+                "optionB": "Dor intensa, palidez, pulso rápido",
+                "optionC": "Pulso rápido e formigamento persistente no local",
                 "optionD": ""
             },
             {
                 "id": "question2",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
+                "question": "Quais são as principais causas de hemorragias?",
+                "optionA": "Trauma físico, distúrbios de coagulação e úlceras",
+                "optionB": "Exposição prolongada à luz solar intensa, pois causa distúrbio de coagulação",
+                "optionC": "Excesso de pensamentos negativos e estresse emocional e trauma físico",
                 "optionD": ""
             },
             {
                 "id": "question3",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
+                "question": "Como identificar a gravidade de uma hemorragia?",
+                "optionA": "Volume de sangue perdido, frequência cardíaca e pressão arterial",
+                "optionB": "Fortes dores de cabeça, falta de ar ou dificuldade de respirar e palpitações fortes",
+                "optionC": "Pressão arterial e identificar se a pessoa afetada pode recitar poemas de Shakespeare",
                 "optionD": ""
             },
             {
                 "id": "question4",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
+                "question": "Quais são os primeiros socorros recomendados para uma hemorragia?",
+                "optionA": "Aplicar gelo diretamente na área sangrando para acelerar a coagulação",
+                "optionB": "Ingerir analgésicos antes de buscar ajuda médica para aliviar a dor causada pela hemorragia",
+                "optionC": "Aplicar pressão direta, elevar parte afetada e chamar ajuda médica",
                 "optionD": ""
             },
             {
                 "id": "question5",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
+                "question": "Existem fatores de risco específicos associados a hemorragias?",
+                "optionA": "Doenças hepáticas, Uso de anticoagulantes e Hipertensão arterial",
+                "optionB": "O consumo frequente de alimentos vermelhos",
+                "optionC": "Uso de anticoagulantes apenas",
                 "optionD": ""
             },
             {
                 "id": "question6",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
+                "question": "Quando uma hemorragia deve ser considerada uma emergência médica?",
+                "optionA": "Somente se a hemorragia ocorrer durante um dia de semana e for em menores de 30 anos",
+                "optionB": "Em caso de hemorragia interna, quando a perda significativa de sangue, ou se a hemorragia não estanca com pressão",
+                "optionC": "Quando a hemorragia é causada por uma ferida de menos de 2 centímetros",
                 "optionD": ""
             },
             {
                 "id": "question7",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
+                "question": "Pode fazer compressão torácica em quem está tendo uma hemorragia?",
+                "optionA": "Não, pode agravar a hemorragia",
+                "optionB": "Sim, em casos de hemorragia externa",
+                "optionC": "Depende da causa da hemorragia",
                 "optionD": ""
             },
             {
                 "id": "question8",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
+                "question": "Como prevenir hemorragias em situações cotidianas?",
+                "optionA": "Utilizar medicamentos anticoagulantes diariamente, mesmo sem prescrição médica e usar equipamentos de proteção",
+                "optionB": "Ingerir grandes quantidades de sal diariamente para fortalecer os vasos sanguíneos e evitar atividades de alto risco",
+                "optionC": "Usar equipamento de proteção; Evitar atividades de alto risco; Manter objetos cortantes fora do alcance",
+                "optionD": ""
+            },
+            {
+                "id": "question9",
+                "question": "Quais são os tratamentos médicos disponíveis para diferentes tipos de hemorragias?",
+                "optionA": "Transfusão de sangue; Meditação para reduzir o fluxo sanguíneo e controlar hemorragias",
+                "optionB": "Cirurgia para reparo vascular; Aplicação tópica de açafrão para acelerar a coagulação sanguínea e Administração de suplementos de vitamina C para prevenir hemorragias internas",
+                "optionC": "Administração de medicamentos hemostáticos ; Transfusão de sangue e Cirugia para reparo vascular",
+                "optionD": ""
+            },
+            {
+                "id": "question10",
+                "question": "Qual é a importância de procurar ajuda médica imediata em casos de hemorragia grave?",
+                "optionA": "Evitar choque hipovolêmico; Reduzir o risco de complicações; Garantir tratamento adequado",
+                "optionB": "Não tem importância alguma, deve-se ignorar a hemorragia e esperar alguns dias para que ela pare por si só, pois isso é comum",
+                "optionC": "Apenas garantir tratamento adequado",
                 "optionD": ""
             }
         ]
@@ -320,67 +304,43 @@
         "quiz": [
             {
                 "id": "question1",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Um idoso, ao ser atropelado por um carro, chegou ao hospital para atendimento recorrente de um sofrimento de traumatismo craniano, ele deve ser avaliado por qual das escalas a seguir?",
+                "optionA": "Escala de Ritcher",
+                "optionB": "Escala de Bristol",
+                "optionC": "Escala de Ramsay",
+                "optionD": "Escala de Glasgow"
             },
             {
                 "id": "question2",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
+                "question": "O trauma cranioencefálico é uma lesão física no tecido cerebral que, temporária ou permanentemente, incapacita a função cerebral. O diagnóstico é suspeitado clinicamente e confirmado por imagens. A Escala de Coma de Glasgow (ECG). Tem como objetivo identificar os  principais indicadores da gravidade no raumatismo Crânioencefálico (TCE) em uma escala simples, para medir o nível de consciência após uma lesão cerebral. A soma dos pontos da escala vai de 3 (mínimo) a 15 (máximo). Sobre a Escala de Coma de Glasgow (ECG), assinale a afirmativa CORRETA.",
+                "optionA": "Se a soma dos resultados ficar entre 3 e 10, o trauma é considerado leve",
+                "optionB": "São avaliados três parâmetros: abertura ocular, resposta verbal e, resposta motora",
+                "optionC": "Se a soma dos resultados ficar entre 14 e 15, o trauma é considerado moderado",
                 "optionD": ""
             },
             {
                 "id": "question3",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "O Traumatismo Cranioencefálico (TCE) é uma lesão cerebral causada por um impacto na cabeça. O trauma pode ocasionar somente uma ausência de consciência ou a perda de algumas habilidades cognitivas dependendo da força do impacto. Sobre a localidade do trauma, marque V para (VERDADEIRA) e F para (FALSO): <br>I- Crânio, meninges, tornozelo, coração; <br>II- Glândula lagrimal, cérebro; <br>III- Tórax, coluna cervical, couro cabeludo, crânio; <br>IV- Couro cabeludo, crânio, meninges, encéfalo e nervos cranianos.",
+                "optionA": "Somente IV está CORRETA",
+                "optionB": "I e III estão CORRETAS",
+                "optionC": "Somente III está CORRETA",
+                "optionD": "Somente II e IV estão CORRETAS"
             },
             {
                 "id": "question4",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "De acordo com o tipo de lesão, podemos classificar uma fratura de diferentes formas. Quando a extremidade cortante de um osso penetra a pele de dentro para fora é chamada de:",
+                "optionA": "Fechadas",
+                "optionB": "Traumáticas",
+                "optionC": "Fraturas por estresse",
+                "optionD": "Abertas"
             },
             {
                 "id": "question5",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question6",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question7",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question8",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Referente a lesão entorse, qual é o nível de Grau II?",
+                "optionA": "Micro lesões ligamentares",
+                "optionB": "Primarias (resultado imediato e direto do trauma)",
+                "optionC": "Secundárias (após o trauma, resultando em edema cerebral ou formação de hematomas)",
+                "optionD": "Ruptura parcial do ligamento, gera uma leve frouxidão da articulação"
             }
         ]
     },
