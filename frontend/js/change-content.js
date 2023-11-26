@@ -27,8 +27,8 @@ const mainVideo = document.querySelector("#main-video-1");
 const mainUl = document.querySelector("#main-ul-complement");
 const bodyLesson = document.querySelector("body");
 // Troca de conteúdo:
-titlePage.textContent = content[unidade].unity[fase].title.toUpperCase();
-bodyLesson.innerHTML = content[unidade].unity[fase].body;
+// titlePage.textContent = content[unidade].unity[fase].title.toUpperCase();
+// bodyLesson.innerHTML = content[unidade].unity[fase].body;
 const btnNext = document.querySelector("#main-btn-nextLesson");
 // imgHeader.src = content[unidade].unity[fase].imgHeader;
 // explicationP[0].innerHTML = content[unidade].unity[fase].p1;
