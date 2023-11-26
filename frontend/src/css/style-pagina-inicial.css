@@ -63,7 +63,20 @@ body {
     background: var(--color-pink);
     padding: 5px 8px;
     border-radius: 7px;
+
+    animation: 2s ease-in-out 2 alternate some;
 }
+
+  @keyframes some {
+        0% {
+            transform: scale(60%);
+        } 
+        100% {
+            transform: scale(90%);
+        }
+  }
+
+
 
 #header-div-profile {
     overflow: hidden;
