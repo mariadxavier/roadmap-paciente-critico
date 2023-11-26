@@ -75,8 +75,12 @@ buttonMenu[1].addEventListener('click', () => {
     menu.style.display = "none";
     header.style.filter = "inherit";
 
-
 })
+
+// Notificação
+const notification = document.getElementById("header-div-background-notification");
+
+notification.addEventListener('click')
 
 // Sobre nós
 const buttonAboutUs = document.getElementById("option-li-about-us");

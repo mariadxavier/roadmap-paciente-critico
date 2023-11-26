@@ -22,7 +22,9 @@ btnFases.forEach((elem, i) => {
     }
 
     if (elem.disabled) {
-        elem.style.backgroundColor = "#B2B2B2";
+        const numero = elem.children[0];
+        elem.style.backgroundColor = "#d9d9d9";
+        numero.style.color = "#9d9d9d";
     }
 
     elem.addEventListener("click", () => {
