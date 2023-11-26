@@ -44,6 +44,60 @@ console.log(progress);
 
 const main = document.querySelector("main");
 
+// Botão menu:
+const buttonMenu = document.querySelectorAll(".header-div-background-menu");
+console.log(buttonMenu)
+const menu = document.getElementById("header-menu");
+const sectionPresentation = document.getElementById("section-presentation");
+const units = document.querySelectorAll(".units");
+const buttonBars = document.querySelectorAll(".header-div-bar");
+
+buttonMenu[0].addEventListener('click', () => {
+    // Fazendo o botão girar
+
+    buttonBars[3].style.transform = "rotate(135deg)";
+    buttonBars[4].style.transform = "rotate(-135deg)";
+
+    buttonBars[5].style.display = "none";
+
+    buttonBars[3].style.bottom = "-3px"
+    buttonBars[4].style.bottom = "5px";
+
+    // Mudanças de style
+    buttonMenu[1].style.padding = "15px 8px";
+    
+    menu.style.display = "flex";
+    header.style.filter = "blur(2px)";
+})
+buttonMenu[1].addEventListener('click', () => {
+
+    // Mudanças de style
+    menu.style.display = "none";
+    header.style.filter = "inherit";
+
+
+})
+
+// Sobre nós
+const buttonAboutUs = document.getElementById("option-li-about-us");
+
+buttonAboutUs.addEventListener('click', () => {
+    
+})
+
+// buttonMenu.addEventListener('click', () => {
+//     menu.style.display = "flex";
+//     header.style.filter = "blur(2px)";
+//     sectionPresentation.style.filter = "blur(2px)";
+//     unitOne.style.filter = "blur(2px)";
+//     // units.forEach(sections => {
+//     //     sections.style.filter = "blur(2px)";
+//     // })
+
+//     // Aprender como travar o scroll
+
+// });
+
 window.addEventListener("scroll", () => {
     //array que da a % que diz true pra cada fase que o usuario completou
     const progressPercent = [
