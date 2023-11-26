@@ -51,6 +51,20 @@ body {
     border-radius: 100%;
 }
 
+/* Notifição alert */
+#notification-h1-developing {
+    display: none;
+    position: absolute;
+    font-size: 1rem;
+    color: #fff;
+    /* width: 100%; */
+    top: 12vh;
+    left: 57vw;
+    background: var(--color-pink);
+    padding: 5px 8px;
+    border-radius: 7px;
+}
+
 #header-div-profile {
     overflow: hidden;
     position: relative;
