@@ -22,7 +22,7 @@ btnFases.forEach((elem, i) => {
     }
 
     if (elem.disabled) {
-        elem.style.backgroundColor = "black";
+        elem.style.backgroundColor = "#B2B2B2";
     }
 
     elem.addEventListener("click", () => {
