@@ -20,8 +20,8 @@
             {
                 "id": "question3",
                 "question": "A aferição dos sinais vitais é uma prática fundamental na avaliação do estado de saúde de um paciente. Qual das alternativas abaixo NÃO é considerada um sinal vital?",
-                "optionA": "Dor",
-                "optionB": "Frequência cardíaca",
+                "optionA": "Frequência cardíaca",
+                "optionB": "Dor",
                 "optionC": "Nível de glicose no sangue",
                 "optionD": "Pressão arterial"
             },
@@ -29,8 +29,8 @@
                 "id": "question4",
                 "question": "É CORRETO afirmar que a temperatura corporal normalmente muda de 0,5°C a 1°C durante um período de:",
                 "optionA": "48 horas",
-                "optionB": "6 horas",
-                "optionC": "24 horas",
+                "optionB": "24 horas",
+                "optionC": "6 horas",
                 "optionD": "12 horas"
             }
         ]
@@ -177,9 +177,9 @@
                 "id": "question1",
                 "question": "a",
                 "optionA": "Choque Cardiogênico",
-                "optionB": "Choque Obstrutivo",
+                "optionB": "Choque Hipovolêmico",
                 "optionC": "Choque Distributivo",
-                "optionD": "Choque Hipovolêmico"
+                "optionD": "Choque Obstrutivo"
             },
             {
                 "id": "question2",
@@ -193,15 +193,15 @@
                 "id": "question3",
                 "question": "São formas de ajudar uma pessoa que está em estado de choque, exceto:",
                 "optionA": "Manter a vítima aquecida ",
-                "optionB": "Levantar as pernas e virar a cabeça de lado ",
-                "optionC": "Administrar líquido e medicamentos pela boca",
+                "optionB": "Administrar líquido e medicamentos pela boca",
+                "optionC": "Levantar as pernas e virar a cabeça de lado",
                 "optionD": "Afrouxar as roupas da vítima"
             },
             {
                 "id": "question4",
                 "question": "São sintomas de choque séptico, exceto:",
-                "optionA": "Desmaio",
-                "optionB": "Confusão Mental",
+                "optionA": "Confusão Mental",
+                "optionB": "Desmaio",
                 "optionC": "Calafrios",
                 "optionD": "Diminuição da urina"
             },
@@ -210,9 +210,9 @@
                 "question": "Identifique como verdadeiras (V) ou falsas (F) as afirmações abaixo. Na sequência, assinale a alternativa correta.",
                 "ol" : "<li>( )  A perfusão capilar não é útil para avaliar o volume sanguíneo do paciente. </li> <li>( ) As causas do choque distributivo são: Anafilaxia; Infecção bacteriana pela liberação de endotoxina; Lesão medular grave; Ingestão de certos fármacos ou venenos, como nitratos, opioides e bloqueadores adrenérgicos.</li>li> ( ) O choque distributivo é dividido em três choques: séptico que ocorre devido a uma infecção generalizada, anafilático que ocorre devido a uma alergia intensa e o neurogênico que ocorre devido a lesões no sistema nervoso central. </li> <li> ( ) O choque anafilático é um colapso circulatório provocado por uma intensa reação alérgica, que afeta apenas crianças e idosos, causando diminuição do fluxo de sangue para os órgãos vitais.</li>",
                 "optionA": "F – F – V – V",
-                "optionB": "V- V – F - V",
+                "optionB": "F - V - V - F",
                 "optionC": "V – F – F - V",
-                "optionD": "F - V - V - F"
+                "optionD": "V- V – F - V"
             }
         ]
     },
@@ -229,8 +229,8 @@
             {
                 "id": "question2",
                 "question": "Quais são as principais causas de hemorragias?",
-                "optionA": "Trauma físico, distúrbios de coagulação e úlceras",
-                "optionB": "Exposição prolongada à luz solar intensa, pois causa distúrbio de coagulação",
+                "optionA": "Exposição prolongada à luz solar intensa, pois causa distúrbio de coagulação",
+                "optionB": "Trauma físico, distúrbios de coagulação e úlceras",
                 "optionC": "Excesso de pensamentos negativos e estresse emocional e trauma físico",
                 "optionD": ""
             },
@@ -246,15 +246,15 @@
                 "id": "question4",
                 "question": "Quais são os primeiros socorros recomendados para uma hemorragia?",
                 "optionA": "Aplicar gelo diretamente na área sangrando para acelerar a coagulação",
-                "optionB": "Ingerir analgésicos antes de buscar ajuda médica para aliviar a dor causada pela hemorragia",
-                "optionC": "Aplicar pressão direta, elevar parte afetada e chamar ajuda médica",
+                "optionB": "aAplicar pressão direta, elevar parte afetada e chamar ajuda médica",
+                "optionC": "Ingerir analgésicos antes de buscar ajuda médica para aliviar a dor causada pela hemorragi",
                 "optionD": ""
             },
             {
                 "id": "question5",
                 "question": "Existem fatores de risco específicos associados a hemorragias?",
-                "optionA": "Doenças hepáticas, Uso de anticoagulantes e Hipertensão arterial",
-                "optionB": "O consumo frequente de alimentos vermelhos",
+                "optionA": "O consumo frequente de alimentos vermelhos",
+                "optionB": "Doenças hepáticas, Uso de anticoagulantes e Hipertensão arterial",
                 "optionC": "Uso de anticoagulantes apenas",
                 "optionD": ""
             },
@@ -270,31 +270,31 @@
                 "id": "question7",
                 "question": "Pode fazer compressão torácica em quem está tendo uma hemorragia?",
                 "optionA": "Não, pode agravar a hemorragia",
-                "optionB": "Sim, em casos de hemorragia externa",
-                "optionC": "Depende da causa da hemorragia",
+                "optionB": "Depende da causa da hemorragia",
+                "optionC": "Sim, em casos de hemorragia externa",
                 "optionD": ""
             },
             {
                 "id": "question8",
                 "question": "Como prevenir hemorragias em situações cotidianas?",
                 "optionA": "Utilizar medicamentos anticoagulantes diariamente, mesmo sem prescrição médica e usar equipamentos de proteção",
-                "optionB": "Ingerir grandes quantidades de sal diariamente para fortalecer os vasos sanguíneos e evitar atividades de alto risco",
-                "optionC": "Usar equipamento de proteção; Evitar atividades de alto risco; Manter objetos cortantes fora do alcance",
+                "optionB": "Usar equipamento de proteção; Evitar atividades de alto risco; Manter objetos cortantes fora do alcance",
+                "optionC": "Ingerir grandes quantidades de sal diariamente para fortalecer os vasos sanguíneos e evitar atividades de alto risco",
                 "optionD": ""
             },
             {
                 "id": "question9",
                 "question": "Quais são os tratamentos médicos disponíveis para diferentes tipos de hemorragias?",
                 "optionA": "Transfusão de sangue; Meditação para reduzir o fluxo sanguíneo e controlar hemorragias",
-                "optionB": "Cirurgia para reparo vascular; Aplicação tópica de açafrão para acelerar a coagulação sanguínea e Administração de suplementos de vitamina C para prevenir hemorragias internas",
-                "optionC": "Administração de medicamentos hemostáticos ; Transfusão de sangue e Cirugia para reparo vascular",
+                "optionB": "Administração de medicamentos hemostáticos ; Transfusão de sangue e Cirugia para reparo vascular",
+                "optionC": "Cirurgia para reparo vascular; Aplicação tópica de açafrão para acelerar a coagulação sanguínea e Administração de suplementos de vitamina C para prevenir hemorragias internas",
                 "optionD": ""
             },
             {
                 "id": "question10",
                 "question": "Qual é a importância de procurar ajuda médica imediata em casos de hemorragia grave?",
-                "optionA": "Evitar choque hipovolêmico; Reduzir o risco de complicações; Garantir tratamento adequado",
-                "optionB": "Não tem importância alguma, deve-se ignorar a hemorragia e esperar alguns dias para que ela pare por si só, pois isso é comum",
+                "optionA": "Não tem importância alguma, deve-se ignorar a hemorragia e esperar alguns dias para que ela pare por si só, pois isso é comum",
+                "optionB": "Evitar choque hipovolêmico; Reduzir o risco de complicações; Garantir tratamento adequado",
                 "optionC": "Apenas garantir tratamento adequado",
                 "optionD": ""
             }
@@ -306,9 +306,9 @@
                 "id": "question1",
                 "question": "Um idoso, ao ser atropelado por um carro, chegou ao hospital para atendimento recorrente de um sofrimento de traumatismo craniano, ele deve ser avaliado por qual das escalas a seguir?",
                 "optionA": "Escala de Ritcher",
-                "optionB": "Escala de Bristol",
+                "optionB": "Escala de Glasgow",
                 "optionC": "Escala de Ramsay",
-                "optionD": "Escala de Glasgow"
+                "optionD": "Escala de Bristol"
             },
             {
                 "id": "question2",
@@ -316,13 +316,13 @@
                 "optionA": "Se a soma dos resultados ficar entre 3 e 10, o trauma é considerado leve",
                 "optionB": "São avaliados três parâmetros: abertura ocular, resposta verbal e, resposta motora",
                 "optionC": "Se a soma dos resultados ficar entre 14 e 15, o trauma é considerado moderado",
-                "optionD": ""
+                "optionD": "O profissional responsável na verificação de tais informações, segue tirando ponto além do que é permitido pela escala. Devido ao agravamento dos ferimentos."
             },
             {
                 "id": "question3",
                 "question": "O Traumatismo Cranioencefálico (TCE) é uma lesão cerebral causada por um impacto na cabeça. O trauma pode ocasionar somente uma ausência de consciência ou a perda de algumas habilidades cognitivas dependendo da força do impacto. Sobre a localidade do trauma, marque V para (VERDADEIRA) e F para (FALSO): <br>I- Crânio, meninges, tornozelo, coração; <br>II- Glândula lagrimal, cérebro; <br>III- Tórax, coluna cervical, couro cabeludo, crânio; <br>IV- Couro cabeludo, crânio, meninges, encéfalo e nervos cranianos.",
-                "optionA": "Somente IV está CORRETA",
-                "optionB": "I e III estão CORRETAS",
+                "optionA": "I e III estão CORRETAS",
+                "optionB": "Somente IV está CORRETA",
                 "optionC": "Somente III está CORRETA",
                 "optionD": "Somente II e IV estão CORRETAS"
             },
@@ -330,17 +330,17 @@
                 "id": "question4",
                 "question": "De acordo com o tipo de lesão, podemos classificar uma fratura de diferentes formas. Quando a extremidade cortante de um osso penetra a pele de dentro para fora é chamada de:",
                 "optionA": "Fechadas",
-                "optionB": "Traumáticas",
+                "optionB": "Abertas",
                 "optionC": "Fraturas por estresse",
-                "optionD": "Abertas"
+                "optionD": "Traumáticas"
             },
             {
                 "id": "question5",
                 "question": "Referente a lesão entorse, qual é o nível de Grau II?",
                 "optionA": "Micro lesões ligamentares",
-                "optionB": "Primarias (resultado imediato e direto do trauma)",
+                "optionB": "Ruptura parcial do ligamento, gera uma leve frouxidão da articulação",
                 "optionC": "Secundárias (após o trauma, resultando em edema cerebral ou formação de hematomas)",
-                "optionD": "Ruptura parcial do ligamento, gera uma leve frouxidão da articulação"
+                "optionD": "Primarias (resultado imediato e direto do trauma)"
             }
         ]
     },
@@ -348,7 +348,7 @@
         "quiz": [
             {
                 "id": "question1",
-                "question": "",
+                "question": "Qual a função do protocolo XABCDE? ",
                 "optionA": "",
                 "optionB": "",
                 "optionC": "",
@@ -356,7 +356,7 @@
             },
             {
                 "id": "question2",
-                "question": "",
+                "question": "Qual das alternativas abaixo está correta:",
                 "optionA": "",
                 "optionB": "",
                 "optionC": "",
@@ -364,7 +364,7 @@
             },
             {
                 "id": "question3",
-                "question": "",
+                "question": "Qual característica define os traumas penetrantes?",
                 "optionA": "",
                 "optionB": "",
                 "optionC": "",
@@ -372,7 +372,7 @@
             },
             {
                 "id": "question4",
-                "question": "",
+                "question": "Qual o objetivo da imobilização?",
                 "optionA": "",
                 "optionB": "",
                 "optionC": "",
@@ -380,7 +380,7 @@
             },
             {
                 "id": "question5",
-                "question": "",
+                "question": "Em qual tipo de fratura o paciente não poderá ser realinhado?",
                 "optionA": "",
                 "optionB": "",
                 "optionC": "",
@@ -388,7 +388,7 @@
             },
             {
                 "id": "question6",
-                "question": "",
+                "question": "Qual é o número mínimo de socorristas pra fazer o pranchamento correto?",
                 "optionA": "",
                 "optionB": "",
                 "optionC": "",
@@ -396,7 +396,7 @@
             },
             {
                 "id": "question7",
-                "question": "",
+                "question": "Qual alternativa abaixo NÃO é utilizada para fazer um curativo?",
                 "optionA": "",
                 "optionB": "",
                 "optionC": "",
@@ -404,7 +404,7 @@
             },
             {
                 "id": "question8",
-                "question": "",
+                "question": "Qual é o tipo de fratura em que o osso está quebrado em um ângulo?",
                 "optionA": "",
                 "optionB": "",
                 "optionC": "",
