@@ -246,7 +246,7 @@
                 "id": "question4",
                 "question": "Quais são os primeiros socorros recomendados para uma hemorragia?",
                 "optionA": "Aplicar gelo diretamente na área sangrando para acelerar a coagulação",
-                "optionB": "aAplicar pressão direta, elevar parte afetada e chamar ajuda médica",
+                "optionB": "Aplicar pressão direta, elevar parte afetada e chamar ajuda médica",
                 "optionC": "Ingerir analgésicos antes de buscar ajuda médica para aliviar a dor causada pela hemorragi",
                 "optionD": ""
             },
@@ -254,7 +254,7 @@
                 "id": "question5",
                 "question": "Existem fatores de risco específicos associados a hemorragias?",
                 "optionA": "O consumo frequente de alimentos vermelhos",
-                "optionB": "Doenças hepáticas, Uso de anticoagulantes e Hipertensão arterial",
+                "optionB": "Doenças hepáticas, uso de anticoagulantes e hipertensão arterial",
                 "optionC": "Uso de anticoagulantes apenas",
                 "optionD": ""
             },
@@ -286,7 +286,7 @@
                 "id": "question9",
                 "question": "Quais são os tratamentos médicos disponíveis para diferentes tipos de hemorragias?",
                 "optionA": "Transfusão de sangue; Meditação para reduzir o fluxo sanguíneo e controlar hemorragias",
-                "optionB": "Administração de medicamentos hemostáticos ; Transfusão de sangue e Cirugia para reparo vascular",
+                "optionB": "Administração de medicamentos hemostáticos; Transfusão de sangue e cirugia para reparo vascular",
                 "optionC": "Cirurgia para reparo vascular; Aplicação tópica de açafrão para acelerar a coagulação sanguínea e Administração de suplementos de vitamina C para prevenir hemorragias internas",
                 "optionD": ""
             },
@@ -312,7 +312,7 @@
             },
             {
                 "id": "question2",
-                "question": "O trauma cranioencefálico é uma lesão física no tecido cerebral que, temporária ou permanentemente, incapacita a função cerebral. O diagnóstico é suspeitado clinicamente e confirmado por imagens. A Escala de Coma de Glasgow (ECG). Tem como objetivo identificar os  principais indicadores da gravidade no raumatismo Crânioencefálico (TCE) em uma escala simples, para medir o nível de consciência após uma lesão cerebral. A soma dos pontos da escala vai de 3 (mínimo) a 15 (máximo). Sobre a Escala de Coma de Glasgow (ECG), assinale a afirmativa CORRETA.",
+                "question": "O trauma cranioencefálico é uma lesão física no tecido cerebral que, temporária ou permanentemente, incapacita a função cerebral. O diagnóstico é suspeitado clinicamente e confirmado por imagens. A Escala de Coma de Glasgow (ECG). Tem como objetivo identificar os  principais indicadores da gravidade no Traumatismo Crânioencefálico (TCE) em uma escala simples, para medir o nível de consciência após uma lesão cerebral. A soma dos pontos da escala vai de 3 (mínimo) a 15 (máximo). Sobre a Escala de Coma de Glasgow (ECG), assinale a afirmativa CORRETA.",
                 "optionA": "Se a soma dos resultados ficar entre 3 e 10, o trauma é considerado leve",
                 "optionB": "São avaliados três parâmetros: abertura ocular, resposta verbal e, resposta motora",
                 "optionC": "Se a soma dos resultados ficar entre 14 e 15, o trauma é considerado moderado",
@@ -320,7 +320,7 @@
             },
             {
                 "id": "question3",
-                "question": "O Traumatismo Cranioencefálico (TCE) é uma lesão cerebral causada por um impacto na cabeça. O trauma pode ocasionar somente uma ausência de consciência ou a perda de algumas habilidades cognitivas dependendo da força do impacto. Sobre a localidade do trauma, marque V para (VERDADEIRA) e F para (FALSO): <br>I- Crânio, meninges, tornozelo, coração; <br>II- Glândula lagrimal, cérebro; <br>III- Tórax, coluna cervical, couro cabeludo, crânio; <br>IV- Couro cabeludo, crânio, meninges, encéfalo e nervos cranianos.",
+                "question": "O Traumatismo Cranioencefálico (TCE) é uma lesão cerebral causada por um impacto na cabeça. O trauma pode ocasionar somente uma ausência de consciência ou a perda de algumas habilidades cognitivas dependendo da força do impacto. Sobre a localidade do trauma, indique a(s) alternativas correta(s): I- Crânio, meninges, tornozelo, coração; II- Glândula lagrimal, cérebro; III- Tórax, coluna cervical, couro cabeludo, crânio; IV- Couro cabeludo, crânio, meninges, encéfalo e nervos cranianos.",
                 "optionA": "I e III estão CORRETAS",
                 "optionB": "Somente IV está CORRETA",
                 "optionC": "Somente III está CORRETA",
