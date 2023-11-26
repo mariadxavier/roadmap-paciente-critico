@@ -780,15 +780,18 @@ main {
     background-color: crimson;
 }
 
-/* .roadmap-img-doctor {
-    bottom: -280px;
-    right: 5px;
-    height: 400px;
-}
-.roadmap-img-heart {
-    left: 25px;
-    height: 25vh;
-    bottom: -680px;
-} */
 
-/* Cores  */
+/* Responsividade */
+@media (max-width: 320px) {
+    /* Menu - Sobre Nós */
+    #contatos h1 {
+        font-size: 1.3rem;
+    }
+    #body-div-return-contatos {
+        margin: 10px;
+    }
+    #return-img-arrow {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+}
