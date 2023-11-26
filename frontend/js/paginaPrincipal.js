@@ -144,6 +144,11 @@ window.addEventListener("scroll", () => {
             percentTrue++;
         }
     });
+
+    // Trocando cor meta
+    const meta = document.querySelector('meta[name="theme-color"]');
+
+
     //calculo que retorna a porcentagem
     const percent = parseInt((percentTrue / progressPercent.length) * 100);
     if (scrollY >= 200 && !progressBarNaTela) {
@@ -191,6 +196,33 @@ window.addEventListener("scroll", () => {
         main.style.padding = "0 3vw";
         progressBarNaTela = false;
     }
+
+    // Trocando cor meta conforme a unidade
+    if(scrollY > 300) {
+        console.log(meta)
+        // meta.setAttribute("content", "#FFAFAF");
+        console.log(unidade)
+        if (unidade === "0") {
+            meta.setAttribute("content", "#FFAFAF");
+        } else if (unidade === "1") {
+            meta.setAttribute("content", "#ffd670");
+        } else if (unidade === "2") {
+            meta.setAttribute("content", "#70d6ff");
+        } else if (unidade === "3") {
+            meta.setAttribute("content", "#936bff");
+        } else if (unidade === "4") {
+            meta.setAttribute("content", "#fb8e8e");
+        } else if (unidade === "5") {
+            meta.setAttribute("content", "#9ae770");
+        } else if (unidade === "6") {
+            meta.setAttribute("content", "#fcbf49");
+        } else if (unidade === "7") {
+            meta.setAttribute("content", "#f48bdb");
+        }
+        console.log(meta)
+
+    }
+
 });
 
 // Evento abrir e fechar roadmap
@@ -239,3 +271,9 @@ botoesUnidades.forEach((botao, index) => {
         }
     });
 });
+
+
+// trocando cor meta
+window.addEventListener('scroll', () => {
+    console.log(scrollY)
+})

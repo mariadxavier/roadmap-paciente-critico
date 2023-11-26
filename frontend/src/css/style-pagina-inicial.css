@@ -468,7 +468,7 @@ main {
 }
 .container-bnt-img-bottom {
     height: 4.5vh;
-    transform: rotate(90deg);
+    transform: rotate(0deg);
     transition: 1s;
 }
 
