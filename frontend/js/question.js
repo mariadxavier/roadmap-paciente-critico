@@ -27,11 +27,11 @@ const btnEnviar = document.querySelector(".enviarform");
 
 const content = json;
 
-const criaH1 = ()=>{
+const criaH1 = () => {
     const h1 = document.createElement("h1");
-    h1.classList.add("topic-h1-numbers-topics")
-    return h1
-}
+    h1.classList.add("topic-h1-numbers-topics");
+    return h1;
+};
 
 const criaQuestion = (obj) => {
     const question = obj.question;
@@ -39,6 +39,7 @@ const criaQuestion = (obj) => {
     const optionB = obj.optionB;
     const optionC = obj.optionC;
     const optionD = obj.optionD;
+    const fase = obj.fase;
 
     const section = document.createElement("section");
     section.classList.add("mandatory");
@@ -116,8 +117,6 @@ btnEnviar.addEventListener("click", () => {
             unitys.push(correctInput.ariaValueMin);
         }
     }
-    console.log(unitys);
-    console.log(acertos);
     //validação das respostas
     const porcentagemResultado = (acertos / allQuestions.length) * 100; // Utilizar esta variável como resultado da porcentagem de acertos
 
@@ -172,11 +171,15 @@ btnEnviar.addEventListener("click", () => {
         );
         const btn = document.getElementById("result-bnt-disapproved");
         const divReview = document.getElementById("topic-div-review");
-        unitys.forEach((elem)=>{
-            const h1 = criaH1()
-            h1.textContent = elem
-            divReview.appendChild(h1)
-        })
+        const unitysUnicas = unitys.filter(
+            (item, i) => unitys.indexOf(item) === i
+        );
+
+        unitysUnicas.forEach((elem) => {
+            const h1 = criaH1();
+            h1.textContent = elem;
+            divReview.appendChild(h1);
+        });
 
         percent.textContent = `${porcentagemResultado}%`;
         exibirDesaprovado.style.display = "flex";

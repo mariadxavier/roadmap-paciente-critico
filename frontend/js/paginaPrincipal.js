@@ -75,12 +75,17 @@ buttonMenu[1].addEventListener("click", () => {
     header.style.filter = "inherit";
 });
 
-// Notificação
-const notification = document.getElementById(
-    "header-div-background-notification"
-);
+// Botão Notificação
+// const notification = document.getElementById("header-div-background-notification");
+// const developing = document.getElementById("notification-h1-developing");
 
-// notification.addEventListener("click");
+// notification.addEventListener('click', () => {
+//     developing.style.display = "flex";
+//     setTimeout(() => {
+//         developing.style.display = "none";
+        
+//     }, 4000);
+// })
 
 // Sobre nós
 const buttonAboutUs = document.getElementById("option-li-about-us");
