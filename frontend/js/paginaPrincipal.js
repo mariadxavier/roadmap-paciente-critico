@@ -200,7 +200,16 @@ const botoesUnidades = document.querySelectorAll(".container-bnt-img-bottom");
 const unidades = document.querySelectorAll(".units");
 const divRoadmap = document.querySelectorAll(".units-div-roadmap");
 
-divRoadmap.forEach((elem) => {
+divRoadmap.forEach((elem, i) => {
+    // console.log(elem.style.display);
+    if (elem.style.display == "none") {
+        botoesUnidades[i].transform = "rotate(90deg)";
+    } else {
+        botoesUnidades[i].transform = "rotate(0deg)";
+    }
+});
+
+divRoadmap.forEach((elem, i) => {
     if (elem.ariaValueMax === parseInt(unidade)) {
         elem.style.display = "flex";
     } else {
@@ -221,11 +230,12 @@ botoesUnidades.forEach((botao, index) => {
         divRoadmap[0].style.display = "flex";
     } else {
         divRoadmap[unidade].style.display = "flex";
+        botoesUnidades[unidade].style.transform = "rotate(90deg)";
     }
     botao.addEventListener("click", () => {
         if (divRoadmap[index].style.display === "flex") {
-            divRoadmap[index].style.display = "none";
             botoesUnidades[index].style.transform = "rotate(0deg)";
+            divRoadmap[index].style.display = "none";
         } else if (divRoadmap[index].style.display === "none") {
             divRoadmap[index].style.display = "flex";
             botoesUnidades[index].style.transform = "rotate(90deg)";

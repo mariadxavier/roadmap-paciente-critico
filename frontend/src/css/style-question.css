@@ -267,6 +267,12 @@ footer {
     -webkit-box-shadow: 3px 10px 74px 26px rgba(0, 0, 0, 0.34);
     -moz-box-shadow: 3px 10px 74px 26px rgba(0, 0, 0, 0.34);
 }
+
+#topic-div-review {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
 .result-div-background {
     display: flex;
     justify-content: center;

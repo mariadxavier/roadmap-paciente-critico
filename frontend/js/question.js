@@ -18,9 +18,20 @@ const progress = JSON.parse(progressJSON);
 const userJSON = localStorage.getItem("logar");
 const user = JSON.parse(userJSON);
 
+const faseUnidade = document.getElementById("title-span-number");
+const faseUnidadeContraida = document.getElementById("header-h1-question");
+faseUnidadeContraida.textContent = `Questionário ${parseInt(unidade) + 1}`;
+faseUnidade.textContent = parseInt(unidade) + 1;
+
 const btnEnviar = document.querySelector(".enviarform");
 
 const content = json;
+
+const criaH1 = ()=>{
+    const h1 = document.createElement("h1");
+    h1.classList.add("topic-h1-numbers-topics")
+    return h1
+}
 
 const criaQuestion = (obj) => {
     const question = obj.question;
@@ -51,7 +62,7 @@ const criaQuestion = (obj) => {
 
     const respostas = [
         `<input type='radio' name='response' id='${numberQuestion}-a'><label for='${numberQuestion}-a'>${optionA}</label>`,
-        `<input type='radio' name='response' id='${numberQuestion}-b'><label for='${numberQuestion}-b'>${optionB}</label>`,
+        `<input type='radio' aria-valuemin='4' name='response' id='${numberQuestion}-b'><label for='${numberQuestion}-b'>${optionB}</label>`,
         `<input type='radio' name='response' id='${numberQuestion}-c'><label for='${numberQuestion}-c'>${optionC}</label>`,
         `<input type='radio' name='response' id='${numberQuestion}-d'><label for='${numberQuestion}-d'>${optionD}</label>`,
     ];
@@ -79,11 +90,6 @@ allQuestions.forEach((element) => {
     numberQuestion++;
 });
 
-const footer =
-    "<footer class='mandatory section-questions'><div id='footer-div-img'><img src='./src/img/casual-life-3d-doctor-making-heart-hand-shadow.png' alt='' id='footer-img-doctor'/><img src='./src/img/bobble.png' alt='' id='footer-img-text'/></div><button class='btn enviarform'>Enviar</button></footer>";
-
-// main.innerHTML += footer;
-
 //função que embaralha o array
 
 function shuffleArray(inputArray, number) {
@@ -100,13 +106,17 @@ const exibirDesaprovado = document.getElementById(
 
 btnEnviar.addEventListener("click", () => {
     let acertos = 0;
+    const unitys = [];
     console.log("click");
     for (let i = 1; i <= allQuestions.length; i++) {
         const correctInput = document.getElementById(`${i}-b`);
         if (correctInput.checked) {
             acertos++;
+        } else {
+            unitys.push(correctInput.ariaValueMin);
         }
     }
+    console.log(unitys);
     console.log(acertos);
     //validação das respostas
     const porcentagemResultado = (acertos / allQuestions.length) * 100; // Utilizar esta variável como resultado da porcentagem de acertos
@@ -161,6 +171,12 @@ btnEnviar.addEventListener("click", () => {
             "result-h1-porcent-disapproved"
         );
         const btn = document.getElementById("result-bnt-disapproved");
+        const divReview = document.getElementById("topic-div-review");
+        unitys.forEach((elem)=>{
+            const h1 = criaH1()
+            h1.textContent = elem
+            divReview.appendChild(h1)
+        })
 
         percent.textContent = `${porcentagemResultado}%`;
         exibirDesaprovado.style.display = "flex";

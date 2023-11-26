@@ -179,7 +179,7 @@
                 "optionA": "Choque Cardiogênico",
                 "optionB": "Choque Hipovolêmico",
                 "optionC": "Choque Distributivo",
-                "optionD": "Choque Obstrutivo"g
+                "optionD": "Choque Obstrutivo"
             },
             {
                 "id": "question2",
@@ -208,7 +208,7 @@
             {
                 "id": "question5",
                 "question": "Identifique como verdadeiras (V) ou falsas (F) as afirmações abaixo. Na sequência, assinale a alternativa correta.",
-                "ol" : "<li>( )  A perfusão capilar não é útil para avaliar o volume sanguíneo do paciente. </li> <li>( ) As causas do choque distributivo são: Anafilaxia; Infecção bacteriana pela liberação de endotoxina; Lesão medular grave; Ingestão de certos fármacos ou venenos, como nitratos, opioides e bloqueadores adrenérgicos.</li>li> ( ) O choque distributivo é dividido em três choques: séptico que ocorre devido a uma infecção generalizada, anafilático que ocorre devido a uma alergia intensa e o neurogênico que ocorre devido a lesões no sistema nervoso central. </li> <li> ( ) O choque anafilático é um colapso circulatório provocado por uma intensa reação alérgica, que afeta apenas crianças e idosos, causando diminuição do fluxo de sangue para os órgãos vitais.</li>",
+                "ol": "<li>( )  A perfusão capilar não é útil para avaliar o volume sanguíneo do paciente. </li> <li>( ) As causas do choque distributivo são: Anafilaxia; Infecção bacteriana pela liberação de endotoxina; Lesão medular grave; Ingestão de certos fármacos ou venenos, como nitratos, opioides e bloqueadores adrenérgicos.</li>li> ( ) O choque distributivo é dividido em três choques: séptico que ocorre devido a uma infecção generalizada, anafilático que ocorre devido a uma alergia intensa e o neurogênico que ocorre devido a lesões no sistema nervoso central. </li> <li> ( ) O choque anafilático é um colapso circulatório provocado por uma intensa reação alérgica, que afeta apenas crianças e idosos, causando diminuição do fluxo de sangue para os órgãos vitais.</li>",
                 "optionA": "F – F – V – V",
                 "optionB": "F - V - V - F",
                 "optionC": "V – F – F - V",
