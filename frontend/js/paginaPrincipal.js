@@ -80,9 +80,16 @@ buttonMenu[1].addEventListener('click', () => {
 
 // Sobre nós
 const buttonAboutUs = document.getElementById("option-li-about-us");
+const aboutUs = document.getElementById("contatos");
+const buttonBack = document.getElementById("body-div-return-contatos");
 
 buttonAboutUs.addEventListener('click', () => {
-    
+    contatos.style.display = "flex";
+    menu.style.display = "none";
+})
+buttonBack.addEventListener('click', () => {
+    contatos.style.display = "none";
+    menu.style.display = "flex";
 })
 
 // buttonMenu.addEventListener('click', () => {
