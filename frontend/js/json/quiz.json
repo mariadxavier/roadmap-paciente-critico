@@ -224,7 +224,7 @@
                 "optionA": "Palidez, aumento temporário da força muscular na região atingida e formigamento",
                 "optionB": "Dor intensa, palidez, pulso rápido",
                 "optionC": "Pulso rápido e formigamento persistente no local",
-                "optionD": ""
+                "optionD": "Zumbido nos ouvidos e sensação de calor na região afetada"
             },
             {
                 "id": "question2",
@@ -232,7 +232,7 @@
                 "optionA": "Exposição prolongada à luz solar intensa, pois causa distúrbio de coagulação",
                 "optionB": "Trauma físico, distúrbios de coagulação e úlceras",
                 "optionC": "Excesso de pensamentos negativos e estresse emocional e trauma físico",
-                "optionD": ""
+                "optionD": "Consumo excessivo de gordura, pois pode afinar o sangue"
             },
             {
                 "id": "question3",
@@ -240,7 +240,7 @@
                 "optionA": "Volume de sangue perdido, frequência cardíaca e pressão arterial",
                 "optionB": "Fortes dores de cabeça, falta de ar ou dificuldade de respirar e palpitações fortes",
                 "optionC": "Pressão arterial e identificar se a pessoa afetada pode recitar poemas de Shakespeare",
-                "optionD": ""
+                "optionD": "Idade da pessoa afetada e local da hemorragia"
             },
             {
                 "id": "question4",
@@ -248,7 +248,7 @@
                 "optionA": "Aplicar gelo diretamente na área sangrando para acelerar a coagulação",
                 "optionB": "Aplicar pressão direta, elevar parte afetada e chamar ajuda médica",
                 "optionC": "Ingerir analgésicos antes de buscar ajuda médica para aliviar a dor causada pela hemorragi",
-                "optionD": ""
+                "optionD": "Lavar a ferida para tentar remover o excesso de sangue"
             },
             {
                 "id": "question5",
@@ -256,7 +256,7 @@
                 "optionA": "O consumo frequente de alimentos vermelhos",
                 "optionB": "Doenças hepáticas, uso de anticoagulantes e hipertensão arterial",
                 "optionC": "Uso de anticoagulantes apenas",
-                "optionD": ""
+                "optionD": "Prática regular de atividades físicas"
             },
             {
                 "id": "question6",
@@ -264,7 +264,7 @@
                 "optionA": "Somente se a hemorragia ocorrer durante um dia de semana e for em menores de 30 anos",
                 "optionB": "Em caso de hemorragia interna, quando a perda significativa de sangue, ou se a hemorragia não estanca com pressão",
                 "optionC": "Quando a hemorragia é causada por uma ferida de menos de 2 centímetros",
-                "optionD": ""
+                "optionD": "Se a pessoa afetada estiver com nariz avermelhado"
             },
             {
                 "id": "question7",
@@ -272,7 +272,7 @@
                 "optionA": "Não, pode agravar a hemorragia",
                 "optionB": "Depende da causa da hemorragia",
                 "optionC": "Sim, em casos de hemorragia externa",
-                "optionD": ""
+                "optionD": "Apenas se a pessoa afetada estiver consciente"
             },
             {
                 "id": "question8",
@@ -280,7 +280,7 @@
                 "optionA": "Utilizar medicamentos anticoagulantes diariamente, mesmo sem prescrição médica e usar equipamentos de proteção",
                 "optionB": "Usar equipamento de proteção; Evitar atividades de alto risco; Manter objetos cortantes fora do alcance",
                 "optionC": "Ingerir grandes quantidades de sal diariamente para fortalecer os vasos sanguíneos e evitar atividades de alto risco",
-                "optionD": ""
+                "optionD": "Praticar exercícios para fortalecer as mãos e evitar acidentes com objetos cortantes"
             },
             {
                 "id": "question9",
@@ -288,7 +288,7 @@
                 "optionA": "Transfusão de sangue; Meditação para reduzir o fluxo sanguíneo e controlar hemorragias",
                 "optionB": "Administração de medicamentos hemostáticos; Transfusão de sangue e cirugia para reparo vascular",
                 "optionC": "Cirurgia para reparo vascular; Aplicação tópica de açafrão para acelerar a coagulação sanguínea e Administração de suplementos de vitamina C para prevenir hemorragias internas",
-                "optionD": ""
+                "optionD": "Aplicação de compressas quentes diretamente na área afetada, promovendo a coagulação sanguínea."
             },
             {
                 "id": "question10",
@@ -296,7 +296,7 @@
                 "optionA": "Não tem importância alguma, deve-se ignorar a hemorragia e esperar alguns dias para que ela pare por si só, pois isso é comum",
                 "optionB": "Evitar choque hipovolêmico; Reduzir o risco de complicações; Garantir tratamento adequado",
                 "optionC": "Apenas garantir tratamento adequado",
-                "optionD": ""
+                "optionD": " Ignorar a hemorragia e aguardar, pois o corpo naturalmente controlará o sangramento sem a necessidade de intervenção médica."
             }
         ]
     },
@@ -349,66 +349,66 @@
             {
                 "id": "question1",
                 "question": "Qual a função do protocolo XABCDE? ",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "optionA": "Usado para classificar os riscos apenas dentro das UBS e definir quais são os pacientes que precisam de um atendimento prioritário",
+                "optionB": "Padronizar o atendimento para identificar lesões potencialmente fatais ao indivíduo.",
+                "optionC": "Através desse protocolo que é possível mensurar apenas o nível de consciência dos pacientes.",
+                "optionD": "Servem para alertar os profissionais sobre fatores que podem ocasionar os erros de medicação."
             },
             {
                 "id": "question2",
                 "question": "Qual das alternativas abaixo está correta:",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "optionA": "A fase do trauma, denominada pré-impacto e a segunda fase do trauma.",
+                "optionB": "Todas as alternativas acima estão incorretas.",
+                "optionC": "As lesões causadas pelo impacto de um acidente automobilístico e considerado um trauma pós impacto.",
+                "optionD": "A fase do impacto, só acontece em acidentes que envolvem veículos de locomoção."
             },
             {
                 "id": "question3",
                 "question": "Qual característica define os traumas penetrantes?",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "optionA": "Lesões resultantes de impactos ou forças extremas.",
+                "optionB": "Lesões que envolvem uma combinação de penetração de objetos e fraturas expostas.",
+                "optionC": "Lesões sem perfuração da pele, com danos aos tecidos superficiais.",
+                "optionD": "Lesões causadas por quedas, pancadas, ou acidentes automobilísticos."
             },
             {
                 "id": "question4",
                 "question": "Qual o objetivo da imobilização?",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "optionA": "Imobilizar para prevenir complicações severas dos traumas.",
+                "optionB": "Todas estão corretas.",
+                "optionC": "Mobilizar corretamente com colar cervical e impedir movimentos. ",
+                "optionD": "Impedir os movimentos de uma extremidade traumatizada."
             },
             {
                 "id": "question5",
                 "question": "Em qual tipo de fratura o paciente não poderá ser realinhado?",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "optionA": "Fraturas Fechadas",
+                "optionB": "Fratura Expostas",
+                "optionC": "Fratura na Pelve",
+                "optionD": "Em todas as fraturas a cima"
             },
             {
                 "id": "question6",
                 "question": "Qual é o número mínimo de socorristas pra fazer o pranchamento correto?",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "optionA": "1",
+                "optionB": "3",
+                "optionC": "8",
+                "optionD": "6"
             },
             {
                 "id": "question7",
                 "question": "Qual alternativa abaixo NÃO é utilizada para fazer um curativo?",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "optionA": "Água oxigenada",
+                "optionB": "Torniquete",
+                "optionC": "Álcool",
+                "optionD": "Solução de iodo"
             },
             {
                 "id": "question8",
                 "question": "Qual é o tipo de fratura em que o osso está quebrado em um ângulo?",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "optionA": "Fratura oblíqua",
+                "optionB": "Fratura oblíqua",
+                "optionC": "Fratura transversal",
+                "optionD": "Fratura espiral"
             }
         ]
     },
