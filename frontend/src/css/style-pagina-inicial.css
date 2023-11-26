@@ -151,20 +151,24 @@ body {
     flex-direction: column;
     align-items: center;
     position: fixed;
-    top: -1vh;
+    top: 2vh;
     align-content: center;
-    height: 90vh;
-    width: 90vw;
-    margin: 5%;
+    height: 80vh;
+    width: 80vw;
+    margin: 10%;
     background: #fff;
     border-radius: 30px;
     z-index: 100;
     /* padding: 2vh; */
     overflow-y: scroll;
 
+
     box-shadow: 3px 10px 74px 26px rgba(0,0,0,0.34);
     -webkit-box-shadow: 3px 10px 74px 26px rgba(0,0,0,0.34);
     -moz-box-shadow: 3px 10px 74px 26px rgba(0,0,0,0.34);
+}
+#contatos::-webkit-scrollbar {
+    display: none;
 }
 
   
@@ -189,7 +193,7 @@ body {
     width: 100%;
     position: fixed;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10vw;
 }
 
 #body-div-return-contatos {
@@ -203,6 +207,7 @@ body {
     align-content: center;
     justify-content: center;
     margin: 15px;
+
 }
 
 #return-img-arrow {
@@ -223,8 +228,8 @@ body {
   }
   
   .card-footer {
-    width: 90vw;
-    height: 70vh;
+    width: 74vw;
+    height: 60vh;
     border-radius: 30px;
     overflow: hidden;
     cursor: pointer;
@@ -242,7 +247,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    opacity: 0.9;
+    /* opacity: ; */
     transition: opacity .2s ease-out;
     filter: brightness(0.75);
   }
@@ -254,6 +259,10 @@ body {
     transition: inset .3s .3s ease-out;
     font-weight: normal;
     text-transform: uppercase;
+    color: var(--color-light-blue);
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: 'Poppins';
   }
   
   .card-footer p,
@@ -262,14 +271,36 @@ body {
     opacity: 0;
     max-width: 80%;
     transition: opacity .3s ease-out;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
   }
+
+  #card-footer-link1 {
+    color: #fff;
+    font-family: 'Poppins';
+  }
+  #card-footer-link2 {
+    color: #fff;
+    font-family: 'Poppins';
+  }
+  #card-footer-link3 {
+    color: #fff;
+    font-family: 'Poppins';
+  }
+  #card-footer-link4 {
+    color: #fff;
+    font-family: 'Poppins';
+  }
+
   
   .card-footer p {
-    inset: auto auto 80px 30px;
+    inset: auto auto 70px 30px;
+    /* top: 50vh; */
   }
   
   .card-footer a {
-    inset: auto auto 30px 20px;
+    inset: auto auto 30px 30px;
     color: inherit;
     text-decoration: none;
   }
