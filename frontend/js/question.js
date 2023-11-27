@@ -103,9 +103,12 @@ const exibirDesaprovado = document.getElementById(
     "main-div-result-disapproved"
 );
 
-// console.log(content[unidade]);
+// Bloquear body
+const body = document.querySelector("body");
 
 btnEnviar.addEventListener("click", () => {
+    body.style.overflow = "hidden";
+    btnEnviar.disabled = true;
     let acertos = 0;
     const unitys = [];
     console.log("click");

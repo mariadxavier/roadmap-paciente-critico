@@ -63,7 +63,7 @@ body {
     font-size: 0.75rem;
 }
 
-#title-h1-title {
+#title-h1-title, #title-span-number {
     color: var(--color-dark-blue);
     font-family: "Poppins";
     font-size: 2rem;
