@@ -1,8 +1,7 @@
 const setinha = document.getElementById("header-img-theme");
-const header = document.querySelector("header");
+// const header = document.querySelector("header");
 const imgHeader = document.getElementById("header-img-theme");
-const headerQuestion = document.getElementById("header-questions");
-console.log(header)
+const headerQuestion = document.getElementById("header-h1-question");
 
 window.addEventListener("scroll", function () {
     if (window.scrollY > 550) {
