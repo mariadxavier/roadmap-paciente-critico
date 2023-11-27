@@ -1,5 +1,5 @@
 html {
-    scroll-snap-type: y proximity;
+    /* scroll-snap-type: y proximity; */
     font-family: "Poppins";
 }
 
@@ -7,13 +7,13 @@ body {
     background-color: var(--color-background-pink);
     display: flex;
     flex-direction: column;
-    scroll-snap-type: y proximity;
+    /* scroll-snap-type: y proximity; */
 }
 
-.mandatory {
+/* .mandatory {
     scroll-snap-align: center;
     scroll-snap-type: y proximity;
-}
+} */
 
 /* Header */
 #header {
@@ -253,7 +253,7 @@ footer {
     display: none;
     flex-direction: column;
     position: sticky;
-    bottom: 50px;
+    bottom: 4vh;
     background: var(--color-white);
     height: 90vh;
     width: 90vw;
@@ -378,7 +378,7 @@ footer {
     padding: 3vh 0vw;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 391px) {
     .asking-p-question {
         font-size: 1rem;
     }
@@ -396,11 +396,36 @@ footer {
         font-size: 1rem;
     }
     #footer-img-text {
-        right: 30vw;
+        right: 40vw;
+    }
+
+    /* Menu */
+    .main-div-result {
+        bottom: 5vh;
+    }
+
+}
+
+@media (max-width: 375px) {
+    /* Menu */
+    .main-div-result {
+        bottom: 5vh;
+    }
+    #footer-img-text {
+        right: 40vw;
     }
 }
 
 @media (max-width: 320px) {
+    #header-img-theme {
+        height: 45vh;
+    }
+    #title-h1-title {
+        font-size: 1.5rem;
+    }
+    #title-h1-title span {
+        font-size: 1.5rem;
+    }
     .asking-p-question {
         font-size: 0.8rem;
     }
@@ -414,6 +439,9 @@ footer {
     .asking-h1-number {
         font-size: 1.5rem;
         padding: 0px 14px;
+    }
+    #footer-img-text {
+        height: 28vh;
     }
 
     /* Div de conteúdos para estudar */
@@ -437,3 +465,5 @@ footer {
         font-size: 1.4rem;
     }
 }
+
+
