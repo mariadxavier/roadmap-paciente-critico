@@ -2,6 +2,7 @@ const header = document.querySelector("header");
 const title = document.querySelector("#header-h1-title");
 const img = document.querySelector("#header-img-theme");
 const main = document.querySelector("main");
+const larguraDaJanela = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
 window.addEventListener("scroll", function () {
     if (window.scrollY > 360) {
@@ -39,5 +40,13 @@ window.addEventListener("scroll", function () {
         header.style.height = "26rem";
         header.style.borderRadius = "0 0 40px 40px";
         main.style.marginTop = "unset";
+
+        // Responsividade - 320px
+        if(larguraDaJanela <= 325) {
+            img.style.width = "12rem";
+            header.style.height = "65vh";
+            title.style.top = "52vh";
+            title.style.fontSize = "1.7rem";
+        }
     }
 });

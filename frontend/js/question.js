@@ -63,7 +63,9 @@ const criaQuestion = (obj) => {
 
     const respostas = [
         `<input type='radio' name='response' id='${numberQuestion}-a'><label for='${numberQuestion}-a'>${optionA}</label>`,
-        `<input type='radio' aria-valuemin='4' name='response' id='${numberQuestion}-b'><label for='${numberQuestion}-b'>${optionB}</label>`,
+        `<input type='radio' aria-valuemin='${
+            parseInt(fase) + 1
+        }' name='response' id='${numberQuestion}-b'><label for='${numberQuestion}-b'>${optionB}</label>`,
         `<input type='radio' name='response' id='${numberQuestion}-c'><label for='${numberQuestion}-c'>${optionC}</label>`,
         `<input type='radio' name='response' id='${numberQuestion}-d'><label for='${numberQuestion}-d'>${optionD}</label>`,
     ];
@@ -177,6 +179,8 @@ btnEnviar.addEventListener("click", () => {
         const unitysUnicas = unitys.filter(
             (item, i) => unitys.indexOf(item) === i
         );
+        
+        unitysUnicas.sort((a, b) => a - b);
 
         unitysUnicas.forEach((elem) => {
             const h1 = criaH1();

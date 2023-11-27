@@ -45,6 +45,12 @@ main {
     margin-bottom: 1.5rem;
 }
 
+main .main-div-explication p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
 .main-div-explication {
     color: var(--color-black);
     font-size: 0.9rem;
@@ -64,7 +70,7 @@ main {
 
 .separator-h3-title {
     color: var(--color-black);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: 1.9rem;
@@ -74,7 +80,7 @@ main {
     background-color: var(--color-light-blue);
     border-radius: 0.625rem;
     border: none;
-    width: 21rem;
+    width: 90vw;
     height: 0.6rem;
 }
 
@@ -117,4 +123,21 @@ main {
     object-fit: cover;
     object-position: center;
     height: 100%;
+}
+
+/* Responsividade */
+@media (max-width: 320px) {
+    #header-img-theme {
+        width: 12rem;
+    }
+    header {
+        height: 65vh;
+    }
+    #header-h1-title {
+        top: 52vh;
+        font-size: 1.7rem;
+    }
+    #main-btn-nextLesson {
+        width: 80%;
+    }
 }

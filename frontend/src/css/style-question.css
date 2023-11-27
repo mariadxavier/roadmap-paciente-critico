@@ -93,7 +93,7 @@ body {
     z-index: 99;
 }
 #header-h1-question {
-    display: flex;
+    display: none;
     justify-content: center;
     width: 100%;
     background: var(--color-background-pink);
@@ -128,11 +128,11 @@ main {
 /* Pergunta */
 .questions-div-asking {
     display: flex;
-    height: 35vh;
+    max-height: 35vh;
     flex-direction: column;
     /* justify-content: center; */
     background: rgba(131, 197, 190, 0.7);
-    padding: 1.2vh;
+    padding: 2vh;
     border-radius: 10px;
     gap: 5px;
 
@@ -413,6 +413,17 @@ footer {
     }
     #footer-img-text {
         right: 40vw;
+    }
+}
+
+@media (max-width: 360px) {
+    /* Menu */
+    .main-div-result {
+        bottom: 5vh;
+    }
+    #footer-img-text {
+        right: 43vw;
+        height: 23vh;
     }
 }
 
