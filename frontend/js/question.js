@@ -123,10 +123,10 @@ btnEnviar.addEventListener("click", () => {
         }
     }
     //validação das respostas
-    const porcentagemResultado = (acertos / allQuestions.length) * 100; // Utilizar esta variável como resultado da porcentagem de acertos
+    const porcentagemResultado = parseInt((acertos / allQuestions.length) * 100); // Utilizar esta variável como resultado da porcentagem de acertos
 
     // Aparição da resposta
-    if (porcentagemResultado > 75) {
+    if (porcentagemResultado >= 75) {
         exibirAprovado.style.display = "flex";
         const percent = document.getElementById("result-h1-porcent");
         percent.textContent = `${porcentagemResultado}%`;
@@ -179,7 +179,7 @@ btnEnviar.addEventListener("click", () => {
         const unitysUnicas = unitys.filter(
             (item, i) => unitys.indexOf(item) === i
         );
-        
+
         unitysUnicas.sort((a, b) => a - b);
 
         unitysUnicas.forEach((elem) => {
