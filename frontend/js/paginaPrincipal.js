@@ -201,26 +201,32 @@ window.addEventListener("scroll", () => {
     if(scrollY > 300) {
         console.log(meta)
         // meta.setAttribute("content", "#FFAFAF");
-        console.log(unidade)
         if (unidade === "0") {
             meta.setAttribute("content", "#FFAFAF");
-        } else if (unidade === "1") {
+        }
+        if (unidade === "1") {
             meta.setAttribute("content", "#ffd670");
-        } else if (unidade === "2") {
+        }
+        if (unidade === "2") {
             meta.setAttribute("content", "#70d6ff");
-        } else if (unidade === "3") {
+        }
+        if (unidade === "3") {
             meta.setAttribute("content", "#936bff");
-        } else if (unidade === "4") {
+        }
+        if (unidade === "4") {
             meta.setAttribute("content", "#fb8e8e");
-        } else if (unidade === "5") {
+        }
+        if (unidade === "5") {
             meta.setAttribute("content", "#9ae770");
-        } else if (unidade === "6") {
+        }
+        if (unidade === "6") {
             meta.setAttribute("content", "#fcbf49");
-        } else if (unidade === "7") {
+        }
+        if (unidade === "7") {
             meta.setAttribute("content", "#f48bdb");
         }
-        console.log(meta)
-
+    } else {
+        meta.setAttribute("content", "#ebebeb");
     }
 
 });
