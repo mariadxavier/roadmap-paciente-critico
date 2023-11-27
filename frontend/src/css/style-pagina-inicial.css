@@ -150,7 +150,7 @@ body {
     width: 100%;
 }
 #menu-div-title h1 {
-    color: var(--color-dark-blue);
+    color: var(--color-background-pink);
     font-family: "Poppins";
     font-size: 2rem;
     font-weight: 800;
@@ -163,7 +163,7 @@ body {
 }
 .menu-li-options {
     list-style-type: none;
-    color: var(--color-pink);
+    color: var(--color-light-blue);
     font-family: "Poppins";
     font-size: 2rem;
     font-weight: 700;
@@ -1007,14 +1007,26 @@ main {
 
 @media (max-width: 320px) {
     /* Menu - Sobre Nós */
+    .menu-li-options {
+        font-size: 1.7rem;
+    }
+    #contatos {
+        top: 4vh;
+        margin: 10%;
+    }
     #contatos h1 {
         font-size: 1.3rem;
+    }
+    #body-div-return-contatos {
+        height: 2.3rem;
+        width: 2.3rem;
     }
     #body-div-return-contatos {
         margin: 10px;
     }
     #return-img-arrow {
-        width: 1.3rem;
-        height: 1.3rem;
+        width: 1.2rem;
+        height: 1.1rem;
     }
+    
 }
