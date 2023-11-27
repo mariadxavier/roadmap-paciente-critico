@@ -124,3 +124,20 @@ main .main-div-explication p {
     object-position: center;
     height: 100%;
 }
+
+/* Responsividade */
+@media (max-width: 320px) {
+    #header-img-theme {
+        width: 12rem;
+    }
+    header {
+        height: 65vh;
+    }
+    #header-h1-title {
+        top: 52vh;
+        font-size: 1.7rem;
+    }
+    #main-btn-nextLesson {
+        width: 80%;
+    }
+}
