@@ -7,7 +7,8 @@
                 "optionA": "Normocardia",
                 "optionB": "Taquicardia",
                 "optionC": "Bradicardia",
-                "optionD": "Taquipneia"
+                "optionD": "Taquipneia",
+                "fase" : "3"
             },
             {
                 "id": "question2",
@@ -15,15 +16,17 @@
                 "optionA": "Aferir a pressão após esforço/exercício.",
                 "optionB": "Evitar estar com a bexiga cheia.",
                 "optionC": "Não estar com fome, ingerir café e bolachas 10 minutos antes.",
-                "optionD": "Conversar com o paciente durante a aferição."
+                "optionD": "Conversar com o paciente durante a aferição.",
+                "fase" : "4"
             },
             {
                 "id": "question3",
                 "question": "A aferição dos sinais vitais é uma prática fundamental na avaliação do estado de saúde de um paciente. Qual das alternativas abaixo NÃO é considerada um sinal vital?",
                 "optionA": "Frequência cardíaca",
-                "optionB": "Dor",
-                "optionC": "Nível de glicose no sangue",
-                "optionD": "Pressão arterial"
+                "optionB": "Nível de glicose no sangue",
+                "optionC": "Dor",
+                "optionD": "Pressão arterial", 
+                "fase" : "0"
             },
             {
                 "id": "question4",
@@ -31,7 +34,8 @@
                 "optionA": "48 horas",
                 "optionB": "24 horas",
                 "optionC": "6 horas",
-                "optionD": "12 horas"
+                "optionD": "12 horas",
+                "fase" : "1"
             }
         ]
     },
@@ -39,67 +43,48 @@
         "quiz": [
             {
                 "id": "question1",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Sobre o protocolo de manchester, marque a alternativa INCORRETA: ",
+                "optionA": "A classificação consta com um sistema com 5 cores",
+                "optionB": "O protocolo estabelece a cor azul como pouco urgente e a laranja como emergência",
+                "optionC": "É um sistema de triagem adotado pelo hospitais e serviços de saúde do Brasil ",
+                "optionD": "O protocolo priorizar o atendimento, garantindo que os pacientes mais graves sejam atendidos primeiro",
+                "fase" : "0"
             },
             {
                 "id": "question2",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Qual o tempo de espera aceitável para a cor laranja na triagem?",
+                "optionA": "4 horas",
+                "optionB": "10 minutos",
+                "optionC": "1 hora",
+                "optionD": "5 minutos",
+                "fase" : "1"
             },
             {
                 "id": "question3",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Sobre a implementação do protocolo de manchester é correto afirmar:",
+                "optionA": "O enfermeiro e o técnico de enfermagem podem executar o protocolo, desde que tenha o curso de capacitação",
+                "optionB": "Apenas o enfermeiro pode executar o protocolo, desde que tenha o curso de capacitação",
+                "optionC": "O tempo médio para cada classificação deve ser de 10 minutos",
+                "optionD": "O número de classificações por hora deve ser maior que 20",
+                "fase" : "2"
             },
             {
                 "id": "question4",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Classifique as seguinte alternativas sobre as vantagens do protocolo de manchester com F (falso) e V (verdadeiro): ( ) o protocolo estabelece um padrão para os atendimentos; ( )favorece o descanso dos profissionais de saúde; ( ) reduz índices de óbito e agravamento de quadros; ( ) causa filas desorganizadas e superlotação.",
+                "optionA": "V-V-F-V",
+                "optionB": "V-F-V-F",
+                "optionC": "V-F-F-V",
+                "optionD": "F-V-V-F",
+                "fase" : "3"
             },
             {
                 "id": "question5",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question6",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question7",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question8",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Para aplicar o protocolo no processo de triagem, é importante ter alguns equipamentos e materiais que serão utilizados no momento da avaliação do paciente, exceto: ",
+                "optionA": "Termômetro",
+                "optionB": "Jelco e scalp",
+                "optionC": "Estetoscópio",
+                "optionD": "Oxímetro",
+                "fase" : "4"
             }
         ]
     },
@@ -179,7 +164,8 @@
                 "optionA": "Choque Cardiogênico",
                 "optionB": "Choque Hipovolêmico",
                 "optionC": "Choque Distributivo",
-                "optionD": "Choque Obstrutivo"
+                "optionD": "Choque Obstrutivo",
+                "fase" : "1"
             },
             {
                 "id": "question2",
@@ -187,7 +173,8 @@
                 "optionA": "A má formação dos tecidos",
                 "optionB": "A falta de oxigênio no corpo",
                 "optionC": "Ao aumento de vasos sanguíneos ",
-                "optionD": "A falta de glóbulos brancos"
+                "optionD": "A falta de glóbulos brancos",
+                "fase": "0"
             },
             {
                 "id": "question3",
@@ -195,7 +182,8 @@
                 "optionA": "Manter a vítima aquecida ",
                 "optionB": "Administrar líquido e medicamentos pela boca",
                 "optionC": "Levantar as pernas e virar a cabeça de lado",
-                "optionD": "Afrouxar as roupas da vítima"
+                "optionD": "Afrouxar as roupas da vítima",
+                "fase" : "3"
             },
             {
                 "id": "question4",
@@ -203,7 +191,8 @@
                 "optionA": "Confusão Mental",
                 "optionB": "Desmaio",
                 "optionC": "Calafrios",
-                "optionD": "Diminuição da urina"
+                "optionD": "Diminuição da urina",
+                "fase" : "2"
             },
             {
                 "id": "question5",
@@ -212,7 +201,8 @@
                 "optionA": "F – F – V – V",
                 "optionB": "F - V - V - F",
                 "optionC": "V – F – F - V",
-                "optionD": "V- V – F - V"
+                "optionD": "V- V – F - V",
+                "fase" : "2"
             }
         ]
     },
@@ -224,7 +214,8 @@
                 "optionA": "Palidez, aumento temporário da força muscular na região atingida e formigamento",
                 "optionB": "Dor intensa, palidez, pulso rápido",
                 "optionC": "Pulso rápido e formigamento persistente no local",
-                "optionD": "Zumbido nos ouvidos e sensação de calor na região afetada"
+                "optionD": "Zumbido nos ouvidos e sensação de calor na região afetada",
+                "fase" : ""
             },
             {
                 "id": "question2",

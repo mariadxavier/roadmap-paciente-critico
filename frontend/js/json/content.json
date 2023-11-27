@@ -8,7 +8,7 @@
             },
             {
                 "id": "fase2",
-                "title": "Tempratura",
+                "title": "Temperatura",
                 "body": "<body><header><img src='./src/img/3d-casual-life-chart-3.png' id='header-img-theme'/> <h1 id='header-h1-title'>TEMPERATURA</h1></header> <main><div class='main-div-explication' id='main-div-explication-1'><h3 class='separator-h3-title' id='separator-h3-title-1'> Como aferir</h3><hr class='separator-hr-line' id='separator-hr-line-1' /><p class='explication-p-text' id='explication-p-text-1'> Colocar a ponta do termômetro debaixo da axila ou introduzir cuidadosamente no ânus, depois de lubrificar a ponta do termômetro com vaselina, lidocaína geleia ou gel hidrossolúvel. A melhor forma para medir a temperatura do paciente é por meio de um termômetro. Há diversas opções no mercado, de vidro, digital,de ouvido, entre outros.</p></div><div class='main-div-images'><img src='./src/img/sinais-vitais-termometro.jpg' class='main-img-themeImg' /> </div><div class='main-div-explication' id='main-div-explication-1'> <h3 class='separator-h3-title' id='separator-h3-title-1'>Valores de referência e Termos Técnicos: </h3><hr class='separator-hr-line' id='separator-hr-line-1' /> <p class='explication-p-text' id='explication-p-text-1'><ul><li>Hipotermia: Temperatura abaixo de 35°C ;</li><li>Afebril: 36,1°C a 37,2°C ; </li><li>Febril: 37,3°C a 37,7°C ;</li><li>Febre: 37,8°C a 38,9°C ;</li><li>Pirexia: 39°C a 40°C </li><li>Hiperpirexia: acima de 40°C ;</li><li>Temperatura axilar: 35,8°C a 37°C ;</li><li>Temperatura bucal: 36,3°C a 37,4°C </li><li>Temperatura retal: 37°C a 38°C .</li></ul></p></div><button id='main-btn-nextLesson' class='btn'>Próximo</button></body>"
             },
             {
