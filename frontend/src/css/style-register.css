@@ -149,3 +149,46 @@ main h1 {
 #div-inputItemApelido, #div-inputItemEmail , #div-inputItemSenha {
     position: relative;
 }
+
+/* Responsivo */
+
+/* iPhone =< SE - 320px */
+@media (max-width: 320px) {
+    main img {
+        position: relative;
+        top: 0.5vh;
+        height: 40vh;
+    }
+    main h1 {
+        font-size: 1.5rem;
+        /* top: -1vh; */
+        margin-bottom: 1vh;
+    }
+    #form-register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: -3vh;
+    }
+    #main-btn-enter {
+        /* width: 130%; */
+        padding: 3vh 0vw;
+    }
+    #main-form-login {
+        margin-bottom: 1vh;
+    }
+    #form-register input {
+        height: 8vh;
+        width: 100%;
+    }
+    #main-btn-register {
+        display: flex;
+        padding: 2vh 18vw;
+        font-size: 26px;
+        width: 80%;
+    }
+    #form-register label {
+        font-size: 0.7rem;
+    }
+}

@@ -25,17 +25,17 @@ main {
     display: flex;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    /* justify-content: space-between; */
     flex-wrap: nowrap;
     flex-direction: column;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     height: 100vh;
 }
 
 main img {
     height: 43vh;
     position: relative;
-    bottom: 2vh;
+    bottom: -2vh;
 }
 
 main h1 {
@@ -53,6 +53,7 @@ main h1 {
     justify-content: center;
     flex-shrink: 0;
     margin-bottom: 1.5rem;
+    position: relative;
 }
 
 #main-form-login {
@@ -147,20 +148,36 @@ main h1 {
     color: var(--color-orange);
 }
 
-@media (max-width: 375px) {
+
+/* Responsividade */
+/* iPhone =< SE - 320px */
+
+@media (max-width: 320px) {
+    main img {
+        height: 45vh;
+    }
+    main h1 {
+        font-size: 1.8rem;
+        top: -1vh;
+        margin-bottom: 1vh;
+    }
     #main-btn-enter {
         width: 85%;
         padding: 3vh 0vw;
     }
-}
-@media (max-width: 320px) {
     #main-form-login {
-        margin-bottom: 2vh;
-    }
-    main h1 {
         margin-bottom: 1vh;
     }
+    #main-form-login input {
+        height: 8vh;
+    }
     #main-btn-enter {
-        width: 100%;
+        padding: 2vh 18vw;
+        font-size: 26px;
+        width: 80%;
+    }
+    #main-form-login {
+        position: relative;
+        top: -2vh;
     }
 }
