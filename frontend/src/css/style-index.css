@@ -10,12 +10,16 @@ body {
     position: absolute;
 }
 #presentation-img-stethoscope {
-    height: 60vh;
-    width: 100%;
+    top: 2vh;
+    height: 70vh;
+    right: 10px;
+    /* width: auto; */
+    /* left: 0; */
 }
 #presentation-img-nurse {
     height: 70vh;
-    right: 20px;
+    right: 0;
+    bottom: 15vh;
 }
 /* Fim imagens */
 
@@ -25,10 +29,10 @@ body {
     position: relative;
     place-content: center;
     gap: 5vh;
-    top: 62vh;
+    top: 66vh;
 }
 #title-bnt-h1-title h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     letter-spacing: 3px;
     font-family: 'Fascinate';
     color: var(--color-dark-blue);
@@ -55,4 +59,69 @@ body {
 /* Fim Botão */
 
 /* Responsividade */
+/* S10 Plus - 420px */
+@media (max-width: 420px) {
+    #title-bnt {
+        gap: 5vh;
+        top: 62vh;
+    }
+}
+
+/* Oneplus Nord 2 - 412px */
+@media (max-width: 412px) {
+    #title-bnt {
+        gap: 5vh;
+        top: 68vh;
+    }
+}
+
+
+/* iPhone 13 PRO - 390px */
+@media (max-width: 395px) {
+    #presentation-img-nurse {
+        bottom: 12vh;
+        height: 80vh;
+    }
+    #title-bnt {
+        gap: 5vh;
+        top: 63vh;
+    }
+}
+
+/* iPhone 13 Mini - 375px */
+@media (max-width: 376px) {
+    #title-bnt {
+        gap: 5vh;
+        top: 62vh;
+    }
+}
+
+/* Galaxy S20 */
+@media (max-width: 360px) {
+    #title-bnt {
+        gap: 5vh;
+        top: 65vh;
+        color: aliceblue;
+    }
+}
+
 /* Proporções iPhone SE */
+@media (max-width: 320px ) {
+    #presentation-img-nurse {
+        height: 80vh;
+        bottom: 15vh;
+    }
+    #presentation-img-stethoscope {
+        height: 70vh;
+        width: auto;
+        left: 0;
+    }
+    #title-bnt {
+        gap: 5vh;
+        top: 55vh;
+    }
+    #title-bnt-h1-title h1 {
+        font-size: 2.3rem;
+    }
+}
+
