@@ -92,67 +92,48 @@
         "quiz": [
             {
                 "id": "question1",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Qual é a importância das escalas em uma urgência e emergência?",
+                "optionA": "É importante conhecer o paciente",
+                "optionB": "É importante pois é através das escalas que é possível mensurar o nível de consciência dos pacientes. E a partir desses dados podemos encaminhar o paciente de maneira mais segura",
+                "optionC": "É importante somente na urgência já que na Emergência não é necessário",
+                "optionD": "É importante porque através da escala podemos enviar o paciente para o CME",
+                "fase" : "0"
             },
             {
                 "id": "question2",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Qual o grau leve e gravíssimo das escalas?",
+                "optionA": "2 a 8 Leve, e 13 a 15 Grave na escala de Glasgow, na escala de Ramsay é de 1 a 7 níveis",
+                "optionB": "2 a 8 Grave e 13 a 15 é Leve na escala de Glasgow e na escala de Ramsay 1 a 6",
+                "optionC": "3 e 4 é grave e 12 e 14 é Gravíssimo na escala de Glasgow, e escala de Ramsay é de 1 a 5 níveis",
+                "optionD": "2 a 8 Grave e 13 a 15 Grave na escala de Glasgow e 1 a 6 na escala de Ramsay",
+                "fase" : "2"
             },
             {
                 "id": "question3",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "As escalas são aplicadas por quem? E por que o técnico de Enfermagem precisa conhecer?",
+                "optionA": "Apenas o médico ",
+                "optionB": "Médico e enfermagem ",
+                "optionC": "Apenas o enfermagem ",
+                "optionD": "Técnico de enfermagem",
+                "fase" : "1"
             },
             {
                 "id": "question4",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Qual o nível de atenção das escalas?",
+                "optionA": "Secundária",
+                "optionB": "Primária",
+                "optionC": "Terciária",
+                "optionD": "Nenhuma",
+                "fase" : "3"
             },
             {
                 "id": "question5",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question6",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question7",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question8",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Qual das alternativas a baixo a escala de Glasgow não identifica?",
+                "optionA": "Abertura ocular",
+                "optionB": "Coloração da pele",
+                "optionC": "Resposta verbal",
+                "optionD": "Resposta pupilar",
+                "fase" : "4"
             }
         ]
     },
@@ -407,67 +388,66 @@
         "quiz": [
             {
                 "id": "question1",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Quando ocorre uma Parada Cardiorrespiratória (PCR), qual é o equipamento que pode ser utilizado para restaurar o ritmo cardíaco normal?",
+                "optionA": "Monitor cardíaco",
+                "optionB": "Desfibrilador externo automático (DEA)",
+                "optionC": "Oxímetro de pulso",
+                "optionD": "Estetoscópio",
+                "fase" : "0"
             },
             {
                 "id": "question2",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Qual das seguintes ações é recomendada para garantir a segurança no atendimento?",
+                "optionA": "Realizar compressões torácicas de forma intermitente",
+                "optionB": "Comunicar-se de forma clara e eficaz com a equipe médica e outros socorristas presente",
+                "optionC": "Não utilizar equipamentos de proteção individual (EPIs)",
+                "optionD": "Realizar compressões torácicas de forma intermitente",
+                "fase" : "2"
             },
             {
                 "id": "question3",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Durante uma Parada Cardiorrespiratória (PCR), qual das seguintes ações é recomendada antes de iniciar as compressões torácicas?",
+                "optionA": "Posicionar a vítima em uma superfície macia",
+                "optionB": "Posicionar a vítima deitada em uma superfície firme e rígida",
+                "optionC": "Realizar a desfibrilação imediatamente",
+                "optionD": "Solicitar ajuda adicional sem verificar o pulso da vitima",
+                "fase" : "1"
             },
             {
                 "id": "question4",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Qual das seguintes opções NÃO é uma causa comum da Parada Cardiorrespiratória (PCR)?",
+                "optionA": "Doença cardíaca coronariana",
+                "optionB": "Acidentes com animais peçonhentos",
+                "optionC": "Insuficiência cardíaca",
+                "optionD": "Traumatismo grave",
+                "fase" : "4"
             },
             {
                 "id": "question5",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Qual é a profundidade recomendada para as compressões torácicas durante a RCP em um adulto?",
+                "optionA": "3 a 4 centímetros",
+                "optionB": "5 a 6 centímetros",
+                "optionC": "5 a 6 centímetros",
+                "optionD": "9 a 10 centímetros",
+                "fase" : "1"
             },
             {
                 "id": "question6",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Qual desses sinais clínicos NÃO é sinail de uma PCR",
+                "optionA": "Apneia",
+                "optionB": "Eupneia",
+                "optionC": "Dilatação das pupilas",
+                "optionD": "Cianose",
+                "fase" : "5"
             },
             {
                 "id": "question7",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
-            },
-            {
-                "id": "question8",
-                "question": "",
-                "optionA": "",
-                "optionB": "",
-                "optionC": "",
-                "optionD": ""
+                "question": "Ao iniciar a RCP, qual o ciclo recomendado de compressões torácicas?",
+                "optionA": "30 compressões eficientes (na frequência de 100 a 120/min, deprimindo o tórax em 4 a 5 cm com completo retorno)",
+                "optionB": "30 compressões eficientes (na frequência de 100 a 120/min, deprimindo o tórax em 5 a 6 cm com completo retorno)",
+                "optionC": "30 compressões eficientes (na frequência de 75 a 100/min, deprimindo o tórax em 5 a 6 cm com completo retorno)",
+                "optionD": "25 compressões eficientes (na frequência de 100 a 120/min, deprimindo o tórax em 5 a 6 cm com completo retorno)",
+                "fase" : "6"
             }
         ]
     }
