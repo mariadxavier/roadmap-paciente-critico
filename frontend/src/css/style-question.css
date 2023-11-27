@@ -1,5 +1,5 @@
 html {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     font-family: "Poppins";
 }
 
@@ -7,12 +7,12 @@ body {
     background-color: var(--color-background-pink);
     display: flex;
     flex-direction: column;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
 }
 
 .mandatory {
-    scroll-snap-align: start;
-    scroll-snap-type: y mandatory;
+    scroll-snap-align: center;
+    scroll-snap-type: y proximity;
 }
 
 /* Header */
