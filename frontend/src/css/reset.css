@@ -10,11 +10,13 @@ a {
 }
 
 .btn {
+    display: flex;
     padding: 3vh 20vw;
     border-radius: 0.7rem;
     background: var(--color-light-pink);
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     justify-content: center;
+    align-items: center;
     width: 20.5rem;
     height: 4.25rem;
     flex-shrink: 0;
