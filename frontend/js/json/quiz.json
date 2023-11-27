@@ -295,14 +295,14 @@
                 "id": "question2",
                 "question": "O trauma cranioencefálico é uma lesão física no tecido cerebral que, temporária ou permanentemente, incapacita a função cerebral. O diagnóstico é suspeitado clinicamente e confirmado por imagens. A Escala de Coma de Glasgow (ECG). Tem como objetivo identificar os  principais indicadores da gravidade no Traumatismo Crânioencefálico (TCE) em uma escala simples, para medir o nível de consciência após uma lesão cerebral. A soma dos pontos da escala vai de 3 (mínimo) a 15 (máximo). Sobre a Escala de Coma de Glasgow (ECG), assinale a afirmativa CORRETA.",
                 "optionA": "Se a soma dos resultados ficar entre 3 e 10, o trauma é considerado leve",
-                "optionB": "São avaliados três parâmetros: abertura ocular, resposta verbal e, resposta motora",
+                "optionB": "São avaliados três parâmetros: abertura ocular, resposta verbal e resposta motora",
                 "optionC": "Se a soma dos resultados ficar entre 14 e 15, o trauma é considerado moderado",
                 "optionD": "O profissional responsável na verificação de tais informações, segue tirando ponto além do que é permitido pela escala. Devido ao agravamento dos ferimentos.",
                 "fase" : "5"
             },
             {
                 "id": "question3",
-                "question": "O Traumatismo Cranioencefálico (TCE) é uma lesão cerebral causada por um impacto na cabeça. O trauma pode ocasionar somente uma ausência de consciência ou a perda de algumas habilidades cognitivas dependendo da força do impacto. Sobre a localidade do trauma, indique a(s) alternativas correta(s): I- Crânio, meninges, tornozelo, coração; II- Glândula lagrimal, cérebro; III- Tórax, coluna cervical, couro cabeludo, crânio; IV- Couro cabeludo, crânio, meninges, encéfalo e nervos cranianos.",
+                "question": "O Traumatismo Cranioencefálico (TCE) é uma lesão cerebral causada por um impacto na cabeça. O trauma pode ocasionar somente uma ausência de consciência ou a perda de algumas habilidades cognitivas dependendo da força do impacto. Sobre a localidade do trauma, indique a(s) alternativas correta(s):  I- Crânio, meninges, tornozelo, coração; II- Glândula lagrimal, cérebro; III- Tórax, coluna cervical, couro cabeludo, crânio; IV- Couro cabeludo, crânio, meninges, encéfalo e nervos cranianos.",
                 "optionA": "I e III estão CORRETAS",
                 "optionB": "Somente IV está CORRETA",
                 "optionC": "Somente III está CORRETA",
@@ -373,7 +373,7 @@
                 "optionA": "Fraturas Fechadas",
                 "optionB": "Fratura Expostas",
                 "optionC": "Fratura na Pelve",
-                "optionD": "Em todas as fraturas a cima",
+                "optionD": "Em todas as fraturas citadas",
                 "fase" : "4"
             },
             {
@@ -397,7 +397,7 @@
             {
                 "id": "question8",
                 "question": "Qual é o tipo de fratura em que o osso está quebrado em um ângulo?",
-                "optionA": "Fratura oblíqua",
+                "optionA": "Fratura comunitiva",
                 "optionB": "Fratura oblíqua",
                 "optionC": "Fratura transversal",
                 "optionD": "Fratura espiral",
