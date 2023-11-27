@@ -1006,9 +1006,13 @@ main {
 }
 
 @media (max-width: 320px) {
+    /* Header */
+    #header {
+        padding-top: 10px;
+    }
     /* Menu - Sobre Nós */
     .menu-li-options {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     #contatos {
         top: 4vh;
@@ -1029,4 +1033,20 @@ main {
         height: 1.1rem;
     }
     
+    /* Apresentação */
+    #section-presentation {
+        height: 44vh;
+        gap: 4.5;
+    }
+    #section-presentation-h1-title {
+        font-size: 1.4rem;
+    }
+    #section-presentation-h1-title span {
+        font-size: 1.6rem;
+    }
+    .container-div-developer {
+        height: 20vh;
+    }
+    
+    /* presentation-container */
 }
