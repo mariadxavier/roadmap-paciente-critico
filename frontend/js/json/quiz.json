@@ -101,28 +101,28 @@
             },
             {
                 "id": "question2",
-                "question": "Qual o grau leve e gravíssimo das escalas?",
-                "optionA": "2 a 8 Leve, e 13 a 15 Grave na escala de Glasgow, na escala de Ramsay é de 1 a 7 níveis",
-                "optionB": "2 a 8 Grave e 13 a 15 é Leve na escala de Glasgow e na escala de Ramsay 1 a 6",
+                "question": "Qual o grau leve e grave das escalas?",
+                "optionA": "2 a 8 leve, e 13 a 15 Grave na escala de Glasgow, na escala de Ramsay é de 1 a 7 níveis",
+                "optionB": "2 a 8 grave e 13 a 15 é Leve na escala de Glasgow e na escala de Ramsay 1 a 6",
                 "optionC": "3 e 4 é grave e 12 e 14 é Gravíssimo na escala de Glasgow, e escala de Ramsay é de 1 a 5 níveis",
-                "optionD": "2 a 8 Grave e 13 a 15 Grave na escala de Glasgow e 1 a 6 na escala de Ramsay",
+                "optionD": "2 a 8 grave e 13 a 15 Grave na escala de Glasgow e 1 a 6 na escala de Ramsay",
                 "fase" : "2"
             },
             {
                 "id": "question3",
-                "question": "As escalas são aplicadas por quem? E por que o técnico de Enfermagem precisa conhecer?",
+                "question": "As escalas são aplicadas por quem?",
                 "optionA": "Apenas o médico ",
-                "optionB": "Médico e enfermagem ",
-                "optionC": "Apenas o enfermagem ",
+                "optionB": "Médico e técnico de enfermagem ",
+                "optionC": "Apenas técnico de enfermagem ",
                 "optionD": "Técnico de enfermagem",
                 "fase" : "1"
             },
             {
                 "id": "question4",
                 "question": "Qual o nível de atenção das escalas?",
-                "optionA": "Secundária",
-                "optionB": "Primária",
-                "optionC": "Terciária",
+                "optionA": "Secundário",
+                "optionB": "Primário",
+                "optionC": "Terciário",
                 "optionD": "Nenhuma",
                 "fase" : "3"
             },
