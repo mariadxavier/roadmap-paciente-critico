@@ -93,7 +93,7 @@ body {
     z-index: 99;
 }
 #header-h1-question {
-    display: flex;
+    display: none;
     justify-content: center;
     width: 100%;
     background: var(--color-background-pink);
