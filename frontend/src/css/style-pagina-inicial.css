@@ -375,9 +375,13 @@ main {
     /* Passar essa cor também */
     color: #ff7a7a;
     font-family: "Poppins";
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 800;
-    line-height: 4.5vh;
+    line-height: 5.5vh;
+}
+#section-presentation-h1-title span {
+    font-size: 2rem;
+    color: #ff7a7a;
 }
 #section-presentation-div-container {
     display: flex;
@@ -393,7 +397,7 @@ main {
     border-radius: 10px;
 }
 
-#container-div-developer {
+.container-div-developer {
     padding: 10px;
 }
 #developer-div-container {
@@ -401,12 +405,22 @@ main {
     align-items: center;
     gap: 5px;
 }
-#developer-p-text {
+#developer-div-container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#developer-img-letter {
+    height: 11vh;
+    filter: contrast(130%);
+}
+.developer-p-text {
     /*Passar para o reset */
     color: rgba(67, 67, 67, 0.6);
     font-family: Poppins;
     font-size: 1rem;
     font-weight: 700;
+    text-align: center;
 }
 #developer-img-picture {
     height: 10vh;
@@ -848,9 +862,6 @@ main {
 /* Responsividade */
 
 @media (max-width: 430px) {
-    #section-presentation-h1-title {
-        color: blue;
-    }
     #frist-unit-div-roadmap .roadmap-img-first {
         height: 60vh;
         top: 28vh;
@@ -932,9 +943,6 @@ main {
 }
 
 @media (max-width: 360px) {
-    #section-presentation-h1-title {
-        color: #78ff30;
-    }
     #frist-unit-div-roadmap .roadmap-img-first {
         height: 45vh;
     }

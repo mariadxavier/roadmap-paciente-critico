@@ -67,7 +67,7 @@ buttonMenu[0].addEventListener("click", () => {
     buttonMenu[1].style.padding = "15px 8px";
 
     menu.style.display = "flex";
-    header.style.filter = "blur(2px)";
+    // header.style.filter = "blur(2px)";
 });
 buttonMenu[1].addEventListener("click", () => {
     // Mudanças de style
@@ -287,7 +287,9 @@ botoesUnidades.forEach((botao, index) => {
 });
 
 
-// trocando cor meta
-window.addEventListener('scroll', () => {
-    console.log(scrollY)
+// Link suporte
+const suporte = document.getElementById("presentation-div-suport");
+
+suporte.addEventListener('click', () => {
+    window.location = "https://forms.gle/ykstZsAaQ3DzD3269";
 })
