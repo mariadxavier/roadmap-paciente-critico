@@ -196,7 +196,7 @@
                 "optionB": "Dor intensa, palidez, pulso rápido",
                 "optionC": "Pulso rápido e formigamento persistente no local",
                 "optionD": "Zumbido nos ouvidos e sensação de calor na região afetada",
-                "fase" : ""
+                "fase" : "1"
             },
             {
                 "id": "question2",
@@ -204,7 +204,8 @@
                 "optionA": "Exposição prolongada à luz solar intensa, pois causa distúrbio de coagulação",
                 "optionB": "Trauma físico, distúrbios de coagulação e úlceras",
                 "optionC": "Excesso de pensamentos negativos e estresse emocional e trauma físico",
-                "optionD": "Consumo excessivo de gordura, pois pode afinar o sangue"
+                "optionD": "Consumo excessivo de gordura, pois pode afinar o sangue",
+                "fase" : "1"
             },
             {
                 "id": "question3",
@@ -212,7 +213,8 @@
                 "optionA": "Volume de sangue perdido, frequência cardíaca e pressão arterial",
                 "optionB": "Fortes dores de cabeça, falta de ar ou dificuldade de respirar e palpitações fortes",
                 "optionC": "Pressão arterial e identificar se a pessoa afetada pode recitar poemas de Shakespeare",
-                "optionD": "Idade da pessoa afetada e local da hemorragia"
+                "optionD": "Idade da pessoa afetada e local da hemorragia",
+                "fase" : "2"
             },
             {
                 "id": "question4",
@@ -220,7 +222,8 @@
                 "optionA": "Aplicar gelo diretamente na área sangrando para acelerar a coagulação",
                 "optionB": "Aplicar pressão direta, elevar parte afetada e chamar ajuda médica",
                 "optionC": "Ingerir analgésicos antes de buscar ajuda médica para aliviar a dor causada pela hemorragi",
-                "optionD": "Lavar a ferida para tentar remover o excesso de sangue"
+                "optionD": "Lavar a ferida para tentar remover o excesso de sangue",
+                "fase" : "4"
             },
             {
                 "id": "question5",
@@ -228,7 +231,8 @@
                 "optionA": "O consumo frequente de alimentos vermelhos",
                 "optionB": "Doenças hepáticas, uso de anticoagulantes e hipertensão arterial",
                 "optionC": "Uso de anticoagulantes apenas",
-                "optionD": "Prática regular de atividades físicas"
+                "optionD": "Prática regular de atividades físicas",
+                "fase" : "5"
             },
             {
                 "id": "question6",
@@ -236,7 +240,8 @@
                 "optionA": "Somente se a hemorragia ocorrer durante um dia de semana e for em menores de 30 anos",
                 "optionB": "Em caso de hemorragia interna, quando a perda significativa de sangue, ou se a hemorragia não estanca com pressão",
                 "optionC": "Quando a hemorragia é causada por uma ferida de menos de 2 centímetros",
-                "optionD": "Se a pessoa afetada estiver com nariz avermelhado"
+                "optionD": "Se a pessoa afetada estiver com nariz avermelhado",
+                "fase" : "2"
             },
             {
                 "id": "question7",
@@ -244,7 +249,8 @@
                 "optionA": "Não, pode agravar a hemorragia",
                 "optionB": "Depende da causa da hemorragia",
                 "optionC": "Sim, em casos de hemorragia externa",
-                "optionD": "Apenas se a pessoa afetada estiver consciente"
+                "optionD": "Apenas se a pessoa afetada estiver consciente",
+                "fase" : "4"
             },
             {
                 "id": "question8",
@@ -252,7 +258,8 @@
                 "optionA": "Utilizar medicamentos anticoagulantes diariamente, mesmo sem prescrição médica e usar equipamentos de proteção",
                 "optionB": "Usar equipamento de proteção; Evitar atividades de alto risco; Manter objetos cortantes fora do alcance",
                 "optionC": "Ingerir grandes quantidades de sal diariamente para fortalecer os vasos sanguíneos e evitar atividades de alto risco",
-                "optionD": "Praticar exercícios para fortalecer as mãos e evitar acidentes com objetos cortantes"
+                "optionD": "Praticar exercícios para fortalecer as mãos e evitar acidentes com objetos cortantes",
+                "fase" : "0"
             },
             {
                 "id": "question9",
@@ -260,7 +267,8 @@
                 "optionA": "Transfusão de sangue; Meditação para reduzir o fluxo sanguíneo e controlar hemorragias",
                 "optionB": "Administração de medicamentos hemostáticos; Transfusão de sangue e cirugia para reparo vascular",
                 "optionC": "Cirurgia para reparo vascular; Aplicação tópica de açafrão para acelerar a coagulação sanguínea e Administração de suplementos de vitamina C para prevenir hemorragias internas",
-                "optionD": "Aplicação de compressas quentes diretamente na área afetada, promovendo a coagulação sanguínea."
+                "optionD": "Aplicação de compressas quentes diretamente na área afetada, promovendo a coagulação sanguínea.",
+                "fase" : "4"
             },
             {
                 "id": "question10",
@@ -268,7 +276,8 @@
                 "optionA": "Não tem importância alguma, deve-se ignorar a hemorragia e esperar alguns dias para que ela pare por si só, pois isso é comum",
                 "optionB": "Evitar choque hipovolêmico; Reduzir o risco de complicações; Garantir tratamento adequado",
                 "optionC": "Apenas garantir tratamento adequado",
-                "optionD": " Ignorar a hemorragia e aguardar, pois o corpo naturalmente controlará o sangramento sem a necessidade de intervenção médica."
+                "optionD": " Ignorar a hemorragia e aguardar, pois o corpo naturalmente controlará o sangramento sem a necessidade de intervenção médica.",
+                "fase" : "1"
             }
         ]
     },
@@ -280,7 +289,8 @@
                 "optionA": "Escala de Ritcher",
                 "optionB": "Escala de Glasgow",
                 "optionC": "Escala de Ramsay",
-                "optionD": "Escala de Bristol"
+                "optionD": "Escala de Bristol",
+                "fase" : "0"
             },
             {
                 "id": "question2",
@@ -288,7 +298,8 @@
                 "optionA": "Se a soma dos resultados ficar entre 3 e 10, o trauma é considerado leve",
                 "optionB": "São avaliados três parâmetros: abertura ocular, resposta verbal e, resposta motora",
                 "optionC": "Se a soma dos resultados ficar entre 14 e 15, o trauma é considerado moderado",
-                "optionD": "O profissional responsável na verificação de tais informações, segue tirando ponto além do que é permitido pela escala. Devido ao agravamento dos ferimentos."
+                "optionD": "O profissional responsável na verificação de tais informações, segue tirando ponto além do que é permitido pela escala. Devido ao agravamento dos ferimentos.",
+                "fase" : "5"
             },
             {
                 "id": "question3",
@@ -296,7 +307,8 @@
                 "optionA": "I e III estão CORRETAS",
                 "optionB": "Somente IV está CORRETA",
                 "optionC": "Somente III está CORRETA",
-                "optionD": "Somente II e IV estão CORRETAS"
+                "optionD": "Somente II e IV estão CORRETAS",
+                "fase" : "1"
             },
             {
                 "id": "question4",
@@ -304,7 +316,8 @@
                 "optionA": "Fechadas",
                 "optionB": "Abertas",
                 "optionC": "Fraturas por estresse",
-                "optionD": "Traumáticas"
+                "optionD": "Traumáticas",
+                "fase" : "3"
             },
             {
                 "id": "question5",
@@ -312,7 +325,8 @@
                 "optionA": "Micro lesões ligamentares",
                 "optionB": "Ruptura parcial do ligamento, gera uma leve frouxidão da articulação",
                 "optionC": "Secundárias (após o trauma, resultando em edema cerebral ou formação de hematomas)",
-                "optionD": "Primarias (resultado imediato e direto do trauma)"
+                "optionD": "Primarias (resultado imediato e direto do trauma)",
+                "fase" : "5"
             }
         ]
     },
@@ -324,7 +338,8 @@
                 "optionA": "Usado para classificar os riscos apenas dentro das UBS e definir quais são os pacientes que precisam de um atendimento prioritário",
                 "optionB": "Padronizar o atendimento para identificar lesões potencialmente fatais ao indivíduo.",
                 "optionC": "Através desse protocolo que é possível mensurar apenas o nível de consciência dos pacientes.",
-                "optionD": "Servem para alertar os profissionais sobre fatores que podem ocasionar os erros de medicação."
+                "optionD": "Servem para alertar os profissionais sobre fatores que podem ocasionar os erros de medicação.",
+                "fase" : "0"
             },
             {
                 "id": "question2",
@@ -332,7 +347,8 @@
                 "optionA": "A fase do trauma, denominada pré-impacto e a segunda fase do trauma.",
                 "optionB": "Todas as alternativas acima estão incorretas.",
                 "optionC": "As lesões causadas pelo impacto de um acidente automobilístico e considerado um trauma pós impacto.",
-                "optionD": "A fase do impacto, só acontece em acidentes que envolvem veículos de locomoção."
+                "optionD": "A fase do impacto, só acontece em acidentes que envolvem veículos de locomoção.",
+                "fase" : "1"
             },
             {
                 "id": "question3",
@@ -340,7 +356,8 @@
                 "optionA": "Lesões resultantes de impactos ou forças extremas.",
                 "optionB": "Lesões que envolvem uma combinação de penetração de objetos e fraturas expostas.",
                 "optionC": "Lesões sem perfuração da pele, com danos aos tecidos superficiais.",
-                "optionD": "Lesões causadas por quedas, pancadas, ou acidentes automobilísticos."
+                "optionD": "Lesões causadas por quedas, pancadas, ou acidentes automobilísticos.",
+                "fase" : "2"
             },
             {
                 "id": "question4",
@@ -348,7 +365,8 @@
                 "optionA": "Imobilizar para prevenir complicações severas dos traumas.",
                 "optionB": "Todas estão corretas.",
                 "optionC": "Mobilizar corretamente com colar cervical e impedir movimentos. ",
-                "optionD": "Impedir os movimentos de uma extremidade traumatizada."
+                "optionD": "Impedir os movimentos de uma extremidade traumatizada.",
+                "fase" : "3"
             },
             {
                 "id": "question5",
@@ -356,7 +374,8 @@
                 "optionA": "Fraturas Fechadas",
                 "optionB": "Fratura Expostas",
                 "optionC": "Fratura na Pelve",
-                "optionD": "Em todas as fraturas a cima"
+                "optionD": "Em todas as fraturas a cima",
+                "fase" : "4"
             },
             {
                 "id": "question6",
@@ -364,7 +383,8 @@
                 "optionA": "1",
                 "optionB": "3",
                 "optionC": "8",
-                "optionD": "6"
+                "optionD": "6",
+                "fase" : "5"
             },
             {
                 "id": "question7",
@@ -372,7 +392,8 @@
                 "optionA": "Água oxigenada",
                 "optionB": "Torniquete",
                 "optionC": "Álcool",
-                "optionD": "Solução de iodo"
+                "optionD": "Solução de iodo",
+                "fase" : "6"
             },
             {
                 "id": "question8",
@@ -380,7 +401,8 @@
                 "optionA": "Fratura oblíqua",
                 "optionB": "Fratura oblíqua",
                 "optionC": "Fratura transversal",
-                "optionD": "Fratura espiral"
+                "optionD": "Fratura espiral",
+                "fase" : "2"
             }
         ]
     },
