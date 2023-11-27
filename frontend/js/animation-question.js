@@ -3,18 +3,13 @@ const setinha = document.getElementById("header-img-theme");
 const imgHeader = document.getElementById("header-img-theme");
 const headerQuestion = document.getElementById("header-questions");
 
-
-window.addEventListener('scroll', function () {
-    console.log(scrollY)
+window.addEventListener("scroll", function () {
     if (window.scrollY > 550) {
         setinha.style.display = "none";
         headerQuestion.style.display = "flex";
         headerQuestion.style.position = "fixed";
-    
-        
     } else {
         setinha.style.display = "inherit";
         headerQuestion.style.display = "none";
-        
     }
-})
+});

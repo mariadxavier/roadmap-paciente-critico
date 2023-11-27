@@ -46,13 +46,13 @@ const main = document.querySelector("main");
 
 // Botão menu:
 const buttonMenu = document.querySelectorAll(".header-div-background-menu");
-console.log(buttonMenu)
+console.log(buttonMenu);
 const menu = document.getElementById("header-menu");
 const sectionPresentation = document.getElementById("section-presentation");
 const units = document.querySelectorAll(".units");
 const buttonBars = document.querySelectorAll(".header-div-bar");
 
-buttonMenu[0].addEventListener('click', () => {
+buttonMenu[0].addEventListener("click", () => {
     // Fazendo o botão girar
 
     buttonBars[3].style.transform = "rotate(135deg)";
@@ -60,22 +60,20 @@ buttonMenu[0].addEventListener('click', () => {
 
     buttonBars[5].style.display = "none";
 
-    buttonBars[3].style.bottom = "-3px"
+    buttonBars[3].style.bottom = "-3px";
     buttonBars[4].style.bottom = "5px";
 
     // Mudanças de style
     buttonMenu[1].style.padding = "15px 8px";
-    
+
     menu.style.display = "flex";
     header.style.filter = "blur(2px)";
-})
-buttonMenu[1].addEventListener('click', () => {
-
+});
+buttonMenu[1].addEventListener("click", () => {
     // Mudanças de style
     menu.style.display = "none";
     header.style.filter = "inherit";
-
-})
+});
 
 // Botão Notificação
 // const notification = document.getElementById("header-div-background-notification");
@@ -94,14 +92,14 @@ const buttonAboutUs = document.getElementById("option-li-about-us");
 const aboutUs = document.getElementById("contatos");
 const buttonBack = document.getElementById("body-div-return-contatos");
 
-buttonAboutUs.addEventListener('click', () => {
+buttonAboutUs.addEventListener("click", () => {
     contatos.style.display = "flex";
     menu.style.display = "none";
-})
-buttonBack.addEventListener('click', () => {
+});
+buttonBack.addEventListener("click", () => {
     contatos.style.display = "none";
     menu.style.display = "flex";
-})
+});
 
 // buttonMenu.addEventListener('click', () => {
 //     menu.style.display = "flex";
@@ -245,7 +243,16 @@ const botoesUnidades = document.querySelectorAll(".container-bnt-img-bottom");
 const unidades = document.querySelectorAll(".units");
 const divRoadmap = document.querySelectorAll(".units-div-roadmap");
 
-divRoadmap.forEach((elem) => {
+divRoadmap.forEach((elem, i) => {
+    // console.log(elem.style.display);
+    if (elem.style.display == "none") {
+        botoesUnidades[i].transform = "rotate(90deg)";
+    } else {
+        botoesUnidades[i].transform = "rotate(0deg)";
+    }
+});
+
+divRoadmap.forEach((elem, i) => {
     if (elem.ariaValueMax === parseInt(unidade)) {
         elem.style.display = "flex";
     } else {
@@ -266,11 +273,12 @@ botoesUnidades.forEach((botao, index) => {
         divRoadmap[0].style.display = "flex";
     } else {
         divRoadmap[unidade].style.display = "flex";
+        botoesUnidades[unidade].style.transform = "rotate(90deg)";
     }
     botao.addEventListener("click", () => {
         if (divRoadmap[index].style.display === "flex") {
-            divRoadmap[index].style.display = "none";
             botoesUnidades[index].style.transform = "rotate(0deg)";
+            divRoadmap[index].style.display = "none";
         } else if (divRoadmap[index].style.display === "none") {
             divRoadmap[index].style.display = "flex";
             botoesUnidades[index].style.transform = "rotate(90deg)";
