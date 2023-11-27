@@ -202,7 +202,7 @@
                 "question": "Quais são as principais causas de hemorragias?",
                 "optionA": "Exposição prolongada à luz solar intensa, pois causa distúrbio de coagulação",
                 "optionB": "Trauma físico, distúrbios de coagulação e úlceras",
-                "optionC": "Excesso de pensamentos negativos e estresse emocional e trauma físico",
+                "optionC": "Excesso de pensamentos negativos, estresse emocional e trauma físico",
                 "optionD": "Consumo excessivo de gordura, pois pode afinar o sangue",
                 "fase" : "1"
             },
@@ -220,7 +220,7 @@
                 "question": "Quais são os primeiros socorros recomendados para uma hemorragia?",
                 "optionA": "Aplicar gelo diretamente na área sangrando para acelerar a coagulação",
                 "optionB": "Aplicar pressão direta, elevar parte afetada e chamar ajuda médica",
-                "optionC": "Ingerir analgésicos antes de buscar ajuda médica para aliviar a dor causada pela hemorragi",
+                "optionC": "Ingerir analgésicos antes de buscar ajuda médica para aliviar a dor causada pela hemorragia",
                 "optionD": "Lavar a ferida para tentar remover o excesso de sangue",
                 "fase" : "4"
             },
@@ -237,7 +237,7 @@
                 "id": "question6",
                 "question": "Quando uma hemorragia deve ser considerada uma emergência médica?",
                 "optionA": "Somente se a hemorragia ocorrer durante um dia de semana e for em menores de 30 anos",
-                "optionB": "Em caso de hemorragia interna, quando a perda significativa de sangue, ou se a hemorragia não estanca com pressão",
+                "optionB": "Em caso de hemorragia interna, quando há perda significativa de sangue, ou se a hemorragia não estanca com pressão",
                 "optionC": "Quando a hemorragia é causada por uma ferida de menos de 2 centímetros",
                 "optionD": "Se a pessoa afetada estiver com nariz avermelhado",
                 "fase" : "2"
@@ -265,7 +265,7 @@
                 "question": "Quais são os tratamentos médicos disponíveis para diferentes tipos de hemorragias?",
                 "optionA": "Transfusão de sangue; Meditação para reduzir o fluxo sanguíneo e controlar hemorragias",
                 "optionB": "Administração de medicamentos hemostáticos; Transfusão de sangue e cirugia para reparo vascular",
-                "optionC": "Cirurgia para reparo vascular; Aplicação tópica de açafrão para acelerar a coagulação sanguínea e Administração de suplementos de vitamina C para prevenir hemorragias internas",
+                "optionC": "Cirurgia para reparo vascular; Aplicação tópica de açafrão para acelerar a coagulação sanguínea e administração de suplementos de vitamina C para prevenir hemorragias internas",
                 "optionD": "Aplicação de compressas quentes diretamente na área afetada, promovendo a coagulação sanguínea.",
                 "fase" : "4"
             },
@@ -295,14 +295,14 @@
                 "id": "question2",
                 "question": "O trauma cranioencefálico é uma lesão física no tecido cerebral que, temporária ou permanentemente, incapacita a função cerebral. O diagnóstico é suspeitado clinicamente e confirmado por imagens. A Escala de Coma de Glasgow (ECG). Tem como objetivo identificar os  principais indicadores da gravidade no Traumatismo Crânioencefálico (TCE) em uma escala simples, para medir o nível de consciência após uma lesão cerebral. A soma dos pontos da escala vai de 3 (mínimo) a 15 (máximo). Sobre a Escala de Coma de Glasgow (ECG), assinale a afirmativa CORRETA.",
                 "optionA": "Se a soma dos resultados ficar entre 3 e 10, o trauma é considerado leve",
-                "optionB": "São avaliados três parâmetros: abertura ocular, resposta verbal e, resposta motora",
+                "optionB": "São avaliados três parâmetros: abertura ocular, resposta verbal e resposta motora",
                 "optionC": "Se a soma dos resultados ficar entre 14 e 15, o trauma é considerado moderado",
                 "optionD": "O profissional responsável na verificação de tais informações, segue tirando ponto além do que é permitido pela escala. Devido ao agravamento dos ferimentos.",
                 "fase" : "5"
             },
             {
                 "id": "question3",
-                "question": "O Traumatismo Cranioencefálico (TCE) é uma lesão cerebral causada por um impacto na cabeça. O trauma pode ocasionar somente uma ausência de consciência ou a perda de algumas habilidades cognitivas dependendo da força do impacto. Sobre a localidade do trauma, indique a(s) alternativas correta(s): I- Crânio, meninges, tornozelo, coração; II- Glândula lagrimal, cérebro; III- Tórax, coluna cervical, couro cabeludo, crânio; IV- Couro cabeludo, crânio, meninges, encéfalo e nervos cranianos.",
+                "question": "O Traumatismo Cranioencefálico (TCE) é uma lesão cerebral causada por um impacto na cabeça. O trauma pode ocasionar somente uma ausência de consciência ou a perda de algumas habilidades cognitivas dependendo da força do impacto. Sobre a localidade do trauma, indique a(s) alternativas correta(s):  I- Crânio, meninges, tornozelo, coração; II- Glândula lagrimal, cérebro; III- Tórax, coluna cervical, couro cabeludo, crânio; IV- Couro cabeludo, crânio, meninges, encéfalo e nervos cranianos.",
                 "optionA": "I e III estão CORRETAS",
                 "optionB": "Somente IV está CORRETA",
                 "optionC": "Somente III está CORRETA",
@@ -373,7 +373,7 @@
                 "optionA": "Fraturas Fechadas",
                 "optionB": "Fratura Expostas",
                 "optionC": "Fratura na Pelve",
-                "optionD": "Em todas as fraturas a cima",
+                "optionD": "Em todas as fraturas citadas",
                 "fase" : "4"
             },
             {
@@ -397,7 +397,7 @@
             {
                 "id": "question8",
                 "question": "Qual é o tipo de fratura em que o osso está quebrado em um ângulo?",
-                "optionA": "Fratura oblíqua",
+                "optionA": "Fratura comunitiva",
                 "optionB": "Fratura oblíqua",
                 "optionC": "Fratura transversal",
                 "optionD": "Fratura espiral",
@@ -448,7 +448,7 @@
                 "question": "Qual é a profundidade recomendada para as compressões torácicas durante a RCP em um adulto?",
                 "optionA": "3 a 4 centímetros",
                 "optionB": "5 a 6 centímetros",
-                "optionC": "5 a 6 centímetros",
+                "optionC": "7 a 8 centímetros",
                 "optionD": "9 a 10 centímetros",
                 "fase" : "1"
             },
