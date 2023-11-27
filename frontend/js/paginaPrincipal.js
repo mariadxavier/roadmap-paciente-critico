@@ -200,7 +200,6 @@ window.addEventListener("scroll", () => {
 
     // Trocando cor meta conforme a unidade
     if(scrollY > 300) {
-        console.log(meta)
         // meta.setAttribute("content", "#FFAFAF");
         if (unidade === "0") {
             meta.setAttribute("content", "#FFAFAF");
