@@ -31,8 +31,8 @@
             {
                 "id": "question4",
                 "question": "É CORRETO afirmar que a temperatura corporal normalmente muda de 0,5°C a 1°C durante um período de:",
-                "optionA": "48 horas",
-                "optionB": "24 horas",
+                "optionA": "24 horas",
+                "optionB": "48 horas",
                 "optionC": "6 horas",
                 "optionD": "12 horas",
                 "fase" : "1"
@@ -47,7 +47,7 @@
                 "optionA": "A classificação consta com um sistema com 5 cores",
                 "optionB": "O protocolo estabelece a cor azul como pouco urgente e a laranja como emergência",
                 "optionC": "É um sistema de triagem adotado pelo hospitais e serviços de saúde do Brasil ",
-                "optionD": "O protocolo priorizar o atendimento, garantindo que os pacientes mais graves sejam atendidos primeiro",
+                "optionD": "O protocolo prioriza o atendimento, garantindo que os pacientes mais graves sejam atendidos primeiro",
                 "fase" : "0"
             },
             {
