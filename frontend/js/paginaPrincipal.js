@@ -281,7 +281,7 @@ suporte.addEventListener("click", () => {
 });
 
 
-window.addEventListener("focus", () => {
+window.onload = window.addEventListener("focus", () => {
     window.location.reload();
 });
 
