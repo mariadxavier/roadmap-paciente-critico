@@ -47,6 +47,7 @@ btnFases.forEach((elem, i) => {
                     unidade: unidade,
                 })
             );
+            localStorage.setItem("fase", JSON.stringify({ fase: fase }));
             window.location.href = "./lesson.html";
         }
     });

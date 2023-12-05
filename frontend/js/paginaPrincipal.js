@@ -1,4 +1,3 @@
-//teste
 //escrevendo o nome do usuario
 const jsonUsuario = localStorage.getItem("logar");
 const usuarioLogado = JSON.parse(jsonUsuario);
@@ -7,6 +6,7 @@ const spanApelido = document.getElementById("user-apelido");
 try {
     const faseUnityJSON = localStorage.getItem("botãoClicado");
     const faseUnity = JSON.parse(faseUnityJSON);
+    var fase = faseUnity.fase;
     var unidade = faseUnity.unidade;
 } catch (err) {
     var unidade = null;
@@ -279,3 +279,12 @@ const suporte = document.getElementById("presentation-div-suport");
 suporte.addEventListener("click", () => {
     window.location = "https://forms.gle/ykstZsAaQ3DzD3269";
 });
+
+//comparando a fase do usuario
+const faseQueComecouJSON = localStorage.getItem("fase");
+const faseQueComecou = JSON.parse(faseQueComecouJSON);
+console.log(faseQueComecou);
+if (fase !== faseQueComecou.fase) {
+    localStorage.setItem("fase", JSON.stringify({ fase: fase }));
+    window.location.reload();
+}
