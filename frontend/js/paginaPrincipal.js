@@ -286,5 +286,7 @@ const faseQueComecou = JSON.parse(faseQueComecouJSON);
 if (fase !== faseQueComecou.fase) {
     console.log("foi");
     localStorage.setItem("fase", JSON.stringify({ fase: fase }));
-    window.location.reload();
+    setInterval(() => {
+        window.location.reload();
+    }, 500);
 }
