@@ -43,7 +43,7 @@ btnNext.addEventListener("click", async () => {
     console.log("clicou");
     // const proxFase = parseInt(fase) + 1;
     if (parseInt(fase) === content[unidade].unity.length - 1) {
-        progress.progresso[unidade].fases[parseInt(fase)+1] = true;
+        progress.progresso[unidade].fases[parseInt(fase) + 1] = true;
         localStorage.setItem("progressoUsuario", JSON.stringify(progress));
         window.location.href = "./question.html";
     } else if (content[unidade].unity.length < parseInt(fase)) {

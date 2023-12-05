@@ -281,10 +281,13 @@ suporte.addEventListener("click", () => {
 });
 
 //comparando a fase do usuario
-const faseQueComecouJSON = localStorage.getItem("fase");
-const faseQueComecou = JSON.parse(faseQueComecouJSON);
-console.log(faseQueComecou);
-if (fase !== faseQueComecou.fase) {
-    localStorage.setItem("fase", JSON.stringify({ fase: fase }));
-    window.location.reload();
-}
+// const faseQueComecouJSON = localStorage.getItem("fase");
+// const faseQueComecou = JSON.parse(faseQueComecouJSON);
+// console.log(faseQueComecou);
+// if (fase !== faseQueComecou.fase) {
+//     console.log("foi");
+//     localStorage.setItem("fase", JSON.stringify({ fase: fase }));
+//     window.location.reload();
+// }
+
+
