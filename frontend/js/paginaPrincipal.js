@@ -1,16 +1,4 @@
-// função que ao carregar a pagina traz o progresso do usuário logado do banco de dados e manda pro localStorage
-// window.addEventListener("load", async () => {
-//     const userProgress = await fetch(
-//         `https://api-roadmap-proz.onrender.com/progressos/${usuarioLogado._id}`
-//     );
-
-//     const result = await userProgress.json();
-
-//     localStorage.setItem("progressoUsuario", JSON.stringify(result));
-// });
-
-//recuperando o progresso do usuario do localStorage
-
+//teste
 //escrevendo o nome do usuario
 const jsonUsuario = localStorage.getItem("logar");
 const usuarioLogado = JSON.parse(jsonUsuario);
@@ -64,10 +52,9 @@ buttonMenu[0].addEventListener("click", () => {
     // Mudanças de style
     buttonMenu[1].style.padding = "15px 8px";
     menu.style.display = "flex";
-    
+
     // Travando body
     body.style.overflow = "hidden";
-
 });
 buttonMenu[1].addEventListener("click", () => {
     // Mudanças de style
@@ -86,7 +73,7 @@ buttonMenu[1].addEventListener("click", () => {
 //     developing.style.display = "flex";
 //     setTimeout(() => {
 //         developing.style.display = "none";
-        
+
 //     }, 4000);
 // })
 
@@ -149,7 +136,6 @@ window.addEventListener("scroll", () => {
     // Trocando cor meta
     const meta = document.querySelector('meta[name="theme-color"]');
 
-
     //calculo que retorna a porcentagem
     const percent = parseInt((percentTrue / progressPercent.length) * 100);
     if (scrollY >= 200 && !progressBarNaTela) {
@@ -199,7 +185,7 @@ window.addEventListener("scroll", () => {
     }
 
     // Trocando cor meta conforme a unidade
-    if(scrollY > 300) {
+    if (scrollY > 300) {
         // meta.setAttribute("content", "#FFAFAF");
         if (unidade === "0") {
             meta.setAttribute("content", "#FFAFAF");
@@ -228,7 +214,6 @@ window.addEventListener("scroll", () => {
     } else {
         meta.setAttribute("content", "#ebebeb");
     }
-
 });
 
 // Evento abrir e fechar roadmap
@@ -288,10 +273,9 @@ botoesUnidades.forEach((botao, index) => {
     });
 });
 
-
 // Link suporte
 const suporte = document.getElementById("presentation-div-suport");
 
-suporte.addEventListener('click', () => {
+suporte.addEventListener("click", () => {
     window.location = "https://forms.gle/ykstZsAaQ3DzD3269";
-})
+});
