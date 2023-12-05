@@ -287,6 +287,7 @@ if (fase !== faseQueComecou.fase) {
     console.log("foi");
     localStorage.setItem("fase", JSON.stringify({ fase: fase }));
     setInterval(() => {
-        window.location.reload();
+        // window.location.reload();
+        console.log("alô");
     }, 500);
 }
