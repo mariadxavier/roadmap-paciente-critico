@@ -40,6 +40,7 @@ const sectionPresentation = document.getElementById("section-presentation");
 const units = document.querySelectorAll(".units");
 const buttonBars = document.querySelectorAll(".header-div-bar");
 const body = document.querySelector("body");
+body.click();
 
 buttonMenu[0].addEventListener("click", () => {
     // Fazendo o botão girar
@@ -280,7 +281,7 @@ suporte.addEventListener("click", () => {
     window.location = "https://forms.gle/ykstZsAaQ3DzD3269";
 });
 
-window.addEventListener("focusin", () => {
+window.addEventListener("focus", () => {
     window.location.reload();
 });
 
