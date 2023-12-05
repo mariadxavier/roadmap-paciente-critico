@@ -37,11 +37,6 @@ const btnNext = document.querySelector("#main-btn-nextLesson");
 // mainVideo.src = content[3].unity[0].video;
 // mainUl.innerHTML = content[3].unity[0].mainUl;
 // divImages.innerHTML = content[0].unity[0].imgMain;
-history.pushState({ nada: "nada" }, "");
-window.addEventListener("popstate", () => {
-    alert("entrou");
-    window.location = "pagina-principal.html";
-});
 // console.log(content[0]);
 btnNext.addEventListener("click", async () => {
     console.log("clicou");
