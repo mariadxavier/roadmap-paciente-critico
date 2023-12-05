@@ -280,14 +280,19 @@ suporte.addEventListener("click", () => {
     window.location = "https://forms.gle/ykstZsAaQ3DzD3269";
 });
 
+
+window.addEventListener("focus", () => {
+    window.location.reload();
+});
+
 // comparando a fase do usuario
-const faseQueComecouJSON = localStorage.getItem("fase");
-const faseQueComecou = JSON.parse(faseQueComecouJSON);
-if (fase !== faseQueComecou.fase) {
-    console.log("foi");
-    localStorage.setItem("fase", JSON.stringify({ fase: fase }));
-    setTimeout(() => {
-        window.location.reload();
-        console.log("alô");
-    }, 500);
-}
+// const faseQueComecouJSON = localStorage.getItem("fase");
+// const faseQueComecou = JSON.parse(faseQueComecouJSON);
+// if (fase !== faseQueComecou.fase) {
+//     console.log("foi");
+//     localStorage.setItem("fase", JSON.stringify({ fase: fase }));
+//     setTimeout(() => {
+//         window.location.reload();
+//         console.log("alô");
+//     }, 500);
+// }

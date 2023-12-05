@@ -64,7 +64,8 @@ btnNext.addEventListener("click", async () => {
                 unidade: unidade,
             })
         );
-        window.location.href = "./lesson.html";
+        // window.location.href = "./lesson.html";
+        console.log("caiu no else if");
     } else {
         progress.progresso[unidade].fases[fase] = true;
         progress.progresso[unidade].fases[parseInt(fase) + 1] = true;
