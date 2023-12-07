@@ -22,7 +22,7 @@ btnLogin.addEventListener("click", async () => {
     const password = inputPassword.value.trim();
 
     const user = await fetch(
-        "https://api-roadmap-proz.onrender.com/users/logar",
+        "https://roadmap-paciente-critico.onrender.com/users/logar",
         {
             method: "POST",
             body: JSON.stringify({
@@ -35,20 +35,32 @@ btnLogin.addEventListener("click", async () => {
         }
     );
 
+    const contentJSON = await fetch("https://roadmap-paciente-critico.onrender.com/lessons");
+    const content = await contentJSON.json();
+    localStorage.setItem(
+        "content",
+        JSON.stringify(content.lessonsEncontradas[0].lesson)
+    );
+
+    const quizJSON = await fetch("https://roadmap-paciente-critico.onrender.com/quiz");
+    const quiz = await quizJSON.json();
+    localStorage.setItem("quiz", JSON.stringify(quiz.quizEncontrado[0].quiz));
+    console.log(quiz.quizEncontrado[0].quiz);
+
+    //conteudo : content.lessonsEncontradas[0].lesson
+
     const result = await user.json();
     console.log(result);
 
     if (result.autorizado) {
         const progress = await fetch(
-            `https://api-roadmap-proz.onrender.com/progressos/${result.usuarioEncontrado._id}`
+            `https://roadmap-paciente-critico.onrender.com/progressos/${result.usuarioEncontrado._id}`
         );
-        
+
         const resultProg = await progress.json();
         localStorage.setItem("logar", JSON.stringify(result.usuarioEncontrado));
         localStorage.setItem("progressoUsuario", JSON.stringify(resultProg));
         btnLogin.innerHTML = sucesso;
-
-        
 
         setTimeout(() => {
             window.location.href = "./pagina-principal.html";

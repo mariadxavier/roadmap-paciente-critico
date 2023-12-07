@@ -1,4 +1,5 @@
-import json from "./json/quiz.json" assert { type: "json" };
+const quizJSON = localStorage.getItem("quiz");
+const json = JSON.parse(quizJSON);
 
 // number question
 let numberQuestion = 1;
@@ -123,7 +124,9 @@ btnEnviar.addEventListener("click", () => {
         }
     }
     //validação das respostas
-    const porcentagemResultado = parseInt((acertos / allQuestions.length) * 100); // Utilizar esta variável como resultado da porcentagem de acertos
+    const porcentagemResultado = parseInt(
+        (acertos / allQuestions.length) * 100
+    ); // Utilizar esta variável como resultado da porcentagem de acertos
 
     // Aparição da resposta
     if (porcentagemResultado >= 75) {
@@ -142,7 +145,7 @@ btnEnviar.addEventListener("click", () => {
             }
 
             const progressoAtualizado = await fetch(
-                `https://api-roadmap-proz.onrender.com/progressos/${user._id}`,
+                `https://roadmap-paciente-critico.onrender.com/progressos/${user._id}`,
                 {
                     method: "PUT",
                     body: JSON.stringify({

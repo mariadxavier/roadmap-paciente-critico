@@ -1,4 +1,5 @@
-import json from "./json/content.json" assert { type: "json" };
+const contentJSON = localStorage.getItem("content");
+const json = JSON.parse(contentJSON);
 
 //trazendo o progresso do usuario do localStorage
 const progressJSON = localStorage.getItem("progressoUsuario");
@@ -80,7 +81,7 @@ btnNext.addEventListener("click", async () => {
         );
 
         const progressoAtualizado = await fetch(
-            `https://api-roadmap-proz.onrender.com/progressos/${user._id}`,
+            `https://roadmap-paciente-critico.onrender.com/progressos/${user._id}`,
             {
                 method: "PUT",
                 body: JSON.stringify({

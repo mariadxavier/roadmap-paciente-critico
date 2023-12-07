@@ -75,7 +75,7 @@ btnRegister.addEventListener("click", async () => {
     ];
 
     const userCriado = await fetch(
-        "https://api-roadmap-proz.onrender.com/users",
+        "https://roadmap-paciente-critico.onrender.com/users",
         {
             method: "POST",
             body: JSON.stringify({
@@ -92,7 +92,7 @@ btnRegister.addEventListener("click", async () => {
     if (result.hasOwnProperty("novoUser")) {
         const userCriadoId = result.novoUser._id;
         const progressoNovoCriado = await fetch(
-            "https://api-roadmap-proz.onrender.com/progressos",
+            "https://roadmap-paciente-critico.onrender.com/progressos",
             {
                 method: "POST",
                 body: JSON.stringify({
